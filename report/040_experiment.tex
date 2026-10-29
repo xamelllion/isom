@@ -1,0 +1,178 @@
+% !TeX spellcheck = ru_RU
+% !TEX root = report.tex
+
+\section{Эксперимент}
+\label{sec:experiment}
+
+\subsection{Исследовательские вопросы и метрики}
+
+\begin{description}
+    \item[RQ1:] верны ли результаты реализаций и выполняют ли они один и тот же поиск?
+    \item[RQ2:] во сколько раз реализация на \Cpp{} быстрее реализации на Python и зависит ли это от вида задачи?
+    \item[RQ3:] как время работы \ISOMn{} зависит от размера и структуры входа?
+\end{description}
+Корректность оценивается совпадением ответов, множеств изоморфизмов и статистики дерева поиска у двух реализаций, а на малых задачах~--- ещё и с полным перебором.
+Производительность оценивается временем работы и ускорением $t_{\text{Python}} / t_{\text{C++}}$.
+
+\subsection{Условия эксперимента}
+\label{subsec:conditions}
+
+Замеры выполнены на ноутбуке с процессором Intel Core i5-10210U (4 ядра, 8 потоков) и 14~ГБ памяти под Ubuntu 26.04.1 LTS; использовались CPython 3.14.4 и g++ 15.2.0 (\code{-O2 -std=c++17}).
+На время замеров частота процессора зафиксирована на базовом значении 1,6~ГГц, турбобуст отключён, процесс закреплён за одним ядром (\code{taskset}).
+Обе реализации однопоточные, сборщик мусора Python не отключался.
+
+Замеры проводились по методике~\cite{SmirnovCheatsheet}.
+Для каждой задачи после прогревочного запуска выполняется серия из \NRepeat{}~замеров.
+Задачи короче \MinSampleMs~мс, как в модуле \code{timeit}~\cite{PythonTimeit}, замеряются пачками запусков, и замером считается среднее время одного запуска в пачке; в наборах \bench{random} и \bench{random-mid} из сотен мелких задач замером служит время решения всех задач набора подряд.
+По серии вычисляются среднее и стандартное отклонение (с.о.); по методике с.о. должно быть меньше 10\,\% среднего, а одиночный выброс можно отбросить.
+Серия, не удовлетворяющая этому условию, замерялась заново.
+Из \NSeries{}~серий отброшено \NDropped{}~одиночных выбросов и повторно замерено \NRetried{}~серий; отношение с.о. к среднему в итоге составило в медиане \CvPyMedian\,\% для Python и \CvCppMedian\,\% для \Cpp{}, в худшем случае~--- \CvPyMax\,\% и \CvCppMax\,\%.
+Гистограммы замеров одновершинные, с обычным для замеров времени хвостом в сторону больших значений.
+Реализации различаются по времени примерно на два порядка, поэтому проверка нормальности и доверительные интервалы, которые методика требует для программ с близким временем работы, не нужны; погрешность ускорения не превышает \SpeedupErrMax\,\%.
+
+\subsection{Наборы задач}
+\label{subsec:families}
+
+Задачи генерирует \code{compare.py} с фиксированным зерном (табл.~\ref{tab:families}).
+Наборы покрывают разные режимы работы алгоритма: поиск без ветвлений, факториальный перебор внутри класса, множество унификаторов и большое дерево частичных унификаторов.
+У структурированных наборов есть неизоморфные варианты с совпадающими характеристиками, которые нельзя отбросить предварительной проверкой.
+
+\begin{table}[ht]
+    \centering
+    \footnotesize
+    \caption{Наборы задач. $n$~--- число вершин, $|E|$~--- число рёбер $G_1$}
+    \label{tab:families}
+    \begin{tabularx}{\textwidth}{@{}l >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{2.7cm} >{\raggedright\arraybackslash}p{2.5cm}@{}}
+        \toprule
+        Набор              & Содержание                                                                                       & Размер                            & Изоморфны              \\
+        \midrule
+        \bench{paper}      & примеры из статьи и их варианты, включая \enquote{пять братьев}                                  & $n = 4$--$6$                      & 4 из 5                 \\
+        \bench{random}     & 300 случайных пар с 1--3 предикатами                                                             & $n \le 7$                         & 188 из 300             \\
+        \bench{random-mid} & 100 случайных пар с 3--5 предикатами                                                             & $n = 8$--$20$                     & 74 из 100              \\
+        \bench{rigid}      & отношение $r^3$, все характеристики вершин которого различны, и рёбра $s^{c,2}$, $t^{c,3}$, $p^1$ & $n = 24$--$768$, $|E| \le 4860$ & все                    \\
+        \bench{rigid-non}  & как \bench{rigid}, но у двух рёбер $r^3$ в $G_2$ обменяны аргументы на одном месте               & то же                             & нет                    \\
+        \bench{cycle}      & ориентированный цикл $q^2(v_i, v_{i+1})$, все характеристики равны $(1,1)$                      & $n = 4$--$9$                      & все, $n$ унификаторов  \\
+        \bench{cycle-non}  & цикл длины $n$ против двух циклов                                                                & $n = 4$--$9$                      & нет                    \\
+        \bench{brothers}   & одно ребро $\mathit{brothers}^{c,k}$                                                             & $k = 3$--$8$                      & все, $k!$ унификаторов \\
+        \bench{ladder}     & \enquote{лестница}: два цикла длины $d$ и $d$ перекладин $p_j^{c,2}$ со своими предикатами       & $d = 2$--$11$, $n = 2d$           & все, 2 унификатора     \\
+        \bench{ladder-non} & второй цикл обходит вершины в другом порядке                                                     & $d = 3$--$11$                     & нет                    \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+В наборе \bench{rigid} характеристики $r^3$ выбираются вместе с циклическими сдвигами, поэтому суммы по местам совпадают и все классы отображения одноэлементны.
+В наборе \bench{ladder} перестановку концов перекладины не различает ни одна характеристика, поэтому обе подстановки каждой перекладины проходят \proc{CONSISTENCY} и \proc{REDUCTION}, и дерево поиска содержит $2^d - 1$ вершин.
+
+\subsection{Результаты}
+
+\subsubsection{RQ1: корректность}
+
+Сценарий сравнения выполнил \NChecks{}~проверок на \NCases{}~задачах; число расхождений~--- \NMismatches.
+Совпали ответы, множества изоморфизмов и статистика деревьев поиска на всех задачах, журналы на примерах статьи, а на наборах \bench{paper} и \bench{random}~--- результаты полного перебора и \ISOMone{}.
+Кроме того, самопроверка Python-модуля и ещё 1500 случайных пар с $n \le 8$ совпали с полным перебором, режим поиска до первого унификатора совпал в обеих реализациях на 307 задачах, а \Cpp{}-версия, собранная с флагом \mbox{\code{-fsanitize=address,undefined}}, отработала на всех наборах без ошибок.
+Совпадение статистики означает, что реализации обходят одни и те же вершины дерева и рассматривают одних и тех же кандидатов.
+
+\subsubsection{RQ2: ускорение}
+
+Времена на самой большой задаче каждого набора приведены в табл.~\ref{tab:results}, ускорение по всем задачам~--- на рис.~\ref{fig:speedup}.
+Оно лежит в пределах от \SpeedupMin{} до \SpeedupMax{}~раз, среднее геометрическое~--- \SpeedupGeo{}~раз.
+Меньше всего ускорение на мелких случайных задачах (\SpeedupRandom{} и \SpeedupRandomMid{}~раз на наборах целиком), где в Python заметную долю времени занимают вызовы функций и создание объектов.
+Больше всего~--- на наборе \bench{brothers} (в среднем \GmeanBrothers{}~раз), где почти всё время уходит на перебор перестановок и копирование подстановок.
+
+\begin{table}[ht]
+    \centering
+    \footnotesize
+    \setlength\tabcolsep{4pt}
+    \caption{Время \ISOMn{} (мс): среднее $\pm$ стандартное отклонение по \NRepeat{}~замерам; \enquote{вершин}~--- число вершин дерева поиска. Для \bench{paper}~--- сумма по задачам, для \bench{random} и \bench{random-mid}~--- время решения всех задач набора подряд}
+    \label{tab:results}
+    \begin{tabular}{@{}l r r r r r r@{}}
+        \toprule
+        Задача                   & $n$    & $|E|$ & Вершин & Python & \Cpp{} & Ускорение \\
+        \midrule
+        \tableinput{data/results_table.tex}
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+                report,
+                width=\textwidth, height=58mm,
+                xmin=0.4, xmax=8.6, ymin=0, ymax=200,
+                xtick={1,...,8},
+                xticklabels={paper, rigid, rigid-non, cycle, cycle-non, brothers, ladder, ladder-non},
+                xticklabel style={font=\footnotesize\ttfamily, rotate=25, anchor=north east},
+                xmajorgrids=false,
+                ylabel={ускорение, раз},
+            ]
+            \addplot[only marks, mark=*, mark size=1.8pt, color=axisline,
+                mark options={fill=axisline, draw=white, line width=0.4pt}]
+            table[col sep=comma, x=x, y=speedup] {data/speedup_points.csv};
+            \addplot[only marks, mark=-, mark size=9pt, line width=1.4pt, color=black]
+            table[col sep=comma, x=x, y=gmean] {data/speedup_means.csv};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Ускорение \Cpp{} относительно Python на каждой задаче (точки) и среднее геометрическое по набору (черта)}
+    \label{fig:speedup}
+\end{figure}
+
+\subsubsection{RQ3: зависимость от размера и структуры}
+
+Рис.~\ref{fig:scaling} показывает рост времени с размером задачи.
+Кривые Python и \Cpp{} в логарифмическом масштабе почти параллельны: реализации различаются постоянным множителем, а характер роста задаёт алгоритм.
+\begin{itemize}
+    \item \bench{rigid}: классы одноэлементны, поиск идёт без ветвлений; при удвоении $n$ с 384 до 768 число рёбер растёт в \RigidRatioEdges{}~раза, время~--- в \RigidRatioPy{} (Python) и \RigidRatioCpp{} (\Cpp{}) раза, то есть почти линейно по размеру входа.
+    \item \bench{cycle}: все вершины в одном классе, \ISOMm{} перебирает $n!$ перестановок; от $n = 8$ к $n = 9$ время растёт в \CycleRatioPy{} и \CycleRatioCpp{}~раза, в согласии с оценкой $O(\prod t_k!)$.
+    \item \bench{brothers}: все $k!$ перестановок~--- унификаторы; от $k = 7$ к $k = 8$ время растёт в \BrothersRatioPy{} и \BrothersRatioCpp{}~раза.
+    \item \bench{ladder}: дерево удваивается с каждой перекладиной, время растёт в \LadderRatioPy{} и \LadderRatioCpp{}~раза от $d = 10$ к $d = 11$, то есть линейно по числу вершин дерева.
+\end{itemize}
+Неизоморфные варианты ведут себя так же, как изоморфные, так как поиск доходит до конца.
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{groupplot}[
+                group style={group size=2 by 2, horizontal sep=16mm, vertical sep=20mm},
+                report, width=0.48\textwidth, height=54mm, ymode=log,
+                ylabel={время, мс},
+            ]
+            \nextgroupplot[
+                title={(а) \bench{rigid}: без ветвлений},
+                xmode=log, log basis x=2, xlabel={число вершин $n$},
+                xtick={24,48,96,192,384,768}, xticklabels={24,48,96,192,384,768},
+                legend to name=scalelegend, legend columns=2,
+                legend style={/tikz/every even column/.append style={column sep=6mm}},
+            ]
+            \addplot[py] table[col sep=comma, x=x, y=py] {data/scale_rigid.csv};
+            \addplot[cpp] table[col sep=comma, x=x, y=cpp] {data/scale_rigid.csv};
+            \legend{Python, \Cpp{}}
+
+            \nextgroupplot[title={(б) \bench{cycle}: перебор $n!$}, xlabel={число вершин $n$}, xtick={4,...,9}]
+            \addplot[py] table[col sep=comma, x=x, y=py] {data/scale_cycle.csv};
+            \addplot[cpp] table[col sep=comma, x=x, y=cpp] {data/scale_cycle.csv};
+
+            \nextgroupplot[title={(в) \bench{brothers}: $k!$ унификаторов}, xlabel={арность ребра $k$}, xtick={3,...,8}]
+            \addplot[py] table[col sep=comma, x=x, y=py] {data/scale_brothers.csv};
+            \addplot[cpp] table[col sep=comma, x=x, y=cpp] {data/scale_brothers.csv};
+
+            \nextgroupplot[title={(г) \bench{ladder}: дерево из $2^d - 1$ вершин}, xlabel={число перекладин $d$}, xtick={2,...,11}]
+            \addplot[py] table[col sep=comma, x=x, y=py] {data/scale_ladder.csv};
+            \addplot[cpp] table[col sep=comma, x=x, y=cpp] {data/scale_ladder.csv};
+        \end{groupplot}
+        \node[anchor=south] at ($(group c1r1.north)!0.5!(group c2r1.north) + (0, 8mm)$) {\pgfplotslegendfromname{scalelegend}};
+    \end{tikzpicture}
+    \caption{Время \ISOMn{} от размера задачи (логарифмическая шкала времени, на графике~(а)~--- и по $n$). Python~--- синие круги, \Cpp{}~--- оранжевые квадраты}
+    \label{fig:scaling}
+\end{figure}
+
+\subsection{Обсуждение результатов}
+
+При одинаковом поиске реализация на \Cpp{} быстрее в среднем в \SpeedupGeo{}~раз, и эта разница почти постоянна: в Python основная доля времени уходит на элементарные операции интерпретатора (создание кортежей и словарей, поиск в хеш-таблицах, вызовы функций), а в \Cpp{} те же операции выполняются над целыми числами в непрерывных массивах.
+Время работы \ISOMn{}, как и следует из оценки $O(\prod t_k!)$, определяется размерами классов вершин: если характеристики различают вершины, оно почти линейно по размеру входа, а на регулярных структурах растёт факториально или экспоненциально.
+Направления развития~--- итеративное уточнение классов по характеристикам соседей, как в программах канонической разметки~\cite{McKayPiperno2014}, и учёт уже занятых констант при построении отображения; описанные реализации могут служить эталоном для их проверки.
+
+\subsection{Воспроизводимость эксперимента}
+
+Замеры воспроизводятся командой \code{python3 compare.py} из корня проекта (около 13~минут при частоте 1,6~ГГц): она собирает \Cpp{}-программу, генерирует задачи с зерном 2026 и пишет результаты в каталог \code{bench}.

@@ -1,0 +1,65 @@
+case paper_type1
+pred p 3 n
+g1 p a4 a2 a5
+g1 p a5 a6 a1
+g1 p a1 a2 a3
+g1 p a5 a4 a3
+g1 p a1 a6 a4
+g2 p b5 b4 b6
+g2 p b6 b1 b2
+g2 p b2 b4 b3
+g2 p b6 b5 b3
+g2 p b2 b1 b5
+end
+case paper_type2
+pred p 3 c
+g1 p a2 a4 a5
+g1 p a1 a5 a6
+g1 p a1 a2 a3
+g1 p a3 a4 a5
+g1 p a1 a4 a6
+g2 p b4 b5 b6
+g2 p b1 b2 b6
+g2 p b2 b3 b4
+g2 p b3 b5 b6
+g2 p b1 b2 b5
+end
+case paper_isom_n
+pred p1 1 n
+pred p2 2 n
+pred p3 3 c
+g1 p1 a1
+g1 p1 a2
+g1 p1 a3
+g1 p2 a1 a2
+g1 p2 a1 a4
+g1 p3 a2 a3 a4
+g2 p1 b2
+g2 p1 b3
+g2 p1 b4
+g2 p2 b4 b1
+g2 p2 b4 b3
+g2 p3 b1 b3 b4
+end
+case paper_isom_n_variant
+pred p1 1 n
+pred p2 2 n
+pred p3 3 c
+g1 p1 a1
+g1 p1 a2
+g1 p1 a3
+g1 p2 a1 a2
+g1 p2 a1 a4
+g1 p3 a2 a3 a4
+g2 p1 b4
+g2 p1 b3
+g2 p1 b2
+g2 p2 b4 b3
+g2 p2 b4 b1
+g2 p3 b1 b2 b3
+end
+case brothers5
+pred brothers 5 c
+g1 brothers Иван Олег Павел Пётр Сергей
+g2 brothers b1 b2 b3 b4 b5
+end

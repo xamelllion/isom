@@ -1,0 +1,30 @@
+case brothers_k3
+pred brothers 3 c
+g1 brothers a1 a2 a3
+g2 brothers b1 b2 b3
+end
+case brothers_k4
+pred brothers 4 c
+g1 brothers a1 a2 a3 a4
+g2 brothers b1 b2 b3 b4
+end
+case brothers_k5
+pred brothers 5 c
+g1 brothers a1 a2 a3 a4 a5
+g2 brothers b1 b2 b3 b4 b5
+end
+case brothers_k6
+pred brothers 6 c
+g1 brothers a1 a2 a3 a4 a5 a6
+g2 brothers b1 b2 b3 b4 b5 b6
+end
+case brothers_k7
+pred brothers 7 c
+g1 brothers a1 a2 a3 a4 a5 a6 a7
+g2 brothers b1 b2 b3 b4 b5 b6 b7
+end
+case brothers_k8
+pred brothers 8 c
+g1 brothers a1 a2 a3 a4 a5 a6 a7 a8
+g2 brothers b1 b2 b3 b4 b5 b6 b7 b8
+end

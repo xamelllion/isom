@@ -1,0 +1,4723 @@
+case random_001
+pred r 3 n
+g1 r a2 a3 a1
+g2 r b3 b2 b1
+end
+case random_002
+pred p 1 n
+pred t 3 c
+pred u 3 n
+g1 p a2
+g1 p a3
+g1 u a2 a1 a3
+g1 u a3 a2 a1
+g1 u a1 a2 a3
+g1 t a1 a2 a3
+g2 p b3
+g2 p b1
+g2 u b3 b2 b1
+g2 u b1 b3 b2
+g2 u b2 b3 b1
+g2 t b1 b2 b3
+end
+case random_003
+pred p 1 n
+pred q 2 n
+g1 p a3
+g1 q a4 a3
+g1 q a2 a3
+g1 q a4 a1
+g2 p b4
+g2 q b3 b2
+g2 q b1 b3
+g2 q b3 b4
+end
+case random_004
+pred p 1 n
+g1 p a5
+g1 p a4
+g1 p a3
+g1 p a1
+g1 p a2
+g2 p b3
+g2 p b4
+g2 p b1
+g2 p b5
+g2 p b2
+end
+case random_005
+pred p 1 n
+pred s 2 c
+g1 s a1 a4
+g1 s a1 a3
+g1 s a3 a7
+g1 p a4
+g1 p a2
+g1 p a6
+g1 p a3
+g2 s b2 b3
+g2 s b1 b2
+g2 s b1 b6
+g2 p b4
+g2 p b5
+g2 p b6
+g2 p b2
+end
+case random_006
+pred q 2 n
+pred r 3 n
+pred u 3 n
+g1 q a1 a2
+g1 q a2 a1
+g1 q a2 a3
+g1 q a3 a2
+g1 r a3 a1 a2
+g1 r a1 a3 a2
+g1 r a3 a2 a1
+g1 u a2 a1 a3
+g1 u a2 a3 a1
+g1 u a1 a3 a2
+g1 u a1 a2 a3
+g2 q b3 b1
+g2 q b1 b3
+g2 q b1 b2
+g2 q b2 b1
+g2 r b2 b3 b1
+g2 r b3 b2 b1
+g2 r b2 b1 b3
+g2 u b1 b3 b2
+g2 u b1 b2 b3
+g2 u b3 b2 b1
+g2 u b3 b1 b2
+end
+case random_007
+pred u 3 n
+g1 u a1 a4 a5
+g1 u a4 a1 a2
+g1 u a1 a2 a6
+g2 u b4 b2 b1
+g2 u b5 b1 b2
+g2 u b4 b2 b3
+end
+case random_008
+pred p 1 n
+g1 p a1
+g1 p a2
+g1 p a3
+g1 p a4
+g2 p b4
+g2 p b3
+g2 p b1
+g2 p b2
+end
+case random_009
+pred p 1 n
+pred r 3 n
+g1 r a2 a1 a4
+g1 r a3 a5 a4
+g1 r a3 a5 a1
+g1 r a2 a1 a5
+g1 p a1
+g1 p a2
+g1 p a3
+g2 r b4 b5 b2
+g2 r b2 b1 b5
+g2 r b5 b2 b4
+g2 r b5 b4 b2
+g2 p b2
+g2 p b4
+g2 p b3
+end
+case random_010
+pred q 2 n
+pred r 3 n
+pred s 2 c
+g1 r a7 a2 a6
+g1 r a1 a6 a3
+g1 r a6 a4 a2
+g1 r a1 a6 a7
+g1 s a2 a7
+g1 s a1 a5
+g1 s a5 a6
+g1 s a2 a6
+g1 s a4 a7
+g1 q a2 a6
+g1 q a6 a2
+g2 r b6 b3 b2
+g2 r b2 b4 b3
+g2 r b1 b5 b6
+g2 r b7 b5 b2
+g2 s b2 b5
+g2 s b3 b7
+g2 s b1 b4
+g2 s b2 b7
+g2 s b5 b7
+g2 q b7 b3
+g2 q b4 b6
+end
+case random_011
+pred r 3 n
+pred u 3 n
+g1 r a4 a5 a3
+g1 u a2 a3 a1
+g2 r b4 b1 b5
+g2 u b3 b5 b2
+end
+case random_012
+pred q 2 n
+pred t 3 c
+g1 q a1 a4
+g1 t a2 a3 a5
+g1 t a1 a2 a5
+g1 t a2 a3 a4
+g1 t a1 a3 a5
+g1 t a1 a2 a3
+g2 q b4 b1
+g2 t b2 b3 b5
+g2 t b3 b4 b5
+g2 t b1 b2 b5
+g2 t b2 b3 b4
+g2 t b2 b4 b5
+end
+case random_013
+pred p 1 n
+pred t 3 c
+pred u 3 n
+g1 u a2 a4 a1
+g1 u a2 a3 a4
+g1 p a4
+g1 p a2
+g1 p a3
+g1 p a1
+g1 t a2 a3 a4
+g1 t a1 a3 a4
+g1 t a1 a2 a3
+g2 u b2 b3 b4
+g2 u b2 b1 b3
+g2 p b3
+g2 p b2
+g2 p b1
+g2 p b4
+g2 t b1 b2 b3
+g2 t b1 b3 b4
+g2 t b1 b2 b4
+end
+case random_014
+pred s 2 c
+g1 s a3 a4
+g1 s a2 a3
+g1 s a4 a5
+g2 s b1 b2
+g2 s b2 b4
+g2 s b2 b3
+end
+case random_015
+pred q 2 n
+g1 q a1 a2
+g1 q a2 a3
+g2 q b2 b3
+g2 q b1 b2
+end
+case random_016
+pred q 2 n
+pred s 2 c
+pred t 3 c
+g1 t a2 a6 a7
+g1 t a2 a3 a4
+g1 t a3 a5 a7
+g1 t a5 a6 a7
+g1 s a2 a6
+g1 s a4 a6
+g1 s a3 a7
+g1 q a6 a5
+g1 q a5 a3
+g1 q a7 a1
+g1 q a1 a5
+g1 q a3 a6
+g2 t b4 b5 b6
+g2 t b2 b3 b4
+g2 t b2 b6 b7
+g2 t b5 b6 b7
+g2 s b4 b5
+g2 s b3 b5
+g2 s b2 b6
+g2 q b5 b7
+g2 q b7 b2
+g2 q b6 b1
+g2 q b1 b7
+g2 q b2 b5
+end
+case random_017
+pred r 3 n
+pred s 2 c
+pred t 3 c
+g1 t a1 a3 a4
+g1 r a3 a4 a1
+g1 s a3 a4
+g1 s a2 a3
+g1 s a2 a4
+g1 s a1 a3
+g1 s a1 a4
+g2 t b1 b2 b3
+g2 r b3 b2 b1
+g2 s b2 b3
+g2 s b3 b4
+g2 s b2 b4
+g2 s b1 b3
+g2 s b1 b2
+end
+case random_018
+pred p 1 n
+pred s 2 c
+pred u 3 n
+g1 s a2 a3
+g1 s a2 a4
+g1 s a1 a2
+g1 s a1 a3
+g1 p a2
+g1 p a3
+g1 u a4 a1 a2
+g1 u a2 a3 a4
+g2 s b2 b4
+g2 s b1 b4
+g2 s b1 b3
+g2 s b2 b3
+g2 p b4
+g2 p b3
+g2 u b4 b2 b3
+g2 u b3 b2 b4
+end
+case random_019
+pred q 2 n
+pred u 3 n
+g1 u a1 a4 a2
+g1 u a4 a3 a1
+g1 u a2 a4 a1
+g1 u a2 a4 a3
+g1 q a3 a4
+g1 q a2 a1
+g1 q a1 a4
+g1 q a2 a4
+g2 u b3 b1 b4
+g2 u b1 b3 b2
+g2 u b4 b2 b3
+g2 u b2 b1 b4
+g2 q b3 b1
+g2 q b1 b2
+g2 q b4 b3
+g2 q b2 b4
+end
+case random_020
+pred q 2 n
+pred u 3 n
+g1 q a1 a2
+g1 q a2 a1
+g1 q a1 a4
+g1 u a4 a2 a1
+g1 u a3 a2 a4
+g2 q b2 b4
+g2 q b3 b5
+g2 q b5 b2
+g2 u b3 b4 b1
+g2 u b2 b5 b1
+end
+case random_021
+pred p 1 n
+g1 p a1
+g1 p a2
+g1 p a3
+g2 p b1
+g2 p b2
+g2 p b3
+end
+case random_022
+pred s 2 c
+pred t 3 c
+pred u 3 n
+g1 s a1 a4
+g1 t a2 a3 a4
+g1 t a1 a2 a4
+g1 t a1 a3 a4
+g1 t a1 a2 a3
+g1 u a3 a4 a2
+g1 u a3 a1 a4
+g1 u a1 a3 a2
+g1 u a1 a2 a3
+g2 s b3 b4
+g2 t b1 b2 b3
+g2 t b1 b3 b4
+g2 t b2 b3 b4
+g2 t b1 b2 b4
+g2 u b2 b3 b1
+g2 u b2 b4 b3
+g2 u b4 b2 b1
+g2 u b4 b1 b2
+end
+case random_023
+pred p 1 n
+pred s 2 c
+pred u 3 n
+g1 s a3 a4
+g1 s a2 a3
+g1 s a1 a5
+g1 s a1 a2
+g1 s a2 a5
+g1 u a1 a2 a4
+g1 u a3 a4 a1
+g1 p a5
+g1 p a4
+g1 p a3
+g1 p a1
+g1 p a2
+g2 s b1 b5
+g2 s b1 b3
+g2 s b3 b5
+g2 s b2 b4
+g2 s b4 b5
+g2 u b5 b3 b4
+g2 u b1 b4 b3
+g2 p b4
+g2 p b5
+g2 p b1
+g2 p b2
+g2 p b3
+end
+case random_024
+pred p 1 n
+pred t 3 c
+pred u 3 n
+g1 t a1 a2 a4
+g1 t a1 a3 a4
+g1 p a5
+g1 p a6
+g1 p a3
+g1 p a1
+g1 p a2
+g1 u a6 a4 a1
+g1 u a2 a4 a6
+g1 u a2 a5 a6
+g2 t b3 b4 b5
+g2 t b1 b2 b5
+g2 p b5
+g2 p b1
+g2 p b4
+g2 p b3
+g2 p b6
+g2 u b2 b6 b4
+g2 u b1 b3 b6
+g2 u b3 b6 b1
+end
+case random_025
+pred p 1 n
+pred q 2 n
+pred u 3 n
+g1 u a3 a2 a1
+g1 u a2 a1 a3
+g1 q a1 a2
+g1 q a1 a3
+g1 q a2 a1
+g1 q a3 a1
+g1 p a1
+g1 p a2
+g1 p a3
+g2 u b3 b1 b2
+g2 u b1 b2 b3
+g2 q b2 b1
+g2 q b2 b3
+g2 q b1 b2
+g2 q b3 b2
+g2 p b2
+g2 p b1
+g2 p b3
+end
+case random_026
+pred r 3 n
+g1 r a7 a4 a5
+g1 r a4 a2 a6
+g2 r b1 b5 b4
+g2 r b2 b1 b3
+end
+case random_027
+pred r 3 n
+g1 r a3 a5 a6
+g1 r a7 a5 a3
+g1 r a5 a6 a7
+g1 r a5 a1 a6
+g2 r b2 b3 b1
+g2 r b4 b6 b2
+g2 r b2 b1 b5
+g2 r b1 b3 b6
+end
+case random_028
+pred s 2 c
+g1 s a2 a4
+g1 s a1 a5
+g1 s a1 a3
+g1 s a4 a5
+g1 s a3 a5
+g2 s b2 b4
+g2 s b1 b5
+g2 s b3 b5
+g2 s b1 b2
+g2 s b1 b3
+end
+case random_029
+pred p 1 n
+pred s 2 c
+g1 s a2 a3
+g1 s a1 a2
+g1 s a1 a3
+g1 p a1
+g1 p a2
+g2 s b1 b2
+g2 s b2 b3
+g2 s b1 b3
+g2 p b2
+g2 p b1
+end
+case random_030
+pred p 1 n
+pred s 2 c
+pred u 3 n
+g1 u a1 a5 a2
+g1 u a2 a5 a4
+g1 u a2 a1 a4
+g1 u a3 a6 a1
+g1 s a2 a3
+g1 p a5
+g1 p a4
+g1 p a6
+g1 p a1
+g1 p a2
+g2 u b4 b6 b1
+g2 u b2 b4 b1
+g2 u b5 b4 b2
+g2 u b4 b3 b6
+g2 s b2 b5
+g2 p b6
+g2 p b5
+g2 p b1
+g2 p b2
+g2 p b4
+end
+case random_031
+pred p 1 n
+pred t 3 c
+g1 p a1
+g1 p a2
+g1 p a3
+g1 t a1 a2 a3
+g2 p b3
+g2 p b2
+g2 p b1
+g2 t b1 b2 b3
+end
+case random_032
+pred s 2 c
+g1 s a2 a3
+g1 s a5 a6
+g1 s a1 a6
+g2 s b2 b3
+g2 s b1 b4
+g2 s b4 b5
+end
+case random_033
+pred q 2 n
+pred r 3 n
+pred t 3 c
+g1 r a4 a7 a2
+g1 r a6 a7 a5
+g1 r a3 a5 a6
+g1 r a2 a3 a7
+g1 t a2 a3 a5
+g1 t a3 a4 a6
+g1 t a1 a3 a4
+g1 t a1 a2 a5
+g1 t a2 a3 a6
+g1 q a3 a4
+g1 q a1 a2
+g1 q a5 a2
+g1 q a3 a5
+g1 q a1 a3
+g2 r b4 b6 b2
+g2 r b6 b5 b1
+g2 r b2 b6 b5
+g2 r b1 b3 b7
+g2 t b1 b2 b6
+g2 t b4 b5 b7
+g2 t b1 b4 b5
+g2 t b1 b2 b7
+g2 t b1 b2 b5
+g2 q b4 b7
+g2 q b1 b6
+g2 q b7 b3
+g2 q b7 b2
+g2 q b7 b6
+end
+case random_034
+pred p 1 n
+pred r 3 n
+pred t 3 c
+g1 t a2 a3 a4
+g1 t a1 a2 a4
+g1 t a1 a2 a3
+g1 t a1 a3 a4
+g1 r a1 a2 a4
+g1 r a1 a2 a3
+g1 r a4 a2 a3
+g1 r a3 a1 a4
+g1 r a2 a1 a3
+g1 p a4
+g1 p a2
+g1 p a3
+g1 p a1
+g2 t b1 b2 b3
+g2 t b2 b3 b4
+g2 t b1 b3 b4
+g2 t b1 b2 b4
+g2 r b4 b3 b2
+g2 r b2 b1 b3
+g2 r b2 b3 b1
+g2 r b1 b3 b4
+g2 r b1 b2 b4
+g2 p b4
+g2 p b3
+g2 p b1
+g2 p b2
+end
+case random_035
+pred p 1 n
+pred r 3 n
+pred s 2 c
+g1 p a5
+g1 r a2 a3 a4
+g1 r a1 a7 a2
+g1 r a5 a1 a3
+g1 s a2 a7
+g1 s a1 a7
+g1 s a1 a6
+g2 p b3
+g2 r b5 b4 b3
+g2 r b6 b7 b5
+g2 r b2 b6 b3
+g2 s b3 b6
+g2 s b2 b3
+g2 s b1 b6
+end
+case random_036
+pred r 3 n
+g1 r a3 a1 a4
+g1 r a2 a4 a1
+g1 r a1 a3 a4
+g1 r a3 a2 a1
+g1 r a2 a4 a3
+g2 r b1 b3 b2
+g2 r b4 b2 b3
+g2 r b3 b1 b2
+g2 r b1 b4 b3
+g2 r b4 b2 b1
+end
+case random_037
+pred p 1 n
+pred q 2 n
+pred r 3 n
+g1 q a3 a6
+g1 q a3 a5
+g1 q a3 a1
+g1 q a4 a3
+g1 r a5 a1 a3
+g1 p a5
+g1 p a4
+g1 p a6
+g1 p a1
+g1 p a2
+g2 q b3 b1
+g2 q b2 b5
+g2 q b4 b1
+g2 q b6 b5
+g2 r b3 b1 b6
+g2 p b3
+g2 p b2
+g2 p b6
+g2 p b4
+g2 p b5
+end
+case random_038
+pred p 1 n
+pred u 3 n
+g1 p a1
+g1 p a2
+g1 p a3
+g1 u a2 a3 a1
+g1 u a3 a2 a1
+g1 u a1 a3 a2
+g1 u a3 a1 a2
+g1 u a1 a2 a3
+g2 p b3
+g2 p b2
+g2 p b1
+g2 u b2 b1 b3
+g2 u b1 b2 b3
+g2 u b3 b1 b2
+g2 u b1 b3 b2
+g2 u b3 b2 b1
+end
+case random_039
+pred p 1 n
+pred r 3 n
+pred t 3 c
+g1 t a1 a6 a7
+g1 t a4 a5 a6
+g1 t a1 a4 a7
+g1 p a5
+g1 p a1
+g1 p a7
+g1 p a3
+g1 r a4 a2 a7
+g1 r a7 a3 a2
+g1 r a7 a3 a5
+g1 r a5 a7 a1
+g1 r a6 a7 a4
+g2 t b1 b2 b4
+g2 t b1 b3 b6
+g2 t b2 b4 b6
+g2 p b3
+g2 p b4
+g2 p b2
+g2 p b5
+g2 r b6 b7 b2
+g2 r b2 b5 b7
+g2 r b2 b5 b3
+g2 r b3 b2 b4
+g2 r b1 b2 b6
+end
+case random_040
+pred p 1 n
+pred q 2 n
+pred s 2 c
+g1 s a1 a4
+g1 s a1 a3
+g1 s a2 a3
+g1 p a4
+g1 p a2
+g1 p a3
+g1 p a1
+g1 q a3 a4
+g1 q a3 a1
+g1 q a3 a2
+g1 q a1 a3
+g1 q a2 a1
+g2 s b2 b3
+g2 s b1 b2
+g2 s b1 b4
+g2 p b3
+g2 p b4
+g2 p b1
+g2 p b2
+g2 q b1 b3
+g2 q b1 b2
+g2 q b1 b4
+g2 q b2 b1
+g2 q b4 b2
+end
+case random_041
+pred r 3 n
+pred s 2 c
+pred u 3 n
+g1 r a4 a1 a2
+g1 r a2 a4 a3
+g1 r a3 a1 a2
+g1 r a2 a4 a1
+g1 s a1 a3
+g1 u a3 a2 a4
+g2 r b4 b1 b2
+g2 r b2 b4 b3
+g2 r b3 b1 b2
+g2 r b2 b4 b1
+g2 s b1 b3
+g2 u b3 b2 b4
+end
+case random_042
+pred p 1 n
+pred r 3 n
+g1 r a4 a1 a2
+g1 r a3 a2 a4
+g1 r a4 a3 a2
+g1 r a4 a2 a3
+g1 p a4
+g1 p a3
+g2 r b2 b3 b1
+g2 r b4 b1 b2
+g2 r b2 b4 b1
+g2 r b2 b1 b4
+g2 p b2
+g2 p b4
+end
+case random_043
+pred q 2 n
+pred r 3 n
+pred t 3 c
+g1 q a3 a1
+g1 q a3 a2
+g1 q a1 a2
+g1 q a2 a3
+g1 q a2 a1
+g1 t a1 a2 a3
+g1 r a1 a3 a2
+g2 q b2 b3
+g2 q b2 b1
+g2 q b3 b1
+g2 q b1 b2
+g2 q b1 b3
+g2 t b1 b2 b3
+g2 r b3 b2 b1
+end
+case random_044
+pred q 2 n
+pred u 3 n
+g1 u a4 a5 a7
+g1 u a2 a3 a1
+g1 q a7 a5
+g1 q a2 a6
+g1 q a6 a7
+g2 u b7 b5 b2
+g2 u b6 b3 b1
+g2 q b2 b5
+g2 q b6 b4
+g2 q b4 b2
+end
+case random_045
+pred q 2 n
+g1 q a1 a4
+g2 q b2 b1
+end
+case random_046
+pred s 2 c
+pred t 3 c
+g1 t a2 a3 a4
+g1 t a1 a2 a4
+g1 t a1 a3 a4
+g1 s a1 a2
+g2 t b1 b2 b4
+g2 t b1 b2 b3
+g2 t b1 b3 b4
+g2 s b2 b3
+end
+case random_047
+pred q 2 n
+pred t 3 c
+g1 q a1 a4
+g1 t a2 a3 a5
+g1 t a1 a2 a4
+g1 t a1 a3 a4
+g1 t a1 a3 a5
+g1 t a1 a2 a3
+g2 q b2 b4
+g2 t b1 b2 b3
+g2 t b3 b4 b5
+g2 t b1 b3 b4
+g2 t b1 b2 b5
+g2 t b2 b3 b4
+end
+case random_048
+pred p 1 n
+pred t 3 c
+pred u 3 n
+g1 t a2 a3 a4
+g1 p a5
+g1 p a7
+g1 p a6
+g1 p a1
+g1 p a2
+g1 u a5 a1 a2
+g1 u a7 a5 a1
+g1 u a7 a6 a1
+g2 t b1 b2 b6
+g2 p b6
+g2 p b2
+g2 p b5
+g2 p b3
+g2 p b4
+g2 u b1 b6 b3
+g2 u b3 b5 b6
+g2 u b1 b2 b5
+end
+case random_049
+pred q 2 n
+pred r 3 n
+pred s 2 c
+g1 r a6 a4 a2
+g1 r a5 a6 a2
+g1 s a3 a5
+g1 s a4 a5
+g1 s a2 a4
+g1 q a5 a7
+g1 q a2 a7
+g1 q a2 a5
+g1 q a3 a2
+g2 r b4 b6 b3
+g2 r b1 b3 b7
+g2 s b5 b6
+g2 s b4 b7
+g2 s b6 b7
+g2 q b2 b3
+g2 q b7 b6
+g2 q b4 b7
+g2 q b3 b4
+end
+case random_050
+pred r 3 n
+pred t 3 c
+g1 r a6 a3 a2
+g1 r a1 a3 a5
+g1 r a1 a3 a7
+g1 r a7 a4 a2
+g1 t a2 a3 a4
+g1 t a2 a5 a7
+g1 t a2 a6 a7
+g1 t a2 a3 a6
+g1 t a3 a5 a6
+g2 r b5 b3 b7
+g2 r b1 b3 b4
+g2 r b3 b4 b7
+g2 r b6 b2 b5
+g2 t b4 b5 b6
+g2 t b1 b2 b5
+g2 t b1 b6 b7
+g2 t b3 b5 b6
+g2 t b1 b4 b7
+end
+case random_051
+pred u 3 n
+g1 u a1 a2 a3
+g2 u b2 b1 b3
+end
+case random_052
+pred p 1 n
+pred s 2 c
+g1 p a1
+g1 s a4 a5
+g1 s a2 a3
+g1 s a2 a4
+g2 p b1
+g2 s b2 b4
+g2 s b3 b4
+g2 s b1 b3
+end
+case random_053
+pred q 2 n
+g1 q a5 a6
+g1 q a1 a5
+g1 q a6 a1
+g1 q a2 a4
+g1 q a4 a1
+g2 q b1 b4
+g2 q b5 b1
+g2 q b4 b5
+g2 q b4 b2
+g2 q b5 b3
+end
+case random_054
+pred u 3 n
+g1 u a2 a3 a1
+g1 u a1 a3 a2
+g2 u b1 b3 b2
+g2 u b3 b1 b2
+end
+case random_055
+pred r 3 n
+g1 r a6 a3 a2
+g1 r a5 a1 a3
+g1 r a2 a3 a5
+g1 r a5 a6 a3
+g1 r a7 a4 a1
+g2 r b7 b6 b1
+g2 r b4 b5 b6
+g2 r b1 b6 b4
+g2 r b4 b7 b6
+g2 r b3 b2 b5
+end
+case random_056
+pred r 3 n
+pred s 2 c
+pred u 3 n
+g1 u a5 a6 a2
+g1 u a2 a3 a6
+g1 u a2 a4 a3
+g1 u a5 a1 a7
+g1 r a5 a4 a1
+g1 r a5 a4 a2
+g1 r a1 a4 a7
+g1 r a7 a4 a5
+g1 s a3 a5
+g1 s a3 a6
+g2 u b2 b1 b6
+g2 u b4 b3 b6
+g2 u b2 b4 b1
+g2 u b1 b3 b6
+g2 r b2 b4 b5
+g2 r b5 b4 b3
+g2 r b6 b2 b4
+g2 r b3 b1 b4
+g2 s b5 b7
+g2 s b5 b6
+end
+case random_057
+pred s 2 c
+pred t 3 c
+g1 s a2 a6
+g1 s a3 a6
+g1 s a1 a6
+g1 s a2 a5
+g1 t a2 a3 a4
+g1 t a1 a4 a6
+g1 t a3 a5 a6
+g2 s b2 b6
+g2 s b5 b6
+g2 s b4 b6
+g2 s b1 b2
+g2 t b2 b3 b5
+g2 t b3 b4 b6
+g2 t b1 b5 b6
+end
+case random_058
+pred r 3 n
+pred t 3 c
+g1 r a2 a6 a1
+g1 r a6 a1 a5
+g1 r a7 a4 a1
+g1 r a1 a6 a7
+g1 t a2 a4 a7
+g1 t a4 a5 a6
+g1 t a1 a2 a5
+g1 t a1 a3 a7
+g2 r b2 b3 b6
+g2 r b7 b6 b3
+g2 r b4 b3 b6
+g2 r b7 b5 b6
+g2 t b1 b2 b6
+g2 t b2 b4 b7
+g2 t b2 b4 b5
+g2 t b2 b3 b5
+end
+case random_059
+pred p 1 n
+g1 p a7
+g2 p b1
+end
+case random_060
+pred t 3 c
+pred u 3 n
+g1 u a2 a1 a3
+g1 t a1 a2 a3
+g2 u b1 b3 b2
+g2 t b1 b2 b3
+end
+case random_061
+pred q 2 n
+pred t 3 c
+g1 q a4 a1
+g1 t a2 a5 a6
+g2 q b1 b3
+g2 t b2 b3 b4
+end
+case random_062
+pred p 1 n
+pred r 3 n
+pred s 2 c
+g1 p a5
+g1 p a1
+g1 p a3
+g1 r a4 a1 a2
+g1 r a3 a1 a4
+g1 s a1 a5
+g2 p b4
+g2 p b1
+g2 p b2
+g2 r b5 b1 b3
+g2 r b2 b1 b5
+g2 s b1 b4
+end
+case random_063
+pred s 2 c
+g1 s a3 a5
+g1 s a2 a3
+g1 s a2 a5
+g2 s b2 b3
+g2 s b1 b3
+g2 s b1 b2
+end
+case random_064
+pred t 3 c
+g1 t a2 a3 a4
+g1 t a1 a2 a4
+g1 t a1 a2 a3
+g2 t b1 b2 b3
+g2 t b1 b2 b4
+g2 t b1 b3 b4
+end
+case random_065
+pred s 2 c
+pred t 3 c
+pred u 3 n
+g1 t a1 a2 a3
+g1 s a2 a3
+g1 s a1 a2
+g1 u a3 a2 a1
+g1 u a2 a3 a1
+g1 u a1 a3 a2
+g2 t b1 b2 b3
+g2 s b2 b3
+g2 s b1 b2
+g2 u b2 b1 b3
+g2 u b2 b3 b1
+g2 u b1 b3 b2
+end
+case random_066
+pred t 3 c
+pred u 3 n
+g1 u a7 a2 a3
+g1 u a3 a7 a4
+g1 u a5 a3 a2
+g1 u a4 a1 a3
+g1 t a2 a3 a5
+g1 t a1 a2 a4
+g1 t a3 a4 a5
+g2 u b6 b1 b4
+g2 u b4 b6 b3
+g2 u b5 b4 b1
+g2 u b3 b2 b4
+g2 t b1 b4 b5
+g2 t b1 b2 b3
+g2 t b3 b4 b5
+end
+case random_067
+pred q 2 n
+pred r 3 n
+pred u 3 n
+g1 u a1 a4 a3
+g1 u a4 a1 a3
+g1 u a3 a4 a2
+g1 u a3 a1 a2
+g1 u a1 a2 a3
+g1 r a4 a2 a1
+g1 q a1 a3
+g1 q a3 a1
+g1 q a4 a2
+g1 q a4 a3
+g2 u b3 b1 b4
+g2 u b1 b3 b4
+g2 u b3 b4 b1
+g2 u b1 b3 b2
+g2 u b1 b4 b2
+g2 r b1 b4 b3
+g2 q b2 b4
+g2 q b2 b1
+g2 q b1 b4
+g2 q b2 b3
+end
+case random_068
+pred p 1 n
+g1 p a1
+g1 p a2
+g1 p a3
+g2 p b2
+g2 p b1
+g2 p b3
+end
+case random_069
+pred q 2 n
+pred s 2 c
+g1 s a4 a5
+g1 s a2 a6
+g1 s a3 a6
+g1 s a2 a4
+g1 q a6 a5
+g1 q a3 a2
+g1 q a2 a5
+g1 q a2 a3
+g1 q a4 a2
+g2 s b1 b4
+g2 s b1 b5
+g2 s b1 b3
+g2 s b3 b6
+g2 q b3 b2
+g2 q b5 b4
+g2 q b1 b4
+g2 q b5 b6
+g2 q b4 b3
+end
+case random_070
+pred q 2 n
+pred r 3 n
+g1 r a1 a2 a3
+g1 r a2 a3 a4
+g1 q a3 a4
+g1 q a2 a3
+g1 q a2 a1
+g1 q a4 a1
+g2 r b1 b4 b3
+g2 r b3 b1 b2
+g2 q b2 b1
+g2 q b1 b2
+g2 q b1 b3
+g2 q b3 b4
+end
+case random_071
+pred u 3 n
+g1 u a5 a7 a3
+g2 u b1 b2 b3
+end
+case random_072
+pred p 1 n
+pred q 2 n
+pred t 3 c
+g1 t a1 a2 a3
+g1 q a1 a2
+g1 q a3 a1
+g1 q a3 a2
+g1 p a1
+g1 p a2
+g1 p a3
+g2 t b1 b2 b3
+g2 q b1 b2
+g2 q b1 b3
+g2 q b3 b2
+g2 p b2
+g2 p b1
+g2 p b3
+end
+case random_073
+pred r 3 n
+pred t 3 c
+g1 t a1 a5 a6
+g1 r a2 a3 a4
+g1 r a2 a6 a3
+g1 r a5 a4 a6
+g1 r a1 a3 a6
+g1 r a6 a2 a4
+g2 t b1 b4 b6
+g2 r b4 b5 b3
+g2 r b3 b1 b2
+g2 r b5 b3 b1
+g2 r b5 b3 b2
+g2 r b6 b1 b2
+end
+case random_074
+pred q 2 n
+g1 q a3 a1
+g1 q a4 a1
+g2 q b1 b4
+g2 q b2 b3
+end
+case random_075
+pred r 3 n
+g1 r a1 a3 a2
+g1 r a2 a3 a1
+g1 r a1 a2 a3
+g1 r a3 a2 a1
+g1 r a2 a1 a3
+g2 r b3 b2 b1
+g2 r b1 b2 b3
+g2 r b3 b1 b2
+g2 r b2 b1 b3
+g2 r b1 b3 b2
+end
+case random_076
+pred p 1 n
+g1 p a5
+g1 p a1
+g2 p b2
+g2 p b1
+end
+case random_077
+pred r 3 n
+pred t 3 c
+pred u 3 n
+g1 r a1 a3 a2
+g1 r a1 a2 a3
+g1 r a2 a1 a3
+g1 r a2 a3 a1
+g1 t a1 a2 a3
+g1 u a2 a1 a3
+g1 u a2 a3 a1
+g1 u a1 a3 a2
+g1 u a3 a2 a1
+g2 r b1 b3 b2
+g2 r b1 b2 b3
+g2 r b2 b1 b3
+g2 r b2 b3 b1
+g2 t b1 b2 b3
+g2 u b2 b1 b3
+g2 u b2 b3 b1
+g2 u b1 b3 b2
+g2 u b3 b2 b1
+end
+case random_078
+pred r 3 n
+pred u 3 n
+g1 u a2 a3 a1
+g1 u a2 a1 a3
+g1 u a3 a1 a2
+g1 u a1 a3 a2
+g1 u a1 a2 a3
+g1 r a1 a3 a2
+g1 r a2 a1 a3
+g2 u b2 b3 b1
+g2 u b2 b1 b3
+g2 u b3 b1 b2
+g2 u b1 b3 b2
+g2 u b1 b2 b3
+g2 r b1 b3 b2
+g2 r b2 b1 b3
+end
+case random_079
+pred r 3 n
+pred t 3 c
+g1 r a6 a1 a3
+g1 r a4 a5 a3
+g1 r a2 a5 a4
+g1 t a1 a5 a6
+g1 t a4 a5 a6
+g1 t a3 a5 a6
+g2 r b2 b3 b6
+g2 r b1 b5 b6
+g2 r b4 b5 b1
+g2 t b2 b3 b5
+g2 t b1 b2 b5
+g2 t b2 b5 b6
+end
+case random_080
+pred t 3 c
+g1 t a1 a2 a3
+g2 t b1 b2 b3
+end
+case random_081
+pred t 3 c
+g1 t a2 a3 a6
+g1 t a2 a5 a7
+g2 t b1 b3 b5
+g2 t b1 b2 b4
+end
+case random_082
+pred r 3 n
+g1 r a6 a2 a5
+g1 r a1 a2 a4
+g1 r a1 a5 a4
+g1 r a4 a2 a6
+g1 r a3 a6 a5
+g2 r b6 b4 b2
+g2 r b5 b4 b1
+g2 r b5 b2 b1
+g2 r b1 b4 b6
+g2 r b3 b6 b2
+end
+case random_083
+pred q 2 n
+pred t 3 c
+pred u 3 n
+g1 q a7 a4
+g1 q a4 a5
+g1 q a5 a3
+g1 q a5 a4
+g1 t a1 a3 a5
+g1 t a1 a5 a6
+g1 u a3 a2 a7
+g1 u a1 a6 a5
+g1 u a2 a6 a7
+g1 u a1 a4 a7
+g2 q b6 b2
+g2 q b2 b4
+g2 q b4 b3
+g2 q b4 b2
+g2 t b3 b4 b7
+g2 t b1 b4 b7
+g2 u b3 b5 b6
+g2 u b7 b1 b4
+g2 u b5 b1 b6
+g2 u b7 b2 b6
+end
+case random_084
+pred p 1 n
+pred r 3 n
+pred s 2 c
+g1 p a2
+g1 s a2 a7
+g1 r a6 a1 a5
+g2 p b3
+g2 s b2 b3
+g2 r b5 b1 b4
+end
+case random_085
+pred p 1 n
+pred s 2 c
+g1 s a2 a7
+g1 p a4
+g1 p a6
+g1 p a3
+g1 p a1
+g1 p a2
+g2 s b4 b6
+g2 p b1
+g2 p b5
+g2 p b3
+g2 p b2
+g2 p b4
+end
+case random_086
+pred q 2 n
+g1 q a3 a1
+g2 q b2 b1
+end
+case random_087
+pred r 3 n
+pred t 3 c
+g1 r a6 a3 a2
+g1 r a6 a5 a4
+g1 r a5 a2 a4
+g1 t a3 a6 a7
+g1 t a2 a5 a6
+g1 t a1 a2 a6
+g1 t a1 a4 a7
+g2 r b1 b5 b6
+g2 r b3 b7 b1
+g2 r b7 b6 b2
+g2 t b2 b4 b5
+g2 t b1 b3 b7
+g2 t b2 b6 b7
+g2 t b1 b5 b6
+end
+case random_088
+pred p 1 n
+pred r 3 n
+pred s 2 c
+g1 r a3 a2 a6
+g1 r a2 a6 a1
+g1 r a5 a3 a1
+g1 r a6 a2 a3
+g1 r a3 a2 a1
+g1 s a3 a4
+g1 s a1 a5
+g1 s a1 a4
+g1 s a1 a6
+g1 s a2 a5
+g1 p a4
+g2 r b3 b1 b5
+g2 r b1 b5 b2
+g2 r b5 b3 b4
+g2 r b6 b3 b1
+g2 r b2 b5 b6
+g2 s b3 b4
+g2 s b3 b5
+g2 s b2 b3
+g2 s b5 b6
+g2 s b2 b4
+g2 p b1
+end
+case random_089
+pred p 1 n
+pred r 3 n
+g1 r a5 a4 a1
+g1 r a1 a3 a5
+g1 r a4 a5 a3
+g1 p a4
+g2 r b5 b1 b2
+g2 r b2 b4 b3
+g2 r b4 b1 b3
+g2 p b2
+end
+case random_090
+pred q 2 n
+pred s 2 c
+pred t 3 c
+g1 s a1 a4
+g1 s a1 a5
+g1 s a3 a6
+g1 t a2 a3 a6
+g1 t a2 a5 a6
+g1 t a1 a2 a3
+g1 q a3 a6
+g2 s b1 b5
+g2 s b1 b2
+g2 s b3 b6
+g2 t b3 b4 b6
+g2 t b2 b3 b4
+g2 t b1 b4 b6
+g2 q b6 b3
+end
+case random_091
+pred q 2 n
+pred s 2 c
+pred u 3 n
+g1 u a1 a2 a4
+g1 u a3 a2 a4
+g1 u a5 a3 a1
+g1 u a3 a2 a1
+g1 u a5 a3 a2
+g1 s a2 a6
+g1 q a6 a1
+g1 q a4 a6
+g2 u b5 b4 b6
+g2 u b1 b5 b3
+g2 u b2 b6 b3
+g2 u b4 b5 b2
+g2 u b4 b2 b6
+g2 s b2 b4
+g2 q b6 b2
+g2 q b6 b1
+end
+case random_092
+pred s 2 c
+pred t 3 c
+g1 s a1 a3
+g1 s a1 a2
+g1 s a2 a3
+g1 t a1 a2 a3
+g2 s b1 b2
+g2 s b2 b3
+g2 s b1 b3
+g2 t b1 b2 b3
+end
+case random_093
+pred t 3 c
+g1 t a1 a2 a3
+g2 t b1 b2 b3
+end
+case random_094
+pred p 1 n
+pred r 3 n
+g1 p a5
+g1 r a1 a4 a5
+g1 r a1 a5 a3
+g1 r a2 a3 a4
+g1 r a5 a3 a4
+g2 p b1
+g2 r b5 b3 b1
+g2 r b5 b1 b4
+g2 r b2 b4 b3
+g2 r b1 b4 b3
+end
+case random_095
+pred p 1 n
+pred r 3 n
+pred s 2 c
+g1 r a5 a6 a3
+g1 r a2 a3 a1
+g1 s a3 a4
+g1 s a5 a6
+g1 s a4 a5
+g1 s a3 a5
+g1 s a3 a6
+g1 p a5
+g1 p a3
+g2 r b1 b2 b6
+g2 r b3 b6 b4
+g2 s b5 b6
+g2 s b1 b2
+g2 s b1 b5
+g2 s b1 b6
+g2 s b2 b6
+g2 p b1
+g2 p b6
+end
+case random_096
+pred p 1 n
+pred r 3 n
+g1 r a4 a5 a6
+g1 r a6 a2 a5
+g1 r a5 a4 a3
+g1 r a4 a6 a1
+g1 r a6 a4 a2
+g1 p a5
+g2 r b1 b5 b3
+g2 r b6 b2 b5
+g2 r b6 b1 b3
+g2 r b3 b4 b6
+g2 r b2 b1 b6
+g2 p b2
+end
+case random_097
+pred q 2 n
+pred r 3 n
+pred s 2 c
+g1 q a2 a5
+g1 r a3 a5 a2
+g1 s a3 a4
+g1 s a2 a3
+g1 s a2 a4
+g1 s a1 a2
+g1 s a2 a5
+g2 q b4 b2
+g2 r b5 b2 b4
+g2 s b1 b5
+g2 s b4 b5
+g2 s b1 b4
+g2 s b3 b4
+g2 s b2 b4
+end
+case random_098
+pred p 1 n
+pred t 3 c
+g1 t a1 a2 a3
+g1 p a1
+g2 t b1 b2 b3
+g2 p b1
+end
+case random_099
+pred u 3 n
+g1 u a1 a7 a6
+g1 u a4 a2 a5
+g1 u a4 a6 a3
+g2 u b2 b5 b4
+g2 u b2 b1 b5
+g2 u b3 b1 b6
+end
+case random_100
+pred s 2 c
+g1 s a2 a3
+g1 s a4 a5
+g1 s a1 a5
+g1 s a1 a3
+g2 s b2 b3
+g2 s b1 b4
+g2 s b4 b5
+g2 s b1 b2
+end
+case random_101
+pred p 1 n
+pred r 3 n
+g1 p a2
+g1 p a6
+g1 p a3
+g1 r a4 a6 a1
+g1 r a6 a3 a5
+g1 r a1 a3 a2
+g1 r a4 a1 a6
+g2 p b4
+g2 p b1
+g2 p b2
+g2 r b2 b5 b4
+g2 r b6 b3 b5
+g2 r b1 b3 b4
+g2 r b3 b4 b6
+end
+case random_102
+pred p 1 n
+pred r 3 n
+pred t 3 c
+g1 p a1
+g1 p a2
+g1 p a3
+g1 r a3 a2 a1
+g1 t a1 a2 a3
+g2 p b2
+g2 p b3
+g2 p b1
+g2 r b1 b3 b2
+g2 t b1 b2 b3
+end
+case random_103
+pred p 1 n
+pred r 3 n
+pred u 3 n
+g1 r a5 a4 a7
+g1 u a7 a4 a5
+g1 u a6 a3 a5
+g1 u a5 a3 a6
+g1 u a1 a7 a4
+g1 p a4
+g1 p a2
+g1 p a1
+g2 r b1 b7 b4
+g2 u b7 b4 b5
+g2 u b2 b1 b4
+g2 u b6 b4 b3
+g2 u b7 b5 b6
+g2 p b1
+g2 p b2
+g2 p b7
+end
+case random_104
+pred r 3 n
+g1 r a1 a3 a2
+g1 r a3 a1 a2
+g1 r a2 a1 a3
+g2 r b1 b2 b3
+g2 r b2 b1 b3
+g2 r b3 b1 b2
+end
+case random_105
+pred p 1 n
+pred s 2 c
+pred u 3 n
+g1 u a3 a2 a6
+g1 u a2 a3 a1
+g1 s a1 a3
+g1 s a1 a4
+g1 s a4 a6
+g1 s a1 a2
+g1 s a2 a5
+g1 p a5
+g1 p a4
+g1 p a6
+g1 p a1
+g1 p a2
+g2 u b5 b4 b1
+g2 u b4 b5 b3
+g2 s b3 b5
+g2 s b2 b3
+g2 s b1 b2
+g2 s b3 b4
+g2 s b4 b6
+g2 p b6
+g2 p b2
+g2 p b1
+g2 p b3
+g2 p b4
+end
+case random_106
+pred t 3 c
+pred u 3 n
+g1 t a2 a3 a4
+g1 t a2 a4 a5
+g1 t a1 a4 a5
+g1 t a1 a2 a5
+g1 u a2 a5 a3
+g1 u a2 a4 a1
+g1 u a5 a4 a1
+g2 t b2 b3 b4
+g2 t b1 b2 b3
+g2 t b1 b2 b5
+g2 t b1 b3 b5
+g2 u b3 b1 b4
+g2 u b3 b2 b5
+g2 u b1 b2 b5
+end
+case random_107
+pred q 2 n
+pred t 3 c
+pred u 3 n
+g1 u a3 a2 a1
+g1 u a5 a2 a3
+g1 u a4 a1 a3
+g1 q a1 a3
+g1 t a1 a4 a5
+g1 t a1 a2 a4
+g1 t a1 a3 a4
+g1 t a1 a2 a5
+g1 t a1 a3 a5
+g2 u b3 b5 b1
+g2 u b4 b5 b3
+g2 u b4 b2 b1
+g2 q b1 b4
+g2 t b1 b2 b4
+g2 t b2 b3 b5
+g2 t b1 b2 b3
+g2 t b1 b3 b5
+g2 t b2 b4 b5
+end
+case random_108
+pred s 2 c
+g1 s a3 a4
+g1 s a1 a5
+g1 s a1 a2
+g1 s a2 a5
+g2 s b2 b3
+g2 s b3 b4
+g2 s b1 b3
+g2 s b3 b5
+end
+case random_109
+pred p 1 n
+pred u 3 n
+g1 p a1
+g1 p a7
+g1 u a7 a5 a4
+g1 u a3 a4 a7
+g1 u a3 a6 a1
+g1 u a3 a6 a7
+g2 p b5
+g2 p b3
+g2 u b3 b2 b4
+g2 u b1 b4 b3
+g2 u b1 b6 b5
+g2 u b1 b6 b3
+end
+case random_110
+pred r 3 n
+g1 r a4 a1 a2
+g1 r a2 a1 a4
+g1 r a2 a5 a3
+g1 r a4 a3 a2
+g2 r b3 b1 b5
+g2 r b2 b1 b5
+g2 r b5 b4 b3
+g2 r b4 b1 b5
+end
+case random_111
+pred p 1 n
+pred q 2 n
+pred s 2 c
+g1 q a5 a6
+g1 q a6 a4
+g1 q a2 a1
+g1 q a3 a2
+g1 s a1 a6
+g1 p a5
+g1 p a6
+g2 q b5 b2
+g2 q b2 b6
+g2 q b4 b3
+g2 q b1 b4
+g2 s b2 b3
+g2 p b5
+g2 p b2
+end
+case random_112
+pred q 2 n
+g1 q a4 a3
+g1 q a4 a2
+g1 q a4 a1
+g2 q b2 b3
+g2 q b3 b2
+g2 q b1 b3
+end
+case random_113
+pred u 3 n
+g1 u a2 a5 a4
+g2 u b3 b2 b1
+end
+case random_114
+pred p 1 n
+pred s 2 c
+pred t 3 c
+g1 p a1
+g1 p a2
+g1 p a3
+g1 s a2 a3
+g1 s a1 a2
+g1 s a1 a3
+g1 t a1 a2 a3
+g2 p b1
+g2 p b2
+g2 p b3
+g2 s b2 b3
+g2 s b1 b2
+g2 s b1 b3
+g2 t b1 b2 b3
+end
+case random_115
+pred q 2 n
+g1 q a2 a1
+g2 q b1 b2
+end
+case random_116
+pred p 1 n
+pred r 3 n
+pred u 3 n
+g1 p a4
+g1 u a5 a6 a2
+g1 u a2 a4 a3
+g1 r a4 a1 a2
+g1 r a3 a2 a4
+g1 r a3 a5 a1
+g1 r a6 a2 a3
+g2 p b4
+g2 u b4 b1 b2
+g2 u b3 b2 b6
+g2 r b2 b3 b5
+g2 r b5 b6 b3
+g2 r b1 b6 b3
+g2 r b6 b3 b5
+end
+case random_117
+pred s 2 c
+pred u 3 n
+g1 s a1 a4
+g1 s a2 a5
+g1 u a7 a1 a4
+g2 s b2 b3
+g2 s b4 b5
+g2 u b1 b2 b3
+end
+case random_118
+pred p 1 n
+g1 p a2
+g2 p b1
+end
+case random_119
+pred q 2 n
+pred r 3 n
+pred u 3 n
+g1 u a3 a1 a5
+g1 u a6 a3 a5
+g1 u a3 a4 a6
+g1 u a5 a2 a4
+g1 u a6 a5 a1
+g1 q a3 a4
+g1 q a6 a5
+g1 q a4 a2
+g1 r a2 a5 a6
+g1 r a2 a4 a3
+g1 r a6 a2 a5
+g2 u b2 b6 b4
+g2 u b6 b4 b5
+g2 u b2 b5 b1
+g2 u b3 b6 b2
+g2 u b4 b1 b2
+g2 q b6 b3
+g2 q b4 b6
+g2 q b3 b1
+g2 r b5 b3 b2
+g2 r b6 b4 b3
+g2 r b3 b5 b2
+end
+case random_120
+pred r 3 n
+pred s 2 c
+g1 r a2 a1 a3
+g1 r a2 a3 a1
+g1 s a1 a3
+g1 s a1 a2
+g2 r b3 b2 b1
+g2 r b3 b1 b2
+g2 s b1 b2
+g2 s b2 b3
+end
+case random_121
+pred p 1 n
+g1 p a2
+g2 p b1
+end
+case random_122
+pred q 2 n
+pred t 3 c
+pred u 3 n
+g1 u a2 a1 a3
+g1 u a3 a1 a2
+g1 u a1 a3 a2
+g1 q a1 a2
+g1 q a2 a1
+g1 q a1 a3
+g1 q a3 a2
+g1 t a1 a2 a3
+g2 u b1 b2 b3
+g2 u b3 b2 b1
+g2 u b2 b3 b1
+g2 q b2 b1
+g2 q b1 b2
+g2 q b2 b3
+g2 q b3 b1
+g2 t b1 b2 b3
+end
+case random_123
+pred r 3 n
+g1 r a7 a2 a1
+g1 r a6 a1 a5
+g2 r b5 b6 b3
+g2 r b4 b1 b2
+end
+case random_124
+pred t 3 c
+g1 t a2 a3 a4
+g1 t a1 a2 a4
+g1 t a1 a3 a4
+g2 t b2 b3 b4
+g2 t b1 b3 b4
+g2 t b1 b2 b4
+end
+case random_125
+pred p 1 n
+pred s 2 c
+pred u 3 n
+g1 u a3 a2 a1
+g1 u a2 a3 a1
+g1 u a3 a1 a2
+g1 u a1 a2 a3
+g1 p a1
+g1 p a2
+g1 p a3
+g1 s a2 a3
+g1 s a1 a2
+g1 s a1 a3
+g2 u b3 b1 b2
+g2 u b2 b3 b1
+g2 u b1 b2 b3
+g2 u b2 b1 b3
+g2 p b1
+g2 p b3
+g2 p b2
+g2 s b2 b3
+g2 s b1 b3
+g2 s b1 b2
+end
+case random_126
+pred u 3 n
+g1 u a2 a3 a1
+g1 u a2 a5 a4
+g1 u a1 a6 a4
+g2 u b5 b3 b1
+g2 u b5 b6 b2
+g2 u b1 b4 b2
+end
+case random_127
+pred q 2 n
+pred u 3 n
+g1 q a3 a1
+g1 q a2 a3
+g1 q a2 a4
+g1 q a1 a3
+g1 q a1 a4
+g1 u a3 a4 a2
+g2 q b2 b3
+g2 q b4 b3
+g2 q b1 b2
+g2 q b3 b2
+g2 q b3 b1
+g2 u b1 b2 b3
+end
+case random_128
+pred p 1 n
+pred u 3 n
+g1 u a6 a5 a4
+g1 u a3 a1 a6
+g1 p a5
+g1 p a2
+g1 p a3
+g2 u b5 b2 b4
+g2 u b3 b1 b5
+g2 p b2
+g2 p b6
+g2 p b3
+end
+case random_129
+pred s 2 c
+pred u 3 n
+g1 u a5 a2 a4
+g1 u a2 a5 a4
+g1 u a1 a4 a5
+g1 u a4 a1 a3
+g1 s a2 a4
+g1 s a1 a5
+g1 s a1 a4
+g1 s a4 a5
+g1 s a1 a2
+g2 u b2 b4 b1
+g2 u b4 b2 b1
+g2 u b5 b1 b2
+g2 u b1 b5 b3
+g2 s b1 b4
+g2 s b2 b5
+g2 s b1 b5
+g2 s b1 b2
+g2 s b4 b5
+end
+case random_130
+pred t 3 c
+g1 t a2 a3 a5
+g2 t b1 b2 b3
+end
+case random_131
+pred p 1 n
+pred t 3 c
+g1 t a1 a2 a3
+g1 p a1
+g1 p a2
+g1 p a3
+g2 t b1 b2 b3
+g2 p b2
+g2 p b1
+g2 p b3
+end
+case random_132
+pred t 3 c
+g1 t a1 a2 a3
+g2 t b1 b2 b3
+end
+case random_133
+pred p 1 n
+pred q 2 n
+g1 p a4
+g1 p a3
+g1 q a2 a3
+g2 p b3
+g2 p b1
+g2 q b2 b1
+end
+case random_134
+pred s 2 c
+pred t 3 c
+pred u 3 n
+g1 t a1 a3 a4
+g1 t a2 a3 a6
+g1 t a1 a4 a6
+g1 t a1 a3 a5
+g1 t a1 a2 a6
+g1 s a4 a6
+g1 s a1 a4
+g1 s a1 a3
+g1 u a2 a3 a5
+g1 u a2 a4 a6
+g1 u a2 a5 a1
+g1 u a2 a1 a4
+g1 u a3 a5 a6
+g2 t b1 b4 b5
+g2 t b2 b4 b5
+g2 t b1 b3 b4
+g2 t b1 b2 b4
+g2 t b1 b3 b5
+g2 s b4 b6
+g2 s b3 b5
+g2 s b4 b5
+g2 u b2 b1 b6
+g2 u b1 b4 b3
+g2 u b6 b4 b1
+g2 u b4 b6 b3
+g2 u b1 b4 b2
+end
+case random_135
+pred p 1 n
+pred s 2 c
+pred t 3 c
+g1 t a1 a2 a4
+g1 t a1 a2 a3
+g1 p a4
+g1 p a3
+g1 p a1
+g1 s a1 a3
+g2 t b2 b3 b4
+g2 t b1 b3 b4
+g2 p b2
+g2 p b1
+g2 p b3
+g2 s b1 b3
+end
+case random_136
+pred s 2 c
+g1 s a2 a4
+g1 s a1 a3
+g2 s b1 b2
+g2 s b3 b4
+end
+case random_137
+pred t 3 c
+g1 t a1 a2 a3
+g2 t b1 b2 b3
+end
+case random_138
+pred s 2 c
+pred t 3 c
+g1 s a2 a6
+g1 s a1 a5
+g1 t a1 a5 a6
+g1 t a2 a4 a6
+g2 s b1 b4
+g2 s b3 b5
+g2 t b3 b4 b5
+g2 t b1 b2 b4
+end
+case random_139
+pred q 2 n
+pred r 3 n
+pred s 2 c
+g1 s a3 a4
+g1 s a2 a3
+g1 s a1 a2
+g1 s a1 a3
+g1 r a1 a2 a3
+g1 q a1 a4
+g1 q a4 a2
+g1 q a4 a1
+g2 s b1 b4
+g2 s b1 b3
+g2 s b2 b3
+g2 s b1 b2
+g2 r b2 b3 b1
+g2 q b2 b4
+g2 q b4 b3
+g2 q b4 b2
+end
+case random_140
+pred q 2 n
+pred s 2 c
+g1 s a1 a3
+g1 q a1 a2
+g1 q a1 a3
+g1 q a2 a3
+g2 s b2 b3
+g2 q b3 b1
+g2 q b3 b2
+g2 q b1 b2
+end
+case random_141
+pred q 2 n
+pred t 3 c
+pred u 3 n
+g1 u a2 a4 a5
+g1 u a5 a3 a1
+g1 u a3 a1 a4
+g1 u a1 a5 a3
+g1 u a1 a4 a5
+g1 q a1 a5
+g1 t a2 a3 a5
+g1 t a1 a3 a5
+g1 t a2 a3 a4
+g1 t a1 a2 a3
+g2 u b5 b2 b3
+g2 u b4 b1 b2
+g2 u b2 b1 b5
+g2 u b3 b5 b2
+g2 u b5 b3 b4
+g2 q b4 b3
+g2 t b1 b2 b4
+g2 t b2 b3 b5
+g2 t b2 b4 b5
+g2 t b2 b3 b4
+end
+case random_142
+pred r 3 n
+pred s 2 c
+g1 s a2 a3
+g1 s a1 a2
+g1 s a1 a3
+g1 r a3 a1 a2
+g1 r a1 a3 a2
+g1 r a2 a3 a1
+g1 r a1 a2 a3
+g1 r a2 a1 a3
+g2 s b2 b3
+g2 s b1 b3
+g2 s b1 b2
+g2 r b2 b1 b3
+g2 r b1 b2 b3
+g2 r b3 b2 b1
+g2 r b1 b3 b2
+g2 r b3 b1 b2
+end
+case random_143
+pred p 1 n
+pred r 3 n
+pred s 2 c
+g1 s a2 a3
+g1 s a2 a4
+g1 s a1 a3
+g1 p a4
+g1 r a1 a2 a3
+g1 r a4 a3 a1
+g1 r a2 a4 a1
+g2 s b3 b4
+g2 s b2 b4
+g2 s b2 b3
+g2 p b1
+g2 r b4 b3 b2
+g2 r b4 b1 b3
+g2 r b3 b4 b1
+end
+case random_144
+pred q 2 n
+g1 q a2 a5
+g2 q b1 b2
+end
+case random_145
+pred p 1 n
+pred u 3 n
+g1 u a2 a1 a3
+g1 u a3 a1 a2
+g1 u a1 a2 a3
+g1 p a2
+g2 u b1 b2 b3
+g2 u b3 b1 b2
+g2 u b2 b3 b1
+g2 p b2
+end
+case random_146
+pred q 2 n
+pred t 3 c
+pred u 3 n
+g1 u a6 a2 a3
+g1 u a5 a3 a2
+g1 u a5 a6 a4
+g1 t a1 a3 a6
+g1 t a4 a5 a6
+g1 t a3 a5 a6
+g1 q a5 a4
+g2 u b6 b4 b5
+g2 u b3 b5 b4
+g2 u b3 b6 b2
+g2 t b1 b5 b6
+g2 t b2 b3 b6
+g2 t b3 b5 b6
+g2 q b3 b2
+end
+case random_147
+pred r 3 n
+pred t 3 c
+pred u 3 n
+g1 u a3 a2 a1
+g1 t a1 a2 a3
+g1 r a3 a1 a2
+g1 r a2 a3 a1
+g1 r a1 a2 a3
+g1 r a3 a2 a1
+g1 r a2 a1 a3
+g2 u b3 b2 b1
+g2 t b1 b2 b3
+g2 r b3 b1 b2
+g2 r b2 b3 b1
+g2 r b1 b2 b3
+g2 r b3 b2 b1
+g2 r b2 b1 b3
+end
+case random_148
+pred q 2 n
+pred s 2 c
+g1 s a3 a4
+g1 s a1 a3
+g1 s a2 a4
+g1 s a1 a2
+g1 q a1 a3
+g1 q a3 a4
+g1 q a3 a1
+g1 q a4 a3
+g2 s b1 b2
+g2 s b1 b3
+g2 s b2 b4
+g2 s b3 b4
+g2 q b3 b1
+g2 q b1 b2
+g2 q b1 b3
+g2 q b2 b1
+end
+case random_149
+pred q 2 n
+pred s 2 c
+g1 q a1 a2
+g1 q a3 a7
+g1 s a6 a7
+g2 q b5 b2
+g2 q b4 b1
+g2 s b3 b5
+end
+case random_150
+pred q 2 n
+pred r 3 n
+g1 q a2 a3
+g1 q a3 a1
+g1 r a1 a3 a2
+g1 r a3 a1 a2
+g1 r a1 a2 a3
+g1 r a3 a2 a1
+g1 r a2 a1 a3
+g2 q b3 b2
+g2 q b2 b1
+g2 r b2 b1 b3
+g2 r b1 b2 b3
+g2 r b3 b2 b1
+g2 r b2 b3 b1
+g2 r b3 b1 b2
+end
+case random_151
+pred p 1 n
+pred r 3 n
+g1 r a1 a2 a3
+g1 r a2 a3 a1
+g1 p a1
+g1 p a2
+g1 p a3
+g2 r b2 b3 b1
+g2 r b3 b1 b2
+g2 p b2
+g2 p b3
+g2 p b1
+end
+case random_152
+pred p 1 n
+pred r 3 n
+pred s 2 c
+g1 s a3 a6
+g1 s a2 a4
+g1 s a1 a3
+g1 s a3 a7
+g1 p a4
+g1 p a2
+g1 p a3
+g1 p a1
+g1 r a5 a2 a3
+g1 r a3 a4 a7
+g1 r a1 a6 a4
+g1 r a6 a5 a7
+g1 r a1 a7 a3
+g2 s b1 b4
+g2 s b4 b7
+g2 s b2 b7
+g2 s b1 b6
+g2 p b4
+g2 p b1
+g2 p b3
+g2 p b6
+g2 r b2 b5 b3
+g2 r b4 b2 b6
+g2 r b4 b6 b2
+g2 r b5 b1 b3
+g2 r b2 b1 b5
+end
+case random_153
+pred u 3 n
+g1 u a4 a3 a2
+g1 u a2 a3 a1
+g1 u a3 a2 a4
+g1 u a1 a3 a4
+g1 u a1 a2 a3
+g2 u b3 b1 b2
+g2 u b4 b3 b1
+g2 u b3 b2 b1
+g2 u b1 b3 b4
+g2 u b4 b2 b1
+end
+case random_154
+pred r 3 n
+pred s 2 c
+g1 r a1 a2 a3
+g1 r a3 a1 a2
+g1 r a1 a3 a2
+g1 r a2 a3 a1
+g1 s a1 a3
+g1 s a1 a2
+g1 s a2 a3
+g2 r b1 b2 b3
+g2 r b3 b1 b2
+g2 r b1 b3 b2
+g2 r b2 b3 b1
+g2 s b1 b3
+g2 s b1 b2
+g2 s b2 b3
+end
+case random_155
+pred p 1 n
+pred q 2 n
+pred t 3 c
+g1 p a5
+g1 p a2
+g1 p a6
+g1 q a2 a3
+g1 q a7 a2
+g1 q a1 a4
+g1 q a6 a5
+g1 t a1 a4 a5
+g1 t a2 a3 a7
+g1 t a3 a5 a6
+g1 t a3 a4 a5
+g1 t a4 a5 a7
+g2 p b1
+g2 p b7
+g2 p b4
+g2 q b7 b2
+g2 q b7 b1
+g2 q b5 b7
+g2 q b4 b7
+g2 t b2 b3 b4
+g2 t b1 b3 b4
+g2 t b2 b4 b6
+g2 t b3 b4 b6
+g2 t b1 b3 b7
+end
+case random_156
+pred q 2 n
+g1 q a1 a4
+g1 q a5 a4
+g1 q a3 a1
+g1 q a2 a4
+g2 q b1 b3
+g2 q b2 b3
+g2 q b5 b1
+g2 q b4 b3
+end
+case random_157
+pred u 3 n
+g1 u a2 a3 a5
+g1 u a5 a7 a4
+g1 u a7 a5 a6
+g1 u a3 a5 a7
+g2 u b3 b6 b2
+g2 u b5 b1 b6
+g2 u b2 b6 b4
+g2 u b2 b1 b6
+end
+case random_158
+pred r 3 n
+g1 r a5 a3 a2
+g1 r a4 a5 a6
+g1 r a5 a6 a2
+g1 r a4 a5 a3
+g1 r a5 a1 a3
+g2 r b2 b3 b4
+g2 r b5 b1 b2
+g2 r b5 b3 b6
+g2 r b3 b4 b1
+g2 r b3 b1 b6
+end
+case random_159
+pred r 3 n
+pred s 2 c
+g1 r a5 a1 a4
+g1 r a2 a4 a1
+g1 r a5 a1 a3
+g1 r a4 a6 a1
+g1 r a3 a4 a1
+g1 s a3 a5
+g1 s a1 a6
+g1 s a1 a5
+g1 s a2 a5
+g2 r b6 b5 b2
+g2 r b4 b2 b5
+g2 r b6 b5 b1
+g2 r b2 b3 b5
+g2 r b1 b2 b5
+g2 s b1 b6
+g2 s b3 b5
+g2 s b5 b6
+g2 s b4 b6
+end
+case random_160
+pred u 3 n
+g1 u a4 a3 a2
+g1 u a7 a6 a3
+g1 u a2 a5 a1
+g1 u a6 a4 a1
+g1 u a4 a7 a2
+g2 u b3 b2 b1
+g2 u b7 b6 b2
+g2 u b1 b5 b4
+g2 u b6 b3 b4
+g2 u b3 b7 b1
+end
+case random_161
+pred p 1 n
+pred q 2 n
+pred r 3 n
+g1 p a7
+g1 p a6
+g1 q a2 a1
+g1 q a7 a2
+g1 r a3 a5 a7
+g2 p b4
+g2 p b1
+g2 q b4 b2
+g2 q b2 b1
+g2 r b3 b5 b2
+end
+case random_162
+pred p 1 n
+pred t 3 c
+pred u 3 n
+g1 u a2 a1 a3
+g1 u a3 a4 a2
+g1 u a2 a1 a4
+g1 u a3 a2 a4
+g1 p a1
+g1 p a2
+g1 p a4
+g1 t a2 a3 a4
+g2 u b2 b1 b3
+g2 u b2 b3 b4
+g2 u b4 b2 b3
+g2 u b3 b4 b1
+g2 p b2
+g2 p b4
+g2 p b3
+g2 t b1 b3 b4
+end
+case random_163
+pred q 2 n
+pred u 3 n
+g1 q a2 a4
+g1 u a5 a7 a6
+g2 q b2 b1
+g2 u b1 b2 b3
+end
+case random_164
+pred q 2 n
+pred r 3 n
+pred s 2 c
+g1 q a5 a1
+g1 q a5 a3
+g1 s a2 a3
+g1 s a1 a2
+g1 s a1 a3
+g1 r a2 a5 a3
+g2 q b5 b1
+g2 q b5 b3
+g2 s b2 b3
+g2 s b1 b5
+g2 s b4 b5
+g2 r b5 b2 b3
+end
+case random_165
+pred r 3 n
+pred u 3 n
+g1 r a3 a1 a2
+g1 r a1 a3 a2
+g1 r a2 a3 a1
+g1 r a3 a2 a1
+g1 r a2 a1 a3
+g1 u a1 a2 a3
+g2 r b3 b1 b2
+g2 r b1 b3 b2
+g2 r b2 b3 b1
+g2 r b3 b2 b1
+g2 r b2 b1 b3
+g2 u b1 b2 b3
+end
+case random_166
+pred s 2 c
+g1 s a1 a3
+g1 s a1 a2
+g1 s a2 a3
+g2 s b1 b3
+g2 s b2 b3
+g2 s b1 b2
+end
+case random_167
+pred p 1 n
+pred r 3 n
+pred u 3 n
+g1 u a6 a1 a4
+g1 r a3 a5 a4
+g1 r a5 a6 a2
+g1 r a1 a4 a5
+g1 r a4 a5 a1
+g1 r a2 a3 a6
+g1 p a5
+g1 p a1
+g1 p a2
+g2 u b5 b2 b6
+g2 r b2 b6 b4
+g2 r b1 b2 b4
+g2 r b5 b2 b6
+g2 r b2 b5 b1
+g2 r b1 b3 b4
+g2 p b5
+g2 p b3
+g2 p b1
+end
+case random_168
+pred t 3 c
+pred u 3 n
+g1 u a5 a1 a3
+g1 u a5 a4 a1
+g1 u a3 a1 a2
+g1 u a2 a3 a4
+g1 t a1 a3 a5
+g1 t a2 a3 a4
+g1 t a1 a2 a3
+g1 t a3 a4 a5
+g2 u b3 b5 b1
+g2 u b3 b4 b5
+g2 u b1 b5 b2
+g2 u b2 b1 b4
+g2 t b1 b3 b5
+g2 t b1 b2 b4
+g2 t b1 b2 b5
+g2 t b1 b3 b4
+end
+case random_169
+pred q 2 n
+g1 q a1 a6
+g1 q a3 a2
+g2 q b2 b1
+g2 q b1 b3
+end
+case random_170
+pred q 2 n
+g1 q a5 a6
+g1 q a6 a2
+g1 q a1 a5
+g1 q a3 a2
+g2 q b5 b4
+g2 q b4 b3
+g2 q b1 b5
+g2 q b2 b3
+end
+case random_171
+pred p 1 n
+pred r 3 n
+pred t 3 c
+g1 t a2 a3 a4
+g1 t a1 a2 a4
+g1 t a1 a2 a3
+g1 t a1 a3 a4
+g1 p a4
+g1 p a2
+g1 p a3
+g1 r a1 a3 a2
+g1 r a4 a3 a1
+g1 r a1 a4 a3
+g1 r a3 a2 a1
+g1 r a1 a3 a4
+g2 t b1 b2 b3
+g2 t b1 b3 b4
+g2 t b1 b2 b4
+g2 t b2 b3 b4
+g2 p b4
+g2 p b1
+g2 p b3
+g2 r b1 b4 b3
+g2 r b1 b3 b4
+g2 r b1 b2 b4
+g2 r b4 b1 b3
+g2 r b3 b2 b1
+end
+case random_172
+pred p 1 n
+pred s 2 c
+pred t 3 c
+g1 p a1
+g1 p a2
+g1 p a3
+g1 t a1 a2 a3
+g1 s a2 a3
+g1 s a1 a2
+g1 s a1 a3
+g2 p b1
+g2 p b3
+g2 p b2
+g2 t b1 b2 b3
+g2 s b2 b3
+g2 s b1 b3
+g2 s b1 b2
+end
+case random_173
+pred q 2 n
+pred r 3 n
+pred t 3 c
+g1 t a3 a4 a6
+g1 t a1 a2 a5
+g1 q a5 a3
+g1 q a2 a7
+g1 q a3 a5
+g1 q a1 a7
+g1 q a3 a6
+g1 r a3 a4 a2
+g1 r a4 a5 a6
+g1 r a1 a7 a3
+g2 t b3 b6 b7
+g2 t b1 b2 b5
+g2 q b5 b7
+g2 q b1 b4
+g2 q b7 b5
+g2 q b2 b4
+g2 q b7 b6
+g2 r b7 b3 b1
+g2 r b3 b5 b6
+g2 r b2 b4 b7
+end
+case random_174
+pred r 3 n
+pred t 3 c
+g1 t a2 a3 a5
+g1 t a1 a3 a5
+g1 t a1 a2 a3
+g1 t a1 a2 a5
+g1 r a5 a3 a2
+g1 r a5 a4 a3
+g1 r a2 a1 a3
+g2 t b1 b2 b4
+g2 t b1 b4 b5
+g2 t b1 b2 b5
+g2 t b2 b4 b5
+g2 r b4 b1 b2
+g2 r b4 b3 b1
+g2 r b2 b5 b1
+end
+case random_175
+pred p 1 n
+pred q 2 n
+pred u 3 n
+g1 u a2 a3 a1
+g1 u a1 a3 a2
+g1 u a3 a1 a2
+g1 u a1 a2 a3
+g1 q a3 a1
+g1 q a3 a2
+g1 q a1 a2
+g1 q a2 a3
+g1 q a2 a1
+g1 p a1
+g1 p a2
+g1 p a3
+g2 u b2 b1 b3
+g2 u b3 b1 b2
+g2 u b1 b3 b2
+g2 u b3 b2 b1
+g2 q b1 b3
+g2 q b1 b2
+g2 q b3 b2
+g2 q b2 b1
+g2 q b2 b3
+g2 p b3
+g2 p b2
+g2 p b1
+end
+case random_176
+pred p 1 n
+pred q 2 n
+pred u 3 n
+g1 q a1 a2
+g1 q a1 a3
+g1 q a4 a1
+g1 p a1
+g1 u a1 a3 a4
+g1 u a2 a3 a1
+g1 u a2 a4 a3
+g1 u a4 a2 a3
+g2 q b4 b2
+g2 q b4 b3
+g2 q b3 b1
+g2 p b1
+g2 u b1 b2 b3
+g2 u b2 b3 b1
+g2 u b3 b4 b1
+g2 u b2 b3 b4
+end
+case random_177
+pred s 2 c
+g1 s a4 a6
+g1 s a1 a7
+g1 s a1 a2
+g1 s a4 a7
+g2 s b2 b4
+g2 s b2 b3
+g2 s b2 b5
+g2 s b1 b5
+end
+case random_178
+pred p 1 n
+g1 p a2
+g2 p b1
+end
+case random_179
+pred r 3 n
+g1 r a3 a1 a2
+g1 r a1 a3 a2
+g1 r a3 a2 a1
+g1 r a2 a3 a1
+g2 r b2 b3 b1
+g2 r b1 b2 b3
+g2 r b1 b3 b2
+g2 r b3 b1 b2
+end
+case random_180
+pred t 3 c
+g1 t a1 a3 a4
+g2 t b1 b2 b3
+end
+case random_181
+pred t 3 c
+g1 t a2 a3 a4
+g1 t a1 a5 a6
+g1 t a1 a4 a6
+g1 t a1 a3 a4
+g2 t b1 b2 b3
+g2 t b4 b5 b6
+g2 t b2 b4 b5
+g2 t b2 b3 b4
+end
+case random_182
+pred p 1 n
+g1 p a1
+g1 p a2
+g1 p a3
+g2 p b2
+g2 p b3
+g2 p b1
+end
+case random_183
+pred s 2 c
+g1 s a2 a3
+g2 s b1 b2
+end
+case random_184
+pred p 1 n
+pred s 2 c
+g1 p a1
+g1 p a2
+g1 p a3
+g1 p a4
+g1 s a3 a4
+g1 s a2 a3
+g1 s a1 a3
+g1 s a1 a4
+g1 s a1 a2
+g2 p b2
+g2 p b4
+g2 p b3
+g2 p b1
+g2 s b2 b3
+g2 s b3 b4
+g2 s b2 b4
+g2 s b1 b3
+g2 s b1 b4
+end
+case random_185
+pred u 3 n
+g1 u a2 a1 a3
+g1 u a2 a3 a1
+g1 u a3 a2 a1
+g1 u a1 a2 a3
+g2 u b1 b2 b3
+g2 u b1 b3 b2
+g2 u b2 b3 b1
+g2 u b3 b2 b1
+end
+case random_186
+pred u 3 n
+g1 u a3 a7 a5
+g1 u a6 a7 a4
+g1 u a5 a3 a2
+g1 u a1 a3 a4
+g1 u a1 a2 a3
+g2 u b5 b3 b1
+g2 u b6 b3 b2
+g2 u b1 b5 b4
+g2 u b7 b5 b2
+g2 u b7 b4 b5
+end
+case random_187
+pred q 2 n
+pred r 3 n
+pred u 3 n
+g1 u a4 a3 a1
+g1 u a3 a6 a1
+g1 u a2 a1 a3
+g1 u a1 a5 a3
+g1 u a3 a1 a2
+g1 q a6 a4
+g1 q a1 a5
+g1 q a6 a3
+g1 q a2 a4
+g1 q a3 a6
+g1 r a1 a6 a3
+g1 r a4 a5 a3
+g1 r a1 a4 a6
+g1 r a1 a4 a3
+g2 u b6 b4 b5
+g2 u b6 b2 b3
+g2 u b2 b3 b6
+g2 u b6 b3 b2
+g2 u b2 b6 b1
+g2 q b6 b1
+g2 q b4 b1
+g2 q b4 b5
+g2 q b2 b5
+g2 q b6 b5
+g2 r b5 b4 b1
+g2 r b5 b1 b3
+g2 r b5 b1 b4
+g2 r b4 b2 b6
+end
+case random_188
+pred q 2 n
+pred s 2 c
+g1 s a3 a4
+g1 s a1 a4
+g1 s a2 a4
+g1 s a1 a2
+g1 q a3 a4
+g1 q a3 a5
+g1 q a1 a4
+g1 q a4 a2
+g2 s b2 b5
+g2 s b1 b4
+g2 s b1 b5
+g2 s b3 b4
+g2 q b1 b3
+g2 q b4 b5
+g2 q b3 b4
+g2 q b5 b3
+end
+case random_189
+pred s 2 c
+g1 s a2 a6
+g1 s a4 a5
+g1 s a1 a3
+g1 s a1 a6
+g2 s b3 b5
+g2 s b1 b6
+g2 s b2 b4
+g2 s b2 b5
+end
+case random_190
+pred q 2 n
+g1 q a3 a1
+g1 q a3 a2
+g1 q a1 a2
+g1 q a2 a1
+g1 q a1 a3
+g2 q b2 b1
+g2 q b2 b3
+g2 q b1 b3
+g2 q b3 b1
+g2 q b1 b2
+end
+case random_191
+pred r 3 n
+pred t 3 c
+pred u 3 n
+g1 r a2 a1 a3
+g1 r a3 a2 a1
+g1 r a2 a3 a1
+g1 t a1 a2 a3
+g1 u a2 a1 a3
+g1 u a2 a3 a1
+g1 u a1 a3 a2
+g1 u a1 a2 a3
+g2 r b2 b1 b3
+g2 r b3 b2 b1
+g2 r b2 b3 b1
+g2 t b1 b2 b3
+g2 u b2 b1 b3
+g2 u b2 b3 b1
+g2 u b1 b3 b2
+g2 u b1 b2 b3
+end
+case random_192
+pred u 3 n
+g1 u a6 a1 a5
+g1 u a3 a4 a6
+g1 u a3 a6 a2
+g1 u a5 a1 a4
+g1 u a2 a4 a3
+g2 u b1 b4 b3
+g2 u b2 b4 b3
+g2 u b4 b3 b1
+g2 u b3 b5 b2
+g2 u b4 b2 b5
+end
+case random_193
+pred t 3 c
+g1 t a2 a4 a5
+g2 t b1 b2 b3
+end
+case random_194
+pred q 2 n
+pred t 3 c
+g1 q a5 a2
+g1 q a1 a3
+g1 t a2 a3 a4
+g1 t a1 a2 a5
+g2 q b4 b2
+g2 q b1 b2
+g2 t b1 b2 b4
+g2 t b2 b3 b4
+end
+case random_195
+pred q 2 n
+pred r 3 n
+pred s 2 c
+g1 q a1 a3
+g1 q a2 a5
+g1 q a3 a5
+g1 s a3 a6
+g1 s a1 a5
+g1 s a2 a3
+g1 r a1 a2 a5
+g1 r a4 a6 a2
+g1 r a2 a6 a3
+g1 r a3 a1 a6
+g2 q b4 b5
+g2 q b6 b2
+g2 q b5 b2
+g2 s b1 b5
+g2 s b2 b4
+g2 s b5 b6
+g2 r b4 b6 b2
+g2 r b3 b1 b6
+g2 r b6 b1 b5
+g2 r b5 b4 b1
+end
+case random_196
+pred r 3 n
+g1 r a3 a2 a4
+g1 r a3 a5 a2
+g1 r a2 a5 a1
+g1 r a2 a5 a4
+g2 r b3 b1 b2
+g2 r b3 b5 b1
+g2 r b1 b5 b4
+g2 r b1 b5 b2
+end
+case random_197
+pred t 3 c
+pred u 3 n
+g1 u a1 a4 a2
+g1 u a2 a5 a1
+g1 t a1 a2 a3
+g1 t a1 a3 a4
+g1 t a3 a4 a5
+g2 u b4 b3 b5
+g2 u b5 b2 b4
+g2 t b1 b4 b5
+g2 t b1 b3 b4
+g2 t b1 b2 b3
+end
+case random_198
+pred p 1 n
+pred t 3 c
+g1 p a5
+g1 p a4
+g1 p a3
+g1 p a1
+g1 p a2
+g1 t a1 a3 a6
+g1 t a1 a4 a6
+g1 t a1 a2 a5
+g2 p b1
+g2 p b4
+g2 p b5
+g2 p b2
+g2 p b6
+g2 t b3 b5 b6
+g2 t b2 b3 b6
+g2 t b2 b3 b4
+end
+case random_199
+pred r 3 n
+g1 r a3 a1 a4
+g1 r a3 a4 a5
+g1 r a1 a3 a5
+g2 r b1 b2 b4
+g2 r b1 b4 b3
+g2 r b2 b1 b3
+end
+case random_200
+pred s 2 c
+pred t 3 c
+pred u 3 n
+g1 u a2 a4 a6
+g1 u a1 a6 a3
+g1 u a3 a5 a2
+g1 t a2 a3 a5
+g1 t a2 a3 a6
+g1 t a2 a4 a7
+g1 s a6 a7
+g1 s a1 a4
+g1 s a3 a6
+g1 s a3 a7
+g2 u b6 b5 b2
+g2 u b6 b4 b2
+g2 u b7 b2 b4
+g2 t b1 b3 b5
+g2 t b2 b6 b7
+g2 t b2 b5 b6
+g2 s b2 b4
+g2 s b1 b4
+g2 s b6 b7
+g2 s b5 b7
+end
+case random_201
+pred p 1 n
+pred t 3 c
+pred u 3 n
+g1 t a1 a2 a3
+g1 p a2
+g1 u a3 a1 a2
+g1 u a2 a3 a1
+g1 u a1 a3 a2
+g1 u a1 a2 a3
+g2 t b1 b2 b3
+g2 p b3
+g2 u b2 b1 b3
+g2 u b3 b2 b1
+g2 u b1 b2 b3
+g2 u b1 b3 b2
+end
+case random_202
+pred r 3 n
+pred s 2 c
+pred u 3 n
+g1 u a5 a1 a3
+g1 u a5 a3 a2
+g1 u a5 a2 a3
+g1 u a5 a4 a3
+g1 r a2 a5 a3
+g1 r a2 a4 a1
+g1 r a3 a5 a1
+g1 r a4 a3 a1
+g1 r a5 a4 a2
+g1 s a3 a4
+g1 s a1 a4
+g1 s a2 a3
+g2 u b5 b1 b2
+g2 u b5 b2 b4
+g2 u b5 b4 b2
+g2 u b5 b3 b2
+g2 r b4 b5 b2
+g2 r b4 b3 b1
+g2 r b2 b5 b1
+g2 r b3 b2 b1
+g2 r b5 b3 b4
+g2 s b2 b3
+g2 s b1 b3
+g2 s b2 b4
+end
+case random_203
+pred t 3 c
+g1 t a2 a4 a6
+g2 t b1 b2 b3
+end
+case random_204
+pred p 1 n
+pred q 2 n
+g1 q a3 a1
+g1 p a1
+g1 p a2
+g1 p a3
+g2 q b1 b2
+g2 p b2
+g2 p b1
+g2 p b3
+end
+case random_205
+pred s 2 c
+g1 s a3 a4
+g1 s a2 a3
+g2 s b2 b3
+g2 s b1 b2
+end
+case random_206
+pred q 2 n
+pred r 3 n
+g1 r a1 a3 a4
+g1 r a1 a4 a2
+g1 r a4 a2 a5
+g1 q a1 a4
+g1 q a3 a2
+g1 q a3 a5
+g1 q a1 a5
+g1 q a4 a2
+g2 r b1 b3 b5
+g2 r b1 b5 b2
+g2 r b5 b2 b4
+g2 q b1 b5
+g2 q b3 b2
+g2 q b3 b4
+g2 q b1 b4
+g2 q b5 b2
+end
+case random_207
+pred p 1 n
+pred q 2 n
+pred u 3 n
+g1 q a1 a3
+g1 q a3 a2
+g1 q a3 a6
+g1 q a6 a1
+g1 u a5 a3 a4
+g1 u a3 a4 a6
+g1 u a6 a3 a4
+g1 u a4 a2 a5
+g1 u a1 a6 a4
+g1 p a2
+g2 q b3 b1
+g2 q b4 b3
+g2 q b6 b5
+g2 q b5 b1
+g2 u b1 b2 b5
+g2 u b1 b7 b5
+g2 u b7 b6 b4
+g2 u b7 b4 b6
+g2 u b3 b6 b2
+g2 p b2
+end
+case random_208
+pred r 3 n
+pred s 2 c
+g1 r a3 a1 a4
+g1 r a4 a2 a1
+g1 r a4 a3 a1
+g1 r a2 a4 a1
+g1 s a1 a4
+g1 s a1 a3
+g1 s a2 a3
+g2 r b1 b4 b3
+g2 r b2 b1 b3
+g2 r b1 b2 b3
+g2 r b2 b3 b4
+g2 s b3 b4
+g2 s b1 b4
+g2 s b1 b2
+end
+case random_209
+pred r 3 n
+pred u 3 n
+g1 r a1 a4 a2
+g1 u a2 a3 a1
+g1 u a1 a2 a4
+g2 r b3 b4 b2
+g2 u b2 b1 b3
+g2 u b3 b2 b4
+end
+case random_210
+pred p 1 n
+pred s 2 c
+pred t 3 c
+g1 s a3 a4
+g1 s a2 a3
+g1 s a1 a2
+g1 s a1 a3
+g1 t a1 a3 a4
+g1 p a3
+g2 s b2 b3
+g2 s b1 b2
+g2 s b2 b4
+g2 s b1 b3
+g2 t b2 b3 b4
+g2 p b2
+end
+case random_211
+pred p 1 n
+pred u 3 n
+g1 p a1
+g1 u a3 a1 a2
+g2 p b3
+g2 u b2 b3 b1
+end
+case random_212
+pred t 3 c
+g1 t a2 a3 a4
+g1 t a1 a2 a4
+g1 t a1 a2 a3
+g1 t a1 a3 a4
+g2 t b2 b3 b4
+g2 t b1 b3 b4
+g2 t b1 b2 b3
+g2 t b1 b2 b4
+end
+case random_213
+pred r 3 n
+pred s 2 c
+g1 s a3 a4
+g1 s a1 a5
+g1 s a2 a4
+g1 s a2 a5
+g1 r a1 a5 a3
+g1 r a3 a4 a5
+g1 r a1 a4 a3
+g1 r a5 a3 a1
+g1 r a1 a5 a2
+g2 s b1 b5
+g2 s b4 b5
+g2 s b2 b4
+g2 s b2 b3
+g2 r b3 b4 b2
+g2 r b1 b3 b2
+g2 r b4 b2 b3
+g2 r b1 b5 b4
+g2 r b2 b3 b1
+end
+case random_214
+pred p 1 n
+pred t 3 c
+g1 t a1 a2 a3
+g1 p a2
+g2 t b1 b2 b3
+g2 p b2
+end
+case random_215
+pred q 2 n
+pred r 3 n
+g1 q a5 a1
+g1 q a5 a3
+g1 r a1 a5 a3
+g1 r a2 a3 a4
+g1 r a4 a5 a3
+g1 r a4 a5 a1
+g1 r a2 a5 a4
+g2 q b5 b2
+g2 q b5 b1
+g2 r b2 b3 b4
+g2 r b1 b4 b5
+g2 r b4 b1 b2
+g2 r b3 b4 b5
+g2 r b1 b5 b2
+end
+case random_216
+pred p 1 n
+pred q 2 n
+pred r 3 n
+g1 q a2 a1
+g1 q a1 a3
+g1 q a3 a1
+g1 p a4
+g1 p a3
+g1 p a1
+g1 r a2 a1 a4
+g1 r a3 a4 a2
+g1 r a4 a3 a2
+g1 r a1 a4 a3
+g1 r a3 a4 a1
+g2 q b3 b4
+g2 q b1 b4
+g2 q b1 b3
+g2 p b2
+g2 p b1
+g2 p b4
+g2 r b2 b4 b1
+g2 r b1 b4 b3
+g2 r b1 b4 b2
+g2 r b4 b3 b2
+g2 r b3 b1 b2
+end
+case random_217
+pred u 3 n
+g1 u a2 a4 a1
+g1 u a1 a2 a4
+g1 u a3 a2 a4
+g2 u b1 b3 b4
+g2 u b4 b1 b3
+g2 u b2 b1 b3
+end
+case random_218
+pred s 2 c
+pred t 3 c
+pred u 3 n
+g1 t a2 a3 a5
+g1 t a1 a2 a3
+g1 t a1 a3 a4
+g1 t a2 a4 a5
+g1 u a3 a5 a4
+g1 s a1 a5
+g1 s a2 a4
+g2 t b1 b4 b5
+g2 t b3 b4 b5
+g2 t b2 b3 b4
+g2 t b1 b2 b5
+g2 u b4 b1 b2
+g2 s b1 b3
+g2 s b2 b5
+end
+case random_219
+pred q 2 n
+pred r 3 n
+g1 r a1 a4 a2
+g1 r a3 a6 a2
+g1 r a4 a2 a1
+g1 q a3 a4
+g1 q a7 a4
+g1 q a6 a3
+g1 q a6 a1
+g1 q a1 a4
+g2 r b3 b2 b1
+g2 r b4 b6 b1
+g2 r b2 b1 b3
+g2 q b4 b2
+g2 q b5 b2
+g2 q b6 b4
+g2 q b6 b3
+g2 q b3 b2
+end
+case random_220
+pred r 3 n
+g1 r a5 a1 a4
+g1 r a1 a2 a4
+g1 r a4 a2 a1
+g1 r a4 a5 a3
+g2 r b1 b2 b5
+g2 r b4 b1 b2
+g2 r b3 b1 b2
+g2 r b2 b3 b1
+end
+case random_221
+pred p 1 n
+pred q 2 n
+pred s 2 c
+g1 q a5 a2
+g1 q a6 a3
+g1 q a6 a1
+g1 q a4 a3
+g1 q a1 a4
+g1 p a1
+g1 p a2
+g1 p a7
+g1 s a2 a7
+g1 s a3 a4
+g1 s a5 a7
+g1 s a1 a6
+g2 q b1 b5
+g2 q b4 b1
+g2 q b7 b6
+g2 q b5 b1
+g2 q b5 b2
+g2 p b6
+g2 p b3
+g2 p b1
+g2 s b4 b6
+g2 s b4 b5
+g2 s b4 b7
+g2 s b2 b5
+end
+case random_222
+pred p 1 n
+pred s 2 c
+pred t 3 c
+g1 s a2 a3
+g1 s a2 a4
+g1 s a4 a5
+g1 s a3 a5
+g1 s a2 a5
+g1 p a5
+g1 p a4
+g1 p a3
+g1 p a1
+g1 t a2 a3 a4
+g2 s b2 b5
+g2 s b1 b2
+g2 s b1 b3
+g2 s b3 b5
+g2 s b2 b3
+g2 p b3
+g2 p b1
+g2 p b5
+g2 p b4
+g2 t b1 b2 b5
+end
+case random_223
+pred q 2 n
+pred s 2 c
+pred u 3 n
+g1 s a1 a5
+g1 s a1 a3
+g1 u a5 a1 a4
+g1 q a6 a4
+g1 q a2 a5
+g1 q a1 a4
+g1 q a4 a3
+g2 s b4 b6
+g2 s b2 b4
+g2 u b6 b5 b4
+g2 q b4 b5
+g2 q b6 b4
+g2 q b3 b1
+g2 q b6 b5
+end
+case random_224
+pred q 2 n
+pred t 3 c
+pred u 3 n
+g1 q a2 a4
+g1 q a1 a3
+g1 q a4 a1
+g1 u a4 a3 a2
+g1 u a4 a1 a2
+g1 u a3 a2 a1
+g1 u a2 a1 a3
+g1 u a4 a1 a3
+g1 t a2 a3 a4
+g1 t a1 a2 a4
+g1 t a1 a3 a4
+g2 q b4 b3
+g2 q b1 b2
+g2 q b2 b3
+g2 u b3 b2 b1
+g2 u b2 b4 b1
+g2 u b2 b3 b1
+g2 u b2 b3 b4
+g2 u b2 b1 b3
+g2 t b1 b2 b3
+g2 t b1 b2 b4
+g2 t b1 b3 b4
+end
+case random_225
+pred q 2 n
+pred t 3 c
+pred u 3 n
+g1 q a5 a7
+g1 q a2 a6
+g1 q a7 a1
+g1 u a4 a7 a5
+g1 u a1 a2 a5
+g1 u a1 a6 a4
+g1 t a1 a6 a7
+g2 q b6 b4
+g2 q b3 b5
+g2 q b4 b2
+g2 u b1 b4 b6
+g2 u b2 b3 b6
+g2 u b2 b5 b1
+g2 t b2 b4 b5
+end
+case random_226
+pred p 1 n
+pred s 2 c
+g1 s a1 a6
+g1 s a1 a3
+g1 p a5
+g1 p a2
+g1 p a3
+g2 s b3 b4
+g2 s b1 b2
+g2 p b4
+g2 p b1
+g2 p b5
+end
+case random_227
+pred s 2 c
+g1 s a2 a3
+g1 s a1 a2
+g1 s a1 a3
+g2 s b1 b3
+g2 s b1 b2
+g2 s b2 b3
+end
+case random_228
+pred r 3 n
+pred s 2 c
+pred t 3 c
+g1 r a6 a3 a5
+g1 r a2 a1 a4
+g1 r a1 a6 a2
+g1 s a1 a3
+g1 t a2 a5 a6
+g1 t a1 a3 a4
+g1 t a1 a2 a5
+g1 t a3 a4 a5
+g1 t a2 a3 a6
+g2 r b5 b1 b4
+g2 r b6 b3 b2
+g2 r b3 b5 b6
+g2 s b1 b3
+g2 t b4 b5 b6
+g2 t b1 b2 b3
+g2 t b3 b4 b6
+g2 t b1 b2 b4
+g2 t b1 b5 b6
+end
+case random_229
+pred q 2 n
+pred r 3 n
+g1 q a1 a3
+g1 q a2 a3
+g1 q a3 a1
+g1 q a3 a2
+g1 r a3 a1 a2
+g1 r a3 a2 a1
+g1 r a2 a3 a1
+g2 q b1 b2
+g2 q b3 b2
+g2 q b2 b1
+g2 q b2 b3
+g2 r b2 b1 b3
+g2 r b2 b3 b1
+g2 r b3 b2 b1
+end
+case random_230
+pred q 2 n
+g1 q a3 a2
+g2 q b2 b1
+end
+case random_231
+pred s 2 c
+g1 s a2 a3
+g1 s a1 a2
+g1 s a1 a3
+g2 s b2 b3
+g2 s b1 b2
+g2 s b1 b3
+end
+case random_232
+pred u 3 n
+g1 u a2 a5 a3
+g2 u b3 b1 b2
+end
+case random_233
+pred p 1 n
+pred r 3 n
+g1 r a6 a5 a1
+g1 r a4 a5 a3
+g1 r a2 a1 a5
+g1 p a5
+g1 p a3
+g2 r b3 b4 b6
+g2 r b1 b4 b2
+g2 r b5 b6 b4
+g2 p b4
+g2 p b2
+end
+case random_234
+pred r 3 n
+g1 r a6 a1 a2
+g1 r a5 a6 a4
+g1 r a1 a4 a2
+g1 r a5 a1 a6
+g2 r b2 b3 b5
+g2 r b1 b2 b4
+g2 r b3 b4 b5
+g2 r b1 b3 b2
+end
+case random_235
+pred q 2 n
+g1 q a4 a5
+g1 q a3 a1
+g1 q a4 a2
+g2 q b4 b3
+g2 q b2 b1
+g2 q b1 b4
+end
+case random_236
+pred q 2 n
+g1 q a4 a5
+g1 q a3 a5
+g1 q a6 a4
+g1 q a4 a3
+g1 q a4 a1
+g2 q b2 b6
+g2 q b3 b5
+g2 q b4 b1
+g2 q b6 b2
+g2 q b3 b2
+end
+case random_237
+pred t 3 c
+g1 t a3 a4 a6
+g1 t a1 a2 a6
+g1 t a1 a2 a4
+g1 t a3 a4 a5
+g1 t a3 a5 a6
+g2 t b1 b3 b4
+g2 t b1 b3 b5
+g2 t b2 b5 b6
+g2 t b1 b3 b6
+g2 t b2 b4 b6
+end
+case random_238
+pred p 1 n
+pred q 2 n
+g1 q a1 a2
+g1 q a2 a1
+g1 q a2 a3
+g1 q a3 a1
+g1 p a1
+g1 p a2
+g1 p a3
+g2 q b3 b1
+g2 q b1 b3
+g2 q b1 b2
+g2 q b2 b3
+g2 p b3
+g2 p b1
+g2 p b2
+end
+case random_239
+pred p 1 n
+pred q 2 n
+pred s 2 c
+g1 p a2
+g1 q a3 a4
+g1 q a2 a5
+g1 q a4 a6
+g1 q a3 a5
+g1 q a2 a1
+g1 s a3 a6
+g1 s a1 a6
+g1 s a1 a3
+g1 s a5 a6
+g2 p b4
+g2 q b6 b4
+g2 q b3 b1
+g2 q b1 b3
+g2 q b5 b4
+g2 q b2 b5
+g2 s b4 b5
+g2 s b2 b6
+g2 s b2 b4
+g2 s b2 b3
+end
+case random_240
+pred q 2 n
+pred s 2 c
+g1 s a3 a4
+g1 s a1 a7
+g1 s a4 a6
+g1 s a3 a6
+g1 s a2 a5
+g1 q a3 a7
+g1 q a5 a1
+g1 q a1 a5
+g1 q a6 a1
+g1 q a2 a1
+g2 s b1 b6
+g2 s b2 b7
+g2 s b3 b6
+g2 s b1 b3
+g2 s b4 b5
+g2 q b1 b2
+g2 q b4 b7
+g2 q b7 b4
+g2 q b3 b7
+g2 q b5 b7
+end
+case random_241
+pred r 3 n
+g1 r a4 a7 a1
+g2 r b2 b3 b1
+end
+case random_242
+pred p 1 n
+g1 p a1
+g1 p a4
+g2 p b1
+g2 p b2
+end
+case random_243
+pred p 1 n
+pred s 2 c
+pred u 3 n
+g1 p a4
+g1 s a2 a4
+g1 s a1 a2
+g1 u a4 a2 a1
+g1 u a4 a2 a3
+g1 u a4 a1 a3
+g2 p b4
+g2 s b1 b4
+g2 s b1 b3
+g2 u b4 b1 b3
+g2 u b4 b1 b2
+g2 u b4 b3 b2
+end
+case random_244
+pred t 3 c
+g1 t a1 a2 a4
+g1 t a3 a4 a5
+g2 t b1 b2 b3
+g2 t b1 b2 b4
+end
+case random_245
+pred p 1 n
+pred q 2 n
+pred s 2 c
+g1 q a3 a1
+g1 q a3 a2
+g1 q a1 a2
+g1 q a4 a3
+g1 q a4 a2
+g1 p a4
+g1 p a2
+g1 p a3
+g1 p a1
+g1 s a1 a4
+g1 s a1 a2
+g2 q b4 b3
+g2 q b4 b2
+g2 q b3 b2
+g2 q b1 b4
+g2 q b1 b2
+g2 p b1
+g2 p b2
+g2 p b4
+g2 p b3
+g2 s b1 b3
+g2 s b2 b3
+end
+case random_246
+pred u 3 n
+g1 u a1 a4 a3
+g1 u a2 a1 a4
+g2 u b3 b4 b2
+g2 u b1 b3 b4
+end
+case random_247
+pred s 2 c
+pred u 3 n
+g1 s a4 a5
+g1 s a4 a6
+g1 u a5 a2 a4
+g1 u a6 a4 a5
+g2 s b3 b4
+g2 s b1 b3
+g2 u b4 b2 b3
+g2 u b1 b3 b4
+end
+case random_248
+pred q 2 n
+pred t 3 c
+g1 t a1 a2 a3
+g1 t a3 a4 a7
+g1 q a1 a2
+g1 q a7 a4
+g1 q a7 a1
+g1 q a4 a6
+g1 q a1 a5
+g2 t b3 b4 b6
+g2 t b1 b4 b7
+g2 q b6 b3
+g2 q b7 b1
+g2 q b7 b6
+g2 q b1 b2
+g2 q b6 b5
+end
+case random_249
+pred q 2 n
+pred r 3 n
+pred s 2 c
+g1 r a3 a1 a2
+g1 r a2 a3 a1
+g1 r a1 a2 a3
+g1 r a3 a2 a1
+g1 r a2 a1 a3
+g1 s a1 a3
+g1 s a1 a2
+g1 s a2 a3
+g1 q a1 a3
+g1 q a2 a1
+g1 q a3 a1
+g1 q a3 a2
+g2 r b1 b3 b2
+g2 r b3 b1 b2
+g2 r b2 b1 b3
+g2 r b1 b2 b3
+g2 r b2 b3 b1
+g2 s b2 b3
+g2 s b1 b3
+g2 s b1 b2
+g2 q b3 b2
+g2 q b2 b3
+g2 q b2 b1
+g2 q b3 b1
+end
+case random_250
+pred p 1 n
+pred q 2 n
+pred u 3 n
+g1 q a1 a3
+g1 q a3 a1
+g1 q a4 a1
+g1 u a4 a2 a3
+g1 u a2 a4 a3
+g1 u a1 a2 a3
+g1 p a1
+g1 p a2
+g1 p a4
+g2 q b4 b3
+g2 q b3 b4
+g2 q b1 b4
+g2 u b2 b4 b3
+g2 u b2 b1 b4
+g2 u b2 b3 b4
+g2 p b4
+g2 p b3
+g2 p b1
+end
+case random_251
+pred s 2 c
+g1 s a1 a4
+g1 s a2 a4
+g1 s a1 a2
+g2 s b2 b3
+g2 s b1 b3
+g2 s b1 b2
+end
+case random_252
+pred q 2 n
+pred s 2 c
+g1 q a6 a2
+g1 q a3 a1
+g1 q a4 a5
+g1 q a6 a4
+g1 q a6 a3
+g1 s a1 a6
+g2 q b3 b5
+g2 q b3 b6
+g2 q b4 b6
+g2 q b2 b1
+g2 q b1 b6
+g2 s b4 b5
+end
+case random_253
+pred p 1 n
+pred s 2 c
+g1 p a1
+g1 p a3
+g1 s a1 a3
+g2 p b1
+g2 p b3
+g2 s b2 b3
+end
+case random_254
+pred p 1 n
+g1 p a1
+g1 p a2
+g2 p b1
+g2 p b2
+end
+case random_255
+pred p 1 n
+pred t 3 c
+g1 t a2 a3 a4
+g1 t a2 a4 a5
+g1 t a1 a4 a5
+g1 t a1 a2 a5
+g1 p a5
+g1 p a4
+g1 p a3
+g1 p a1
+g1 p a2
+g2 t b2 b4 b5
+g2 t b1 b2 b4
+g2 t b2 b3 b5
+g2 t b1 b4 b5
+g2 p b1
+g2 p b4
+g2 p b5
+g2 p b3
+g2 p b2
+end
+case random_256
+pred p 1 n
+pred q 2 n
+pred r 3 n
+g1 r a6 a5 a1
+g1 r a4 a2 a5
+g1 r a5 a4 a3
+g1 r a3 a2 a4
+g1 r a2 a4 a6
+g1 q a5 a3
+g1 q a1 a5
+g1 p a5
+g1 p a4
+g1 p a2
+g2 r b3 b1 b6
+g2 r b5 b2 b1
+g2 r b1 b5 b4
+g2 r b4 b2 b5
+g2 r b2 b5 b3
+g2 q b1 b4
+g2 q b6 b1
+g2 p b1
+g2 p b5
+g2 p b2
+end
+case random_257
+pred q 2 n
+g1 q a3 a1
+g1 q a3 a2
+g1 q a2 a1
+g1 q a2 a3
+g1 q a1 a3
+g2 q b2 b3
+g2 q b2 b1
+g2 q b1 b3
+g2 q b1 b2
+g2 q b3 b2
+end
+case random_258
+pred p 1 n
+pred q 2 n
+pred t 3 c
+g1 q a5 a4
+g1 q a6 a1
+g1 t a1 a3 a6
+g1 t a3 a5 a6
+g1 t a1 a2 a7
+g1 t a4 a5 a7
+g1 p a1
+g2 q b5 b6
+g2 q b4 b1
+g2 t b2 b4 b6
+g2 t b2 b3 b6
+g2 t b1 b3 b6
+g2 t b1 b2 b5
+g2 p b2
+end
+case random_259
+pred u 3 n
+g1 u a4 a3 a1
+g1 u a4 a3 a2
+g1 u a1 a4 a2
+g1 u a3 a4 a1
+g1 u a2 a4 a1
+g2 u b1 b3 b2
+g2 u b1 b3 b4
+g2 u b2 b1 b4
+g2 u b3 b1 b2
+g2 u b4 b1 b2
+end
+case random_260
+pred r 3 n
+g1 r a4 a5 a6
+g1 r a3 a2 a6
+g1 r a1 a7 a6
+g1 r a4 a2 a1
+g2 r b5 b3 b6
+g2 r b4 b3 b5
+g2 r b2 b3 b4
+g2 r b1 b6 b5
+end
+case random_261
+pred q 2 n
+pred u 3 n
+g1 u a2 a3 a1
+g1 u a3 a2 a1
+g1 u a2 a1 a3
+g1 u a3 a1 a2
+g1 u a1 a2 a3
+g1 q a1 a2
+g1 q a2 a1
+g1 q a2 a3
+g1 q a1 a3
+g2 u b1 b3 b2
+g2 u b1 b2 b3
+g2 u b2 b3 b1
+g2 u b3 b2 b1
+g2 u b2 b1 b3
+g2 q b2 b1
+g2 q b1 b2
+g2 q b3 b2
+g2 q b3 b1
+end
+case random_262
+pred q 2 n
+pred r 3 n
+g1 q a1 a2
+g1 q a2 a3
+g1 q a3 a2
+g1 q a4 a3
+g1 r a2 a4 a3
+g2 q b2 b3
+g2 q b2 b4
+g2 q b1 b3
+g2 q b1 b2
+g2 r b2 b4 b1
+end
+case random_263
+pred q 2 n
+pred s 2 c
+pred u 3 n
+g1 u a5 a1 a4
+g1 u a1 a2 a5
+g1 s a1 a2
+g1 q a2 a4
+g1 q a1 a3
+g1 q a5 a4
+g1 q a4 a1
+g2 u b2 b4 b1
+g2 u b4 b3 b2
+g2 s b3 b4
+g2 q b3 b1
+g2 q b4 b5
+g2 q b2 b1
+g2 q b1 b4
+end
+case random_264
+pred p 1 n
+g1 p a5
+g1 p a4
+g1 p a3
+g1 p a1
+g2 p b1
+g2 p b2
+g2 p b3
+g2 p b4
+end
+case random_265
+pred p 1 n
+pred s 2 c
+g1 s a1 a2
+g1 p a5
+g1 p a4
+g1 p a2
+g2 s b2 b3
+g2 p b1
+g2 p b5
+g2 p b4
+end
+case random_266
+pred p 1 n
+pred r 3 n
+pred t 3 c
+g1 r a4 a1 a3
+g1 r a1 a2 a3
+g1 r a4 a3 a1
+g1 r a1 a4 a3
+g1 t a2 a3 a4
+g1 t a1 a2 a4
+g1 t a1 a3 a4
+g1 t a1 a2 a3
+g1 p a1
+g2 r b2 b4 b3
+g2 r b4 b1 b3
+g2 r b2 b3 b4
+g2 r b4 b2 b3
+g2 t b1 b2 b3
+g2 t b1 b2 b4
+g2 t b2 b3 b4
+g2 t b1 b3 b4
+g2 p b4
+end
+case random_267
+pred q 2 n
+pred r 3 n
+g1 q a3 a1
+g1 q a3 a2
+g1 q a1 a2
+g1 q a2 a3
+g1 q a4 a2
+g1 r a1 a2 a4
+g1 r a1 a2 a3
+g1 r a4 a3 a2
+g1 r a3 a4 a2
+g2 q b3 b4
+g2 q b3 b2
+g2 q b4 b2
+g2 q b2 b3
+g2 q b1 b2
+g2 r b4 b2 b1
+g2 r b4 b2 b3
+g2 r b1 b3 b2
+g2 r b3 b1 b2
+end
+case random_268
+pred q 2 n
+pred t 3 c
+pred u 3 n
+g1 u a1 a7 a3
+g1 u a2 a4 a3
+g1 t a1 a3 a6
+g1 t a1 a5 a7
+g1 t a2 a5 a6
+g1 q a1 a2
+g2 u b2 b1 b4
+g2 u b7 b6 b2
+g2 t b1 b3 b7
+g2 t b2 b4 b7
+g2 t b2 b5 b7
+g2 q b6 b2
+end
+case random_269
+pred r 3 n
+pred u 3 n
+g1 u a1 a4 a2
+g1 u a7 a6 a5
+g1 u a5 a6 a4
+g1 u a4 a5 a1
+g1 r a7 a2 a1
+g1 r a5 a1 a7
+g1 r a3 a5 a2
+g1 r a5 a7 a2
+g1 r a2 a3 a6
+g2 u b2 b4 b6
+g2 u b5 b7 b6
+g2 u b5 b7 b2
+g2 u b7 b3 b1
+g2 r b2 b6 b3
+g2 r b4 b3 b7
+g2 r b6 b5 b2
+g2 r b4 b6 b2
+g2 r b5 b7 b3
+end
+case random_270
+pred q 2 n
+g1 q a5 a2
+g2 q b2 b1
+end
+case random_271
+pred r 3 n
+g1 r a1 a3 a2
+g1 r a1 a4 a2
+g2 r b3 b4 b1
+g2 r b3 b2 b1
+end
+case random_272
+pred p 1 n
+pred q 2 n
+pred r 3 n
+g1 r a2 a5 a1
+g1 r a6 a5 a3
+g1 r a3 a6 a4
+g1 p a5
+g1 p a6
+g1 q a2 a3
+g1 q a3 a4
+g1 q a6 a5
+g1 q a2 a1
+g2 r b4 b5 b6
+g2 r b2 b5 b1
+g2 r b1 b2 b3
+g2 p b5
+g2 p b2
+g2 q b4 b1
+g2 q b1 b3
+g2 q b2 b5
+g2 q b4 b6
+end
+case random_273
+pred p 1 n
+pred q 2 n
+g1 q a1 a2
+g1 q a1 a3
+g1 q a3 a1
+g1 p a1
+g1 p a2
+g2 q b1 b3
+g2 q b1 b2
+g2 q b2 b3
+g2 p b3
+g2 p b2
+end
+case random_274
+pred u 3 n
+g1 u a1 a4 a2
+g1 u a1 a2 a4
+g2 u b3 b1 b2
+g2 u b3 b2 b1
+end
+case random_275
+pred q 2 n
+pred u 3 n
+g1 u a1 a2 a4
+g1 u a3 a4 a1
+g1 u a4 a1 a3
+g1 u a2 a4 a1
+g1 u a1 a3 a2
+g1 q a2 a1
+g1 q a2 a3
+g1 q a3 a2
+g1 q a2 a4
+g2 u b1 b4 b3
+g2 u b2 b3 b1
+g2 u b3 b1 b2
+g2 u b4 b3 b1
+g2 u b1 b2 b4
+g2 q b4 b1
+g2 q b4 b2
+g2 q b2 b4
+g2 q b4 b3
+end
+case random_276
+pred s 2 c
+pred t 3 c
+pred u 3 n
+g1 u a3 a6 a5
+g1 u a4 a5 a2
+g1 u a4 a1 a2
+g1 u a3 a4 a1
+g1 t a1 a5 a6
+g1 t a1 a4 a5
+g1 t a1 a2 a6
+g1 s a4 a5
+g1 s a1 a4
+g1 s a1 a5
+g1 s a1 a6
+g2 u b4 b2 b3
+g2 u b5 b3 b6
+g2 u b5 b1 b6
+g2 u b4 b5 b1
+g2 t b1 b2 b3
+g2 t b1 b3 b5
+g2 t b1 b2 b6
+g2 s b3 b5
+g2 s b1 b5
+g2 s b1 b3
+g2 s b1 b2
+end
+case random_277
+pred q 2 n
+pred t 3 c
+g1 t a1 a4 a5
+g1 t a1 a2 a4
+g1 t a3 a4 a5
+g1 t a2 a3 a4
+g1 t a1 a2 a3
+g1 q a4 a5
+g1 q a2 a3
+g2 t b3 b4 b5
+g2 t b2 b3 b5
+g2 t b1 b2 b4
+g2 t b2 b3 b4
+g2 t b2 b4 b5
+g2 q b1 b2
+g2 q b2 b1
+end
+case random_278
+pred s 2 c
+g1 s a3 a5
+g1 s a3 a4
+g1 s a1 a4
+g1 s a2 a4
+g2 s b3 b5
+g2 s b2 b3
+g2 s b1 b2
+g2 s b2 b4
+end
+case random_279
+pred p 1 n
+pred r 3 n
+g1 r a2 a1 a4
+g1 r a4 a3 a2
+g1 r a2 a5 a4
+g1 r a4 a2 a3
+g1 r a7 a6 a2
+g1 p a3
+g2 r b7 b4 b5
+g2 r b7 b2 b6
+g2 r b3 b5 b4
+g2 r b4 b3 b1
+g2 r b2 b4 b6
+g2 p b5
+end
+case random_280
+pred p 1 n
+pred t 3 c
+g1 t a1 a2 a3
+g1 p a1
+g1 p a2
+g2 t b1 b2 b3
+g2 p b1
+g2 p b3
+end
+case random_281
+pred q 2 n
+pred t 3 c
+pred u 3 n
+g1 u a1 a4 a3
+g1 u a2 a4 a5
+g1 q a2 a1
+g1 q a2 a3
+g1 q a1 a5
+g1 q a3 a2
+g1 t a1 a2 a4
+g1 t a1 a4 a5
+g2 u b2 b3 b4
+g2 u b4 b2 b5
+g2 q b2 b5
+g2 q b1 b4
+g2 q b4 b5
+g2 q b3 b1
+g2 t b2 b4 b5
+g2 t b2 b3 b5
+end
+case random_282
+pred r 3 n
+g1 r a3 a5 a1
+g1 r a4 a6 a3
+g1 r a5 a3 a4
+g1 r a4 a6 a2
+g1 r a2 a1 a6
+g2 r b4 b2 b1
+g2 r b3 b6 b4
+g2 r b2 b4 b3
+g2 r b3 b6 b5
+g2 r b5 b1 b6
+end
+case random_283
+pred p 1 n
+pred r 3 n
+g1 p a5
+g1 p a4
+g1 p a3
+g1 p a1
+g1 p a2
+g1 r a4 a3 a5
+g1 r a1 a2 a3
+g1 r a4 a1 a2
+g1 r a2 a5 a6
+g1 r a6 a3 a4
+g2 p b3
+g2 p b6
+g2 p b4
+g2 p b1
+g2 p b5
+g2 r b6 b4 b3
+g2 r b1 b5 b4
+g2 r b6 b1 b5
+g2 r b5 b3 b2
+g2 r b2 b4 b6
+end
+case random_284
+pred s 2 c
+pred t 3 c
+g1 t a1 a4 a5
+g1 t a3 a4 a5
+g1 s a4 a5
+g1 s a2 a3
+g1 s a2 a4
+g1 s a1 a3
+g2 t b2 b3 b5
+g2 t b1 b2 b3
+g2 s b2 b3
+g2 s b1 b4
+g2 s b3 b4
+g2 s b1 b5
+end
+case random_285
+pred q 2 n
+pred t 3 c
+g1 t a2 a3 a5
+g1 t a1 a3 a5
+g1 t a1 a2 a4
+g1 t a3 a4 a5
+g1 q a4 a5
+g1 q a5 a2
+g1 q a2 a3
+g1 q a2 a1
+g1 q a1 a4
+g2 t b2 b4 b5
+g2 t b2 b3 b4
+g2 t b1 b3 b5
+g2 t b1 b2 b4
+g2 q b1 b4
+g2 q b4 b5
+g2 q b5 b2
+g2 q b5 b3
+g2 q b3 b1
+end
+case random_286
+pred p 1 n
+pred q 2 n
+pred u 3 n
+g1 q a2 a5
+g1 q a4 a1
+g1 u a3 a6 a4
+g1 u a1 a2 a7
+g1 u a3 a2 a1
+g1 u a2 a6 a5
+g1 u a3 a4 a2
+g1 p a5
+g1 p a4
+g1 p a6
+g1 p a1
+g1 p a2
+g2 q b6 b4
+g2 q b3 b1
+g2 u b3 b2 b4
+g2 u b2 b6 b7
+g2 u b7 b1 b3
+g2 u b7 b4 b6
+g2 u b4 b7 b3
+g2 p b6
+g2 p b1
+g2 p b7
+g2 p b5
+g2 p b4
+end
+case random_287
+pred p 1 n
+pred r 3 n
+g1 p a1
+g1 p a2
+g1 p a3
+g1 r a1 a3 a2
+g2 p b2
+g2 p b3
+g2 p b1
+g2 r b1 b2 b3
+end
+case random_288
+pred t 3 c
+pred u 3 n
+g1 u a5 a1 a6
+g1 u a5 a6 a3
+g1 u a2 a1 a6
+g1 u a6 a5 a1
+g1 u a3 a1 a2
+g1 t a3 a4 a6
+g1 t a1 a4 a5
+g2 u b1 b4 b3
+g2 u b3 b2 b5
+g2 u b5 b4 b1
+g2 u b2 b1 b3
+g2 u b3 b6 b2
+g2 t b1 b4 b5
+g2 t b2 b3 b6
+end
+case random_289
+pred q 2 n
+pred s 2 c
+pred t 3 c
+g1 t a2 a4 a5
+g1 t a4 a5 a6
+g1 t a3 a4 a5
+g1 t a1 a3 a5
+g1 t a1 a5 a6
+g1 s a4 a6
+g1 q a5 a3
+g1 q a2 a5
+g1 q a4 a3
+g2 t b1 b2 b6
+g2 t b2 b4 b6
+g2 t b2 b3 b6
+g2 t b2 b3 b5
+g2 t b2 b4 b5
+g2 s b4 b6
+g2 q b2 b3
+g2 q b1 b2
+g2 q b6 b3
+end
+case random_290
+pred p 1 n
+pred t 3 c
+pred u 3 n
+g1 p a1
+g1 t a1 a2 a6
+g1 u a4 a6 a2
+g1 u a2 a1 a6
+g2 p b2
+g2 t b1 b3 b4
+g2 u b4 b5 b1
+g2 u b7 b6 b2
+end
+case random_291
+pred q 2 n
+pred u 3 n
+g1 u a4 a3 a2
+g1 q a3 a1
+g1 q a4 a2
+g2 u b4 b1 b3
+g2 q b2 b3
+g2 q b3 b4
+end
+case random_292
+pred p 1 n
+pred u 3 n
+g1 u a2 a1 a3
+g1 p a5
+g1 p a4
+g1 p a3
+g1 p a1
+g1 p a2
+g2 u b5 b3 b4
+g2 p b4
+g2 p b1
+g2 p b5
+g2 p b3
+g2 p b2
+end
+case random_293
+pred p 1 n
+pred q 2 n
+pred u 3 n
+g1 u a4 a3 a1
+g1 u a2 a5 a4
+g1 u a5 a1 a2
+g1 u a5 a1 a4
+g1 u a5 a2 a3
+g1 p a5
+g1 p a4
+g1 p a2
+g1 p a1
+g1 q a2 a4
+g1 q a3 a5
+g1 q a2 a3
+g1 q a4 a3
+g1 q a1 a4
+g2 u b1 b2 b5
+g2 u b1 b5 b2
+g2 u b4 b1 b3
+g2 u b3 b1 b4
+g2 u b1 b4 b2
+g2 p b2
+g2 p b1
+g2 p b4
+g2 p b3
+g2 q b4 b5
+g2 q b3 b2
+g2 q b2 b3
+g2 q b1 b2
+g2 q b5 b1
+end
+case random_294
+pred q 2 n
+g1 q a3 a2
+g1 q a2 a1
+g1 q a4 a3
+g1 q a1 a3
+g1 q a1 a4
+g2 q b2 b1
+g2 q b1 b3
+g2 q b4 b2
+g2 q b3 b2
+g2 q b3 b4
+end
+case random_295
+pred r 3 n
+g1 r a4 a1 a5
+g2 r b3 b2 b1
+end
+case random_296
+pred p 1 n
+pred t 3 c
+pred u 3 n
+g1 p a3
+g1 t a1 a2 a3
+g1 u a2 a1 a3
+g1 u a3 a2 a1
+g1 u a1 a2 a3
+g2 p b1
+g2 t b1 b2 b3
+g2 u b3 b2 b1
+g2 u b1 b3 b2
+g2 u b2 b3 b1
+end
+case random_297
+pred p 1 n
+pred r 3 n
+pred s 2 c
+g1 p a5
+g1 p a1
+g1 p a2
+g1 s a2 a3
+g1 s a2 a6
+g1 s a4 a5
+g1 s a3 a6
+g1 s a3 a7
+g1 r a5 a7 a2
+g1 r a1 a6 a5
+g1 r a6 a2 a5
+g1 r a7 a4 a2
+g2 p b5
+g2 p b3
+g2 p b2
+g2 s b2 b7
+g2 s b2 b6
+g2 s b1 b5
+g2 s b6 b7
+g2 s b4 b7
+g2 r b5 b4 b2
+g2 r b3 b6 b5
+g2 r b6 b2 b5
+g2 r b4 b1 b2
+end
+case random_298
+pred s 2 c
+pred t 3 c
+g1 s a3 a4
+g1 t a1 a3 a5
+g2 s b3 b4
+g2 t b1 b2 b3
+end
+case random_299
+pred s 2 c
+g1 s a2 a3
+g2 s b1 b2
+end
+case random_300
+pred q 2 n
+pred r 3 n
+pred u 3 n
+g1 u a3 a2 a1
+g1 q a1 a3
+g1 q a2 a3
+g1 q a2 a1
+g1 r a1 a2 a3
+g1 r a3 a1 a2
+g1 r a1 a3 a2
+g1 r a2 a1 a3
+g2 u b2 b3 b1
+g2 q b3 b1
+g2 q b3 b2
+g2 q b2 b3
+g2 r b2 b1 b3
+g2 r b3 b1 b2
+g2 r b2 b3 b1
+g2 r b3 b2 b1
+end

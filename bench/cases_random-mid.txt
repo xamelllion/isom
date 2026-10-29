@@ -1,0 +1,4450 @@
+case mid_001_n20
+pred r 3 n
+pred v 2 n
+pred w 4 n
+g1 v a3 a5
+g1 v a8 a10
+g1 w a20 a16 a13 a14
+g1 w a1 a4 a9 a12
+g1 w a11 a8 a12 a16
+g1 w a6 a10 a7 a8
+g1 w a4 a15 a2 a14
+g1 r a12 a7 a11
+g1 r a14 a18 a11
+g1 r a5 a6 a10
+g1 r a18 a6 a10
+g1 r a10 a9 a7
+g1 r a20 a18 a5
+g1 r a13 a19 a18
+g1 r a14 a1 a11
+g1 r a11 a19 a2
+g1 r a3 a5 a7
+g2 v b12 b3
+g2 v b10 b1
+g2 w b13 b17 b14 b4
+g2 w b9 b8 b15 b19
+g2 w b2 b10 b19 b17
+g2 w b6 b1 b5 b10
+g2 w b8 b16 b18 b4
+g2 r b19 b5 b2
+g2 r b4 b11 b2
+g2 r b3 b6 b1
+g2 r b11 b6 b1
+g2 r b1 b15 b5
+g2 r b13 b11 b3
+g2 r b14 b7 b11
+g2 r b4 b9 b2
+g2 r b2 b7 b18
+g2 r b12 b3 b5
+end
+case mid_002_n20
+pred p 1 n
+pred r 3 n
+pred u 3 n
+g1 p a5
+g1 p a19
+g1 p a6
+g1 p a11
+g1 p a16
+g1 p a1
+g1 p a10
+g1 r a8 a6 a20
+g1 r a2 a16 a8
+g1 r a1 a13 a20
+g1 r a4 a5 a13
+g1 u a11 a5 a8
+g1 u a4 a10 a15
+g1 u a1 a18 a6
+g1 u a7 a11 a8
+g1 u a1 a20 a4
+g1 u a13 a1 a10
+g1 u a19 a2 a15
+g2 p b5
+g2 p b8
+g2 p b12
+g2 p b10
+g2 p b13
+g2 p b11
+g2 p b3
+g2 r b15 b12 b7
+g2 r b1 b13 b15
+g2 r b11 b2 b7
+g2 r b9 b5 b2
+g2 u b10 b5 b15
+g2 u b9 b3 b14
+g2 u b11 b6 b12
+g2 u b4 b10 b15
+g2 u b11 b7 b9
+g2 u b2 b11 b3
+g2 u b8 b1 b14
+end
+case mid_003_n20
+pred t 3 c
+pred u 3 n
+pred w 4 n
+g1 w a20 a7 a6 a5
+g1 w a20 a1 a2 a10
+g1 w a3 a10 a7 a12
+g1 w a17 a13 a20 a14
+g1 w a7 a9 a17 a1
+g1 w a4 a10 a9 a3
+g1 w a6 a1 a4 a19
+g1 u a18 a9 a19
+g1 u a5 a4 a9
+g1 u a16 a3 a11
+g1 u a7 a14 a8
+g1 u a13 a17 a15
+g1 u a16 a19 a12
+g1 u a8 a15 a17
+g1 t a4 a9 a10
+g1 t a5 a6 a16
+g1 t a11 a15 a19
+g1 t a9 a15 a19
+g1 t a7 a16 a19
+g1 t a3 a4 a12
+g2 w b1 b18 b3 b4
+g2 w b1 b11 b6 b8
+g2 w b14 b8 b18 b12
+g2 w b19 b5 b1 b17
+g2 w b18 b13 b19 b11
+g2 w b16 b8 b13 b14
+g2 w b3 b11 b16 b15
+g2 u b7 b13 b15
+g2 u b4 b16 b13
+g2 u b9 b14 b10
+g2 u b18 b17 b20
+g2 u b5 b19 b2
+g2 u b9 b15 b12
+g2 u b20 b2 b19
+g2 t b8 b13 b16
+g2 t b3 b4 b9
+g2 t b2 b10 b15
+g2 t b2 b13 b15
+g2 t b9 b15 b18
+g2 t b12 b14 b16
+end
+case mid_004_n20
+pred s 2 c
+pred t 3 c
+pred w 4 n
+g1 t a14 a15 a20
+g1 t a5 a10 a15
+g1 t a6 a11 a18
+g1 t a10 a13 a17
+g1 t a7 a9 a11
+g1 s a8 a11
+g1 s a4 a12
+g1 s a8 a19
+g1 s a3 a9
+g1 s a2 a18
+g1 s a17 a19
+g1 s a16 a17
+g1 s a2 a20
+g1 s a6 a14
+g1 w a18 a13 a7 a14
+g1 w a18 a1 a16 a7
+g1 w a12 a14 a18 a16
+g1 w a12 a20 a8 a19
+g2 t b5 b10 b14
+g2 t b13 b14 b18
+g2 t b11 b12 b19
+g2 t b3 b18 b20
+g2 t b6 b12 b17
+g2 s b2 b12
+g2 s b1 b16
+g2 s b2 b8
+g2 s b15 b17
+g2 s b9 b11
+g2 s b3 b8
+g2 s b3 b7
+g2 s b5 b9
+g2 s b10 b19
+g2 w b11 b20 b6 b10
+g2 w b11 b4 b7 b6
+g2 w b1 b10 b11 b7
+g2 w b1 b5 b2 b8
+end
+case mid_005_n12
+pred t 3 c
+pred v 2 n
+pred w 4 n
+g1 v a10 a1
+g1 v a12 a5
+g1 v a10 a2
+g1 t a4 a6 a11
+g1 t a1 a5 a9
+g1 t a3 a8 a12
+g1 w a9 a11 a4 a6
+g1 w a2 a11 a8 a12
+g2 v b7 b8
+g2 v b11 b9
+g2 v b7 b4
+g2 t b1 b3 b6
+g2 t b5 b8 b9
+g2 t b2 b10 b11
+g2 w b5 b1 b3 b6
+g2 w b4 b1 b2 b11
+end
+case mid_006_n12
+pred p 1 n
+pred r 3 n
+pred s 2 c
+pred t 3 c
+pred u 3 n
+g1 u a3 a11 a5
+g1 u a8 a9 a7
+g1 u a8 a12 a5
+g1 u a1 a6 a12
+g1 p a5
+g1 p a4
+g1 p a2
+g1 r a8 a2 a3
+g1 r a1 a4 a6
+g1 r a11 a5 a3
+g1 r a2 a1 a6
+g1 r a7 a6 a8
+g1 t a5 a10 a12
+g1 t a7 a8 a11
+g1 t a3 a5 a7
+g1 t a6 a11 a12
+g1 t a4 a6 a9
+g1 t a4 a11 a12
+g1 s a6 a7
+g1 s a4 a9
+g1 s a3 a9
+g1 s a3 a10
+g2 u b1 b6 b11
+g2 u b8 b3 b4
+g2 u b8 b5 b11
+g2 u b10 b9 b5
+g2 p b11
+g2 p b7
+g2 p b12
+g2 r b8 b12 b1
+g2 r b10 b7 b9
+g2 r b6 b11 b1
+g2 r b12 b10 b9
+g2 r b4 b9 b8
+g2 t b2 b5 b11
+g2 t b4 b6 b8
+g2 t b1 b4 b11
+g2 t b5 b6 b9
+g2 t b3 b7 b9
+g2 t b5 b6 b7
+g2 s b4 b9
+g2 s b3 b7
+g2 s b1 b3
+g2 s b1 b2
+end
+case mid_007_n16
+pred t 3 c
+pred u 3 n
+pred v 2 n
+g1 u a12 a16 a1
+g1 u a13 a16 a14
+g1 u a8 a1 a6
+g1 u a13 a12 a16
+g1 u a1 a16 a9
+g1 u a6 a7 a15
+g1 v a15 a2
+g1 v a3 a2
+g1 v a1 a10
+g1 v a16 a1
+g1 v a10 a7
+g1 v a14 a9
+g1 v a10 a6
+g1 v a7 a15
+g1 t a3 a9 a14
+g1 t a1 a6 a9
+g1 t a3 a14 a16
+g1 t a2 a4 a6
+g2 u b7 b4 b6
+g2 u b9 b4 b3
+g2 u b14 b6 b12
+g2 u b9 b7 b4
+g2 u b6 b4 b5
+g2 u b12 b10 b13
+g2 v b13 b8
+g2 v b2 b8
+g2 v b6 b11
+g2 v b4 b6
+g2 v b11 b10
+g2 v b3 b5
+g2 v b11 b12
+g2 v b10 b13
+g2 t b2 b3 b5
+g2 t b5 b6 b12
+g2 t b2 b3 b4
+g2 t b1 b8 b12
+end
+case mid_008_n16
+pred p 1 n
+pred r 3 n
+pred s 2 c
+pred t 3 c
+g1 s a2 a8
+g1 s a2 a15
+g1 s a9 a12
+g1 s a1 a15
+g1 s a14 a16
+g1 s a15 a16
+g1 t a11 a13 a14
+g1 t a8 a10 a11
+g1 t a6 a8 a15
+g1 t a1 a4 a10
+g1 t a1 a7 a10
+g1 r a6 a9 a12
+g1 r a2 a9 a6
+g1 r a2 a5 a16
+g1 p a15
+g1 p a7
+g1 p a6
+g1 p a13
+g1 p a3
+g1 p a1
+g2 s b13 b14
+g2 s b1 b7
+g2 s b1 b8
+g2 s b3 b10
+g2 s b7 b14
+g2 s b11 b13
+g2 t b7 b10 b14
+g2 t b2 b8 b11
+g2 t b6 b9 b12
+g2 t b6 b9 b11
+g2 t b3 b4 b7
+g2 r b14 b6 b2
+g2 r b5 b7 b11
+g2 r b9 b6 b1
+g2 p b5
+g2 p b6
+g2 p b12
+g2 p b9
+g2 p b2
+g2 p b14
+end
+case mid_009_n12
+pred r 3 n
+pred s 2 c
+pred t 3 c
+pred u 3 n
+pred v 2 n
+g1 r a10 a8 a12
+g1 r a11 a1 a6
+g1 r a6 a7 a3
+g1 r a7 a10 a1
+g1 r a5 a10 a8
+g1 u a3 a5 a2
+g1 u a12 a3 a10
+g1 u a12 a2 a11
+g1 u a3 a10 a5
+g1 u a7 a3 a9
+g1 u a3 a12 a4
+g1 s a10 a12
+g1 s a2 a3
+g1 s a4 a9
+g1 s a7 a8
+g1 s a5 a9
+g1 s a6 a8
+g1 v a12 a5
+g1 v a4 a7
+g1 v a5 a11
+g1 v a2 a5
+g1 v a1 a5
+g1 v a9 a11
+g1 t a2 a3 a5
+g1 t a3 a4 a6
+g1 t a1 a4 a5
+g1 t a1 a3 a12
+g1 t a1 a2 a4
+g1 t a2 a6 a12
+g2 r b1 b8 b7
+g2 r b9 b6 b1
+g2 r b4 b2 b7
+g2 r b4 b7 b6
+g2 r b7 b8 b6
+g2 u b9 b4 b8
+g2 u b7 b9 b3
+g2 u b3 b5 b1
+g2 u b6 b1 b11
+g2 u b4 b12 b5
+g2 u b1 b8 b11
+g2 s b5 b6
+g2 s b7 b8
+g2 s b9 b12
+g2 s b5 b11
+g2 s b2 b5
+g2 s b2 b3
+g2 v b12 b6
+g2 v b11 b10
+g2 v b8 b12
+g2 v b8 b5
+g2 v b10 b6
+g2 v b12 b10
+g2 t b1 b8 b11
+g2 t b1 b2 b8
+g2 t b2 b5 b8
+g2 t b5 b8 b11
+g2 t b2 b3 b10
+g2 t b8 b9 b12
+end
+case mid_010_n16
+pred q 2 n
+pred r 3 n
+pred t 3 c
+g1 r a8 a1 a13
+g1 r a6 a2 a7
+g1 r a10 a3 a12
+g1 r a12 a4 a9
+g1 r a13 a8 a16
+g1 q a3 a8
+g1 q a16 a12
+g1 q a4 a15
+g1 q a9 a13
+g1 t a1 a14 a15
+g1 t a2 a10 a13
+g1 t a8 a10 a14
+g1 t a10 a13 a15
+g2 r b1 b4 b12
+g2 r b5 b6 b3
+g2 r b9 b1 b12
+g2 r b10 b8 b13
+g2 r b7 b8 b15
+g2 q b1 b2
+g2 q b4 b7
+g2 q b15 b5
+g2 q b15 b2
+g2 t b8 b10 b14
+g2 t b1 b10 b11
+g2 t b7 b9 b13
+g2 t b7 b10 b13
+end
+case mid_011_n12
+pred q 2 n
+pred r 3 n
+pred s 2 c
+pred t 3 c
+pred u 3 n
+g1 t a9 a10 a11
+g1 t a2 a4 a12
+g1 t a5 a7 a9
+g1 t a2 a5 a6
+g1 r a1 a6 a12
+g1 r a6 a7 a11
+g1 r a10 a6 a8
+g1 r a6 a4 a1
+g1 r a6 a4 a2
+g1 s a3 a11
+g1 s a5 a10
+g1 u a7 a4 a1
+g1 u a4 a10 a5
+g1 u a9 a11 a12
+g1 q a3 a9
+g1 q a11 a10
+g2 t b1 b5 b9
+g2 t b2 b3 b4
+g2 t b1 b7 b8
+g2 t b2 b8 b10
+g2 r b12 b10 b3
+g2 r b10 b7 b9
+g2 r b5 b10 b6
+g2 r b10 b4 b12
+g2 r b10 b4 b2
+g2 s b9 b11
+g2 s b5 b8
+g2 u b7 b4 b12
+g2 u b4 b5 b8
+g2 u b1 b9 b3
+g2 q b11 b1
+g2 q b9 b5
+end
+case mid_012_n12
+pred p 1 n
+pred r 3 n
+pred s 2 c
+pred w 4 n
+g1 w a11 a1 a5 a3
+g1 w a2 a1 a4 a5
+g1 w a2 a4 a11 a6
+g1 s a4 a12
+g1 s a8 a10
+g1 s a2 a11
+g1 s a7 a12
+g1 s a3 a6
+g1 s a2 a5
+g1 p a5
+g1 p a8
+g1 p a4
+g1 p a3
+g1 p a9
+g1 p a1
+g1 r a9 a10 a6
+g1 r a12 a6 a5
+g1 r a10 a7 a11
+g1 r a5 a7 a6
+g1 r a4 a10 a8
+g1 r a8 a11 a7
+g2 w b9 b7 b12 b2
+g2 w b1 b7 b5 b12
+g2 w b1 b5 b9 b3
+g2 s b5 b6
+g2 s b8 b10
+g2 s b1 b9
+g2 s b4 b6
+g2 s b2 b3
+g2 s b1 b12
+g2 p b12
+g2 p b8
+g2 p b5
+g2 p b2
+g2 p b11
+g2 p b7
+g2 r b11 b10 b3
+g2 r b6 b3 b12
+g2 r b10 b4 b9
+g2 r b12 b4 b3
+g2 r b5 b10 b8
+g2 r b8 b9 b4
+end
+case mid_013_n20
+pred t 3 c
+pred u 3 n
+pred v 2 n
+pred w 4 n
+g1 u a2 a16 a13
+g1 u a17 a20 a19
+g1 u a15 a7 a2
+g1 u a4 a15 a2
+g1 u a3 a12 a18
+g1 u a3 a10 a5
+g1 u a9 a20 a7
+g1 v a14 a9
+g1 v a2 a14
+g1 v a16 a15
+g1 w a7 a16 a15 a1
+g1 w a19 a16 a7 a15
+g1 w a3 a18 a20 a15
+g1 w a1 a4 a9 a20
+g1 t a2 a9 a14
+g1 t a3 a19 a20
+g1 t a8 a12 a19
+g1 t a6 a10 a20
+g1 t a9 a12 a20
+g1 t a4 a10 a20
+g1 t a1 a10 a15
+g1 t a1 a15 a16
+g2 u b7 b2 b5
+g2 u b16 b3 b8
+g2 u b6 b12 b7
+g2 u b18 b6 b7
+g2 u b9 b17 b1
+g2 u b9 b14 b13
+g2 u b15 b3 b12
+g2 v b11 b15
+g2 v b7 b11
+g2 v b2 b6
+g2 w b12 b2 b6 b4
+g2 w b8 b2 b12 b6
+g2 w b9 b1 b3 b6
+g2 w b4 b18 b15 b3
+g2 t b7 b11 b15
+g2 t b3 b8 b9
+g2 t b8 b17 b19
+g2 t b3 b10 b14
+g2 t b3 b15 b17
+g2 t b3 b14 b18
+g2 t b4 b6 b14
+g2 t b2 b4 b6
+end
+case mid_014_n16
+pred q 2 n
+pred r 3 n
+pred s 2 c
+pred u 3 n
+pred v 2 n
+g1 v a1 a7
+g1 v a14 a5
+g1 q a5 a12
+g1 q a4 a7
+g1 q a6 a13
+g1 q a6 a14
+g1 q a7 a15
+g1 s a2 a3
+g1 s a11 a13
+g1 s a3 a8
+g1 s a13 a15
+g1 s a10 a13
+g1 s a12 a16
+g1 u a14 a4 a9
+g1 u a7 a12 a13
+g1 u a15 a7 a4
+g1 u a4 a2 a13
+g1 u a7 a8 a10
+g1 r a6 a8 a4
+g1 r a14 a13 a4
+g2 v b14 b10
+g2 v b7 b15
+g2 q b15 b11
+g2 q b8 b10
+g2 q b9 b12
+g2 q b9 b7
+g2 q b10 b16
+g2 s b3 b4
+g2 s b5 b12
+g2 s b2 b3
+g2 s b12 b16
+g2 s b6 b12
+g2 s b11 b13
+g2 u b7 b8 b1
+g2 u b10 b11 b12
+g2 u b16 b10 b8
+g2 u b8 b4 b12
+g2 u b10 b2 b6
+g2 r b9 b2 b8
+g2 r b7 b12 b8
+end
+case mid_015_n12
+pred u 3 n
+pred v 2 n
+pred w 4 n
+g1 v a5 a2
+g1 v a6 a4
+g1 v a6 a9
+g1 w a2 a3 a6 a10
+g1 w a9 a2 a12 a6
+g1 w a1 a5 a3 a11
+g1 w a3 a4 a7 a10
+g1 w a7 a6 a5 a2
+g1 w a2 a1 a11 a3
+g1 u a11 a8 a3
+g1 u a2 a7 a8
+g1 u a11 a7 a4
+g1 u a7 a3 a11
+g2 v b1 b12
+g2 v b8 b10
+g2 v b8 b2
+g2 w b12 b9 b8 b11
+g2 w b2 b12 b3 b8
+g2 w b5 b1 b9 b4
+g2 w b9 b10 b6 b11
+g2 w b6 b8 b1 b12
+g2 w b12 b5 b4 b9
+g2 u b4 b7 b9
+g2 u b12 b6 b7
+g2 u b4 b6 b10
+g2 u b6 b9 b4
+end
+case mid_016_n12
+pred r 3 n
+pred s 2 c
+pred t 3 c
+g1 s a3 a12
+g1 s a8 a10
+g1 s a7 a11
+g1 s a1 a4
+g1 s a3 a10
+g1 s a2 a5
+g1 r a10 a8 a6
+g1 r a10 a9 a12
+g1 t a8 a9 a11
+g1 t a6 a8 a10
+g2 s b5 b7
+g2 s b6 b8
+g2 s b1 b12
+g2 s b2 b3
+g2 s b7 b8
+g2 s b10 b11
+g2 r b8 b6 b4
+g2 r b8 b9 b5
+g2 t b6 b9 b12
+g2 t b4 b6 b8
+end
+case mid_017_n12
+pred p 1 n
+pred q 2 n
+pred r 3 n
+pred t 3 c
+g1 t a1 a11 a12
+g1 t a5 a9 a11
+g1 t a1 a2 a6
+g1 q a5 a12
+g1 q a7 a11
+g1 q a8 a4
+g1 q a4 a6
+g1 q a8 a7
+g1 r a1 a4 a5
+g1 r a4 a8 a7
+g1 p a5
+g1 p a4
+g1 p a7
+g1 p a3
+g2 t b5 b10 b11
+g2 t b5 b7 b9
+g2 t b1 b4 b11
+g2 q b7 b10
+g2 q b3 b5
+g2 q b6 b2
+g2 q b2 b4
+g2 q b6 b3
+g2 r b11 b2 b7
+g2 r b2 b6 b3
+g2 p b7
+g2 p b2
+g2 p b3
+g2 p b8
+end
+case mid_018_n20
+pred p 1 n
+pred r 3 n
+pred s 2 c
+pred t 3 c
+pred w 4 n
+g1 t a14 a15 a19
+g1 t a2 a3 a6
+g1 t a1 a6 a12
+g1 t a10 a14 a16
+g1 s a4 a14
+g1 s a1 a3
+g1 s a2 a6
+g1 s a1 a4
+g1 s a8 a9
+g1 s a6 a15
+g1 s a15 a18
+g1 r a19 a17 a14
+g1 r a9 a3 a18
+g1 r a5 a14 a15
+g1 r a15 a3 a12
+g1 r a11 a9 a19
+g1 r a19 a2 a13
+g1 r a19 a7 a18
+g1 r a20 a9 a19
+g1 p a5
+g1 p a15
+g1 p a7
+g1 p a6
+g1 p a9
+g1 p a16
+g1 p a1
+g1 p a10
+g1 w a7 a18 a3 a15
+g1 w a5 a9 a3 a14
+g1 w a14 a2 a17 a19
+g1 w a2 a17 a1 a20
+g2 t b1 b14 b15
+g2 t b17 b18 b20
+g2 t b2 b15 b19
+g2 t b10 b12 b15
+g2 s b8 b19
+g2 s b4 b16
+g2 s b13 b18
+g2 s b4 b5
+g2 s b12 b17
+g2 s b7 b15
+g2 s b11 b14
+g2 r b2 b8 b17
+g2 r b12 b20 b16
+g2 r b12 b3 b20
+g2 r b1 b5 b10
+g2 r b9 b14 b19
+g2 r b18 b2 b7
+g2 r b10 b1 b8
+g2 r b16 b5 b18
+g2 p b18
+g2 p b6
+g2 p b17
+g2 p b1
+g2 p b3
+g2 p b19
+g2 p b10
+g2 p b9
+g2 w b18 b6 b15 b9
+g2 w b13 b4 b7 b17
+g2 w b8 b9 b4 b10
+g2 w b20 b14 b3 b19
+end
+case mid_019_n16
+pred p 1 n
+pred q 2 n
+pred s 2 c
+pred u 3 n
+g1 p a5
+g1 p a8
+g1 p a6
+g1 p a14
+g1 p a13
+g1 p a9
+g1 p a10
+g1 p a2
+g1 s a7 a16
+g1 s a3 a4
+g1 s a1 a10
+g1 s a7 a12
+g1 u a14 a16 a12
+g1 u a14 a8 a12
+g1 u a4 a13 a11
+g1 u a6 a4 a11
+g1 u a6 a4 a1
+g1 u a10 a2 a13
+g1 u a14 a4 a7
+g1 u a13 a7 a12
+g1 q a10 a16
+g1 q a2 a16
+g2 p b2
+g2 p b6
+g2 p b10
+g2 p b7
+g2 p b11
+g2 p b14
+g2 p b8
+g2 p b1
+g2 s b3 b9
+g2 s b12 b13
+g2 s b5 b8
+g2 s b4 b9
+g2 u b7 b3 b4
+g2 u b7 b6 b4
+g2 u b13 b11 b15
+g2 u b10 b13 b15
+g2 u b10 b13 b5
+g2 u b8 b1 b11
+g2 u b7 b13 b9
+g2 u b11 b9 b4
+g2 q b8 b3
+g2 q b1 b3
+end
+case mid_020_n12
+pred q 2 n
+pred s 2 c
+pred v 2 n
+g1 s a2 a7
+g1 s a9 a12
+g1 s a11 a12
+g1 s a4 a8
+g1 s a7 a10
+g1 q a2 a9
+g1 q a7 a11
+g1 q a9 a5
+g1 v a12 a10
+g1 v a7 a3
+g1 v a6 a8
+g1 v a11 a7
+g1 v a10 a6
+g1 v a1 a12
+g2 s b2 b12
+g2 s b4 b8
+g2 s b8 b9
+g2 s b6 b10
+g2 s b11 b12
+g2 q b2 b4
+g2 q b12 b9
+g2 q b4 b5
+g2 v b8 b11
+g2 v b12 b3
+g2 v b1 b6
+g2 v b9 b12
+g2 v b11 b1
+g2 v b7 b8
+end
+case mid_021_n16
+pred p 1 n
+pred s 2 c
+pred t 3 c
+pred u 3 n
+pred w 4 n
+g1 p a5
+g1 p a14
+g1 p a3
+g1 p a2
+g1 p a16
+g1 p a1
+g1 p a10
+g1 s a2 a12
+g1 s a2 a4
+g1 u a10 a11 a3
+g1 u a4 a1 a8
+g1 u a4 a13 a9
+g1 u a15 a16 a11
+g1 u a1 a8 a11
+g1 u a8 a13 a15
+g1 w a12 a7 a8 a6
+g1 w a3 a11 a16 a9
+g1 w a4 a2 a16 a13
+g1 w a2 a6 a12 a1
+g1 w a3 a5 a12 a10
+g1 t a5 a6 a15
+g1 t a8 a10 a12
+g1 t a5 a13 a15
+g1 t a1 a4 a10
+g1 t a4 a8 a9
+g1 t a5 a7 a11
+g2 p b6
+g2 p b3
+g2 p b12
+g2 p b11
+g2 p b13
+g2 p b16
+g2 p b7
+g2 s b5 b11
+g2 s b4 b11
+g2 u b7 b10 b12
+g2 u b4 b16 b2
+g2 u b4 b14 b8
+g2 u b9 b13 b10
+g2 u b16 b2 b10
+g2 u b2 b14 b9
+g2 w b5 b15 b2 b1
+g2 w b12 b10 b13 b8
+g2 w b4 b11 b13 b14
+g2 w b11 b1 b5 b16
+g2 w b12 b6 b5 b7
+g2 t b1 b6 b9
+g2 t b2 b5 b7
+g2 t b6 b9 b14
+g2 t b4 b7 b16
+g2 t b2 b4 b8
+g2 t b6 b10 b15
+end
+case mid_022_n20
+pred t 3 c
+pred u 3 n
+pred w 4 n
+g1 w a10 a4 a8 a1
+g1 w a5 a14 a13 a15
+g1 w a10 a15 a18 a17
+g1 w a11 a8 a14 a17
+g1 u a9 a4 a14
+g1 u a7 a2 a19
+g1 u a9 a17 a14
+g1 u a2 a8 a13
+g1 u a20 a16 a3
+g1 u a4 a5 a12
+g1 u a19 a18 a10
+g1 u a13 a17 a18
+g1 t a2 a8 a9
+g1 t a7 a12 a14
+g1 t a4 a8 a20
+g1 t a3 a4 a15
+g1 t a7 a15 a19
+g1 t a2 a6 a13
+g1 t a6 a8 a19
+g1 t a4 a5 a19
+g2 w b12 b14 b4 b17
+g2 w b18 b16 b15 b7
+g2 w b12 b7 b9 b10
+g2 w b3 b4 b16 b10
+g2 u b6 b14 b16
+g2 u b2 b19 b20
+g2 u b6 b10 b16
+g2 u b19 b4 b15
+g2 u b11 b13 b5
+g2 u b14 b18 b1
+g2 u b20 b9 b12
+g2 u b15 b10 b9
+g2 t b4 b6 b19
+g2 t b1 b2 b16
+g2 t b4 b11 b14
+g2 t b5 b7 b14
+g2 t b2 b7 b20
+g2 t b8 b15 b19
+g2 t b4 b8 b20
+g2 t b14 b18 b20
+end
+case mid_023_n16
+pred p 1 n
+pred q 2 n
+pred u 3 n
+pred v 2 n
+g1 p a11
+g1 p a8
+g1 p a14
+g1 p a12
+g1 u a14 a15 a1
+g1 u a9 a4 a16
+g1 u a8 a7 a16
+g1 u a16 a13 a7
+g1 u a1 a9 a13
+g1 u a7 a5 a9
+g1 u a7 a16 a2
+g1 q a10 a13
+g1 q a14 a5
+g1 q a8 a14
+g1 q a9 a3
+g1 q a13 a7
+g1 q a14 a16
+g1 v a10 a3
+g1 v a12 a9
+g1 v a9 a2
+g1 v a12 a5
+g2 p b9
+g2 p b12
+g2 p b10
+g2 p b15
+g2 u b10 b13 b8
+g2 u b14 b6 b3
+g2 u b12 b5 b3
+g2 u b3 b2 b5
+g2 u b8 b14 b2
+g2 u b5 b7 b14
+g2 u b5 b3 b1
+g2 q b4 b2
+g2 q b10 b7
+g2 q b12 b10
+g2 q b14 b11
+g2 q b2 b5
+g2 q b10 b3
+g2 v b4 b11
+g2 v b15 b14
+g2 v b14 b1
+g2 v b15 b7
+end
+case mid_024_n12
+pred r 3 n
+pred u 3 n
+pred w 4 n
+g1 u a6 a11 a5
+g1 u a6 a11 a4
+g1 u a8 a11 a9
+g1 u a3 a7 a10
+g1 u a4 a2 a8
+g1 r a10 a8 a11
+g1 r a8 a11 a1
+g1 r a7 a9 a10
+g1 w a5 a2 a1 a6
+g1 w a9 a5 a2 a4
+g1 w a6 a11 a4 a8
+g1 w a11 a2 a7 a3
+g1 w a9 a7 a10 a3
+g2 u b6 b4 b3
+g2 u b6 b4 b7
+g2 u b1 b4 b2
+g2 u b9 b11 b10
+g2 u b7 b5 b1
+g2 r b10 b1 b4
+g2 r b1 b4 b8
+g2 r b11 b2 b10
+g2 w b3 b5 b8 b6
+g2 w b2 b3 b5 b7
+g2 w b6 b4 b7 b1
+g2 w b4 b5 b11 b9
+g2 w b2 b11 b10 b9
+end
+case mid_025_n16
+pred p 1 n
+pred r 3 n
+pred u 3 n
+pred w 4 n
+g1 r a8 a4 a12
+g1 r a5 a13 a3
+g1 r a13 a5 a10
+g1 w a11 a16 a4 a8
+g1 w a10 a15 a1 a2
+g1 w a15 a14 a8 a2
+g1 p a3
+g1 p a14
+g1 u a12 a1 a13
+g1 u a10 a12 a2
+g1 u a10 a3 a16
+g1 u a9 a8 a5
+g2 r b7 b11 b8
+g2 r b8 b6 b13
+g2 r b10 b9 b11
+g2 w b8 b5 b1 b12
+g2 w b5 b7 b3 b10
+g2 w b9 b13 b2 b12
+g2 p b6
+g2 p b2
+g2 u b9 b7 b10
+g2 u b7 b4 b11
+g2 u b5 b9 b11
+g2 u b3 b1 b7
+end
+case mid_026_n16
+pred p 1 n
+pred q 2 n
+pred r 3 n
+pred s 2 c
+pred w 4 n
+g1 p a4
+g1 p a6
+g1 p a12
+g1 p a9
+g1 p a16
+g1 q a9 a2
+g1 q a4 a8
+g1 q a5 a9
+g1 q a16 a11
+g1 q a12 a4
+g1 q a13 a16
+g1 q a7 a10
+g1 q a9 a12
+g1 s a11 a16
+g1 s a7 a10
+g1 s a2 a8
+g1 w a3 a15 a1 a12
+g1 w a1 a8 a7 a2
+g1 w a2 a6 a9 a5
+g1 w a1 a11 a4 a16
+g1 w a13 a3 a9 a10
+g1 w a4 a3 a6 a12
+g1 w a9 a5 a6 a7
+g1 r a11 a13 a8
+g1 r a8 a13 a5
+g1 r a9 a10 a16
+g1 r a12 a7 a13
+g2 p b9
+g2 p b4
+g2 p b15
+g2 p b1
+g2 p b13
+g2 q b1 b12
+g2 q b9 b2
+g2 q b11 b1
+g2 q b13 b8
+g2 q b15 b9
+g2 q b3 b13
+g2 q b10 b7
+g2 q b1 b15
+g2 s b8 b13
+g2 s b7 b10
+g2 s b2 b12
+g2 w b14 b5 b6 b15
+g2 w b6 b2 b10 b12
+g2 w b12 b4 b1 b11
+g2 w b6 b8 b9 b13
+g2 w b3 b14 b1 b7
+g2 w b9 b14 b4 b15
+g2 w b1 b11 b4 b10
+g2 r b8 b3 b2
+g2 r b2 b3 b11
+g2 r b1 b7 b13
+g2 r b15 b10 b3
+end
+case mid_027_n20
+pred p 1 n
+pred s 2 c
+pred t 3 c
+pred u 3 n
+pred v 2 n
+g1 p a5
+g1 p a15
+g1 p a19
+g1 p a13
+g1 p a17
+g1 p a11
+g1 p a10
+g1 p a1
+g1 p a2
+g1 u a6 a1 a7
+g1 u a19 a12 a13
+g1 u a20 a13 a10
+g1 u a13 a18 a8
+g1 u a9 a20 a7
+g1 s a2 a17
+g1 s a3 a4
+g1 s a3 a6
+g1 s a8 a19
+g1 s a13 a16
+g1 s a5 a16
+g1 s a6 a19
+g1 s a9 a11
+g1 v a7 a5
+g1 v a18 a11
+g1 v a4 a6
+g1 v a2 a9
+g1 v a14 a13
+g1 t a17 a18 a20
+g1 t a1 a11 a12
+g1 t a4 a5 a6
+g1 t a11 a15 a17
+g1 t a4 a6 a18
+g1 t a2 a4 a20
+g1 t a1 a7 a15
+g1 t a6 a10 a15
+g1 t a5 a18 a19
+g1 t a11 a16 a18
+g2 p b7
+g2 p b5
+g2 p b15
+g2 p b20
+g2 p b3
+g2 p b11
+g2 p b4
+g2 p b19
+g2 p b12
+g2 u b17 b19 b9
+g2 u b15 b13 b20
+g2 u b1 b20 b4
+g2 u b20 b18 b8
+g2 u b14 b1 b9
+g2 s b3 b12
+g2 s b10 b16
+g2 s b16 b17
+g2 s b8 b15
+g2 s b2 b20
+g2 s b2 b7
+g2 s b15 b17
+g2 s b11 b14
+g2 v b9 b7
+g2 v b18 b11
+g2 v b10 b17
+g2 v b12 b14
+g2 v b6 b20
+g2 t b1 b3 b18
+g2 t b11 b13 b19
+g2 t b7 b10 b17
+g2 t b3 b5 b11
+g2 t b10 b17 b18
+g2 t b1 b10 b12
+g2 t b5 b9 b19
+g2 t b4 b5 b17
+g2 t b7 b15 b18
+g2 t b2 b11 b18
+end
+case mid_028_n12
+pred p 1 n
+pred q 2 n
+pred t 3 c
+pred w 4 n
+g1 q a7 a4
+g1 q a5 a3
+g1 q a12 a8
+g1 p a10
+g1 p a6
+g1 t a2 a7 a8
+g1 t a1 a3 a12
+g1 t a5 a7 a8
+g1 w a11 a4 a9 a2
+g1 w a5 a11 a12 a9
+g1 w a5 a2 a11 a3
+g1 w a1 a11 a5 a2
+g1 w a10 a6 a8 a1
+g1 w a8 a10 a12 a2
+g2 q b5 b9
+g2 q b4 b8
+g2 q b11 b12
+g2 p b2
+g2 p b6
+g2 t b3 b5 b12
+g2 t b8 b10 b11
+g2 t b4 b5 b12
+g2 w b1 b9 b7 b3
+g2 w b4 b1 b11 b7
+g2 w b4 b3 b1 b8
+g2 w b10 b1 b4 b3
+g2 w b2 b6 b12 b10
+g2 w b12 b2 b11 b3
+end
+case mid_029_n16
+pred q 2 n
+pred s 2 c
+pred u 3 n
+pred v 2 n
+pred w 4 n
+g1 q a13 a5
+g1 q a6 a5
+g1 q a16 a8
+g1 q a14 a7
+g1 q a7 a16
+g1 q a2 a14
+g1 q a12 a11
+g1 u a3 a15 a12
+g1 u a9 a5 a14
+g1 u a12 a3 a15
+g1 u a2 a15 a13
+g1 u a15 a3 a10
+g1 u a14 a11 a10
+g1 u a14 a13 a12
+g1 u a15 a11 a16
+g1 v a2 a12
+g1 v a15 a5
+g1 v a11 a10
+g1 s a10 a12
+g1 s a9 a10
+g1 s a5 a11
+g1 s a4 a5
+g1 s a1 a6
+g1 s a8 a16
+g1 s a1 a12
+g1 w a5 a1 a14 a4
+g1 w a12 a9 a14 a13
+g1 w a1 a8 a4 a5
+g1 w a1 a13 a9 a7
+g1 w a11 a6 a9 a1
+g2 q b8 b13
+g2 q b5 b13
+g2 q b10 b14
+g2 q b7 b9
+g2 q b9 b10
+g2 q b11 b7
+g2 q b16 b1
+g2 u b2 b3 b16
+g2 u b6 b13 b7
+g2 u b16 b2 b3
+g2 u b11 b3 b8
+g2 u b3 b2 b12
+g2 u b7 b1 b12
+g2 u b7 b8 b16
+g2 u b3 b1 b10
+g2 v b11 b16
+g2 v b3 b13
+g2 v b1 b12
+g2 s b12 b16
+g2 s b6 b12
+g2 s b1 b13
+g2 s b13 b15
+g2 s b4 b5
+g2 s b10 b14
+g2 s b4 b16
+g2 w b13 b4 b7 b15
+g2 w b16 b6 b7 b8
+g2 w b4 b14 b15 b13
+g2 w b4 b8 b6 b9
+g2 w b1 b5 b6 b4
+end
+case mid_030_n12
+pred s 2 c
+pred t 3 c
+pred u 3 n
+g1 s a6 a7
+g1 s a7 a10
+g1 s a1 a11
+g1 s a3 a5
+g1 s a5 a8
+g1 u a3 a11 a5
+g1 u a6 a5 a3
+g1 u a3 a1 a6
+g1 t a3 a7 a11
+g1 t a6 a8 a11
+g1 t a1 a3 a11
+g2 s b2 b4
+g2 s b1 b3
+g2 s b4 b10
+g2 s b4 b8
+g2 s b3 b8
+g2 u b11 b8 b9
+g2 u b9 b7 b6
+g2 u b1 b10 b6
+g2 t b5 b8 b9
+g2 t b5 b7 b11
+g2 t b3 b6 b10
+end
+case mid_031_n12
+pred s 2 c
+pred t 3 c
+pred v 2 n
+g1 v a1 a2
+g1 v a2 a6
+g1 v a8 a11
+g1 t a6 a8 a9
+g1 t a1 a6 a8
+g1 t a3 a4 a6
+g1 s a1 a9
+g1 s a11 a12
+g1 s a2 a6
+g1 s a3 a10
+g1 s a3 a5
+g1 s a3 a7
+g2 v b9 b2
+g2 v b2 b7
+g2 v b1 b5
+g2 t b1 b3 b7
+g2 t b1 b7 b9
+g2 t b6 b7 b11
+g2 s b3 b9
+g2 s b5 b12
+g2 s b2 b7
+g2 s b10 b11
+g2 s b8 b11
+g2 s b4 b11
+end
+case mid_032_n12
+pred p 1 n
+pred r 3 n
+pred s 2 c
+pred t 3 c
+g1 r a2 a3 a5
+g1 r a6 a3 a7
+g1 r a12 a8 a1
+g1 t a1 a7 a12
+g1 t a2 a3 a9
+g1 t a1 a4 a9
+g1 s a2 a3
+g1 s a8 a12
+g1 s a5 a8
+g1 s a2 a10
+g1 s a9 a11
+g1 s a6 a8
+g1 p a8
+g1 p a3
+g1 p a12
+g1 p a1
+g1 p a10
+g2 r b7 b4 b8
+g2 r b5 b4 b10
+g2 r b12 b1 b6
+g2 t b6 b10 b12
+g2 t b3 b4 b7
+g2 t b3 b6 b9
+g2 s b4 b7
+g2 s b1 b12
+g2 s b1 b8
+g2 s b2 b7
+g2 s b3 b11
+g2 s b1 b5
+g2 p b1
+g2 p b4
+g2 p b12
+g2 p b6
+g2 p b2
+end
+case mid_033_n12
+pred q 2 n
+pred r 3 n
+pred t 3 c
+g1 q a10 a3
+g1 q a1 a10
+g1 r a10 a8 a5
+g1 r a3 a10 a11
+g1 r a6 a11 a5
+g1 r a6 a8 a7
+g1 r a9 a3 a12
+g1 r a11 a3 a1
+g1 t a4 a9 a12
+g1 t a6 a9 a12
+g2 q b8 b3
+g2 q b11 b8
+g2 r b8 b4 b2
+g2 r b3 b8 b10
+g2 r b5 b10 b2
+g2 r b5 b4 b7
+g2 r b1 b3 b9
+g2 r b10 b3 b11
+g2 t b1 b6 b9
+g2 t b1 b5 b9
+end
+case mid_034_n20
+pred p 1 n
+pred q 2 n
+pred r 3 n
+pred w 4 n
+g1 r a17 a19 a20
+g1 r a1 a10 a18
+g1 r a14 a10 a17
+g1 r a9 a4 a17
+g1 r a16 a15 a7
+g1 r a8 a1 a6
+g1 r a10 a2 a9
+g1 r a4 a2 a10
+g1 q a12 a13
+g1 q a10 a19
+g1 q a16 a19
+g1 q a9 a11
+g1 q a10 a14
+g1 p a15
+g1 p a1
+g1 p a20
+g1 w a17 a7 a16 a10
+g1 w a5 a18 a10 a11
+g1 w a9 a3 a16 a4
+g1 w a15 a12 a3 a17
+g2 r b13 b12 b2
+g2 r b16 b11 b4
+g2 r b18 b1 b15
+g2 r b2 b19 b8
+g2 r b16 b18 b17
+g2 r b10 b18 b1
+g2 r b3 b17 b9
+g2 r b3 b18 b8
+g2 q b6 b3
+g2 q b12 b6
+g2 q b4 b1
+g2 q b12 b5
+g2 q b17 b7
+g2 p b13
+g2 p b2
+g2 p b3
+g2 w b4 b9 b12 b20
+g2 w b20 b18 b3 b12
+g2 w b17 b14 b11 b12
+g2 w b12 b3 b20 b5
+end
+case mid_035_n20
+pred p 1 n
+pred q 2 n
+pred r 3 n
+pred s 2 c
+pred t 3 c
+g1 s a10 a16
+g1 s a3 a8
+g1 s a12 a17
+g1 s a8 a9
+g1 s a12 a16
+g1 p a15
+g1 p a11
+g1 p a12
+g1 t a2 a3 a12
+g1 t a1 a3 a19
+g1 t a11 a13 a18
+g1 t a4 a5 a12
+g1 t a5 a11 a18
+g1 t a8 a10 a12
+g1 t a3 a10 a11
+g1 t a1 a8 a11
+g1 t a8 a16 a20
+g1 r a8 a20 a11
+g1 r a15 a4 a12
+g1 r a8 a11 a7
+g1 r a12 a2 a7
+g1 r a2 a8 a11
+g1 r a16 a1 a17
+g1 r a11 a16 a13
+g1 r a15 a13 a14
+g1 q a10 a12
+g1 q a13 a3
+g1 q a13 a9
+g1 q a4 a18
+g1 q a15 a16
+g1 q a17 a9
+g1 q a9 a6
+g1 q a5 a18
+g1 q a15 a8
+g2 s b7 b17
+g2 s b8 b16
+g2 s b1 b4
+g2 s b8 b11
+g2 s b1 b7
+g2 p b18
+g2 p b15
+g2 p b1
+g2 t b1 b9 b16
+g2 t b3 b12 b16
+g2 t b2 b15 b19
+g2 t b1 b6 b14
+g2 t b2 b14 b15
+g2 t b1 b8 b17
+g2 t b15 b16 b17
+g2 t b3 b8 b15
+g2 t b5 b7 b8
+g2 r b8 b5 b15
+g2 r b18 b6 b1
+g2 r b8 b15 b20
+g2 r b1 b9 b20
+g2 r b9 b8 b15
+g2 r b7 b3 b4
+g2 r b15 b7 b19
+g2 r b18 b19 b10
+g2 q b17 b1
+g2 q b19 b16
+g2 q b19 b11
+g2 q b6 b2
+g2 q b18 b7
+g2 q b4 b11
+g2 q b11 b13
+g2 q b14 b2
+g2 q b18 b8
+end
+case mid_036_n20
+pred q 2 n
+pred s 2 c
+pred t 3 c
+pred w 4 n
+g1 q a3 a2
+g1 q a19 a9
+g1 q a9 a19
+g1 q a4 a17
+g1 q a14 a3
+g1 q a2 a11
+g1 w a7 a5 a11 a2
+g1 w a13 a2 a5 a1
+g1 w a10 a3 a13 a12
+g1 w a14 a3 a19 a8
+g1 w a5 a6 a2 a17
+g1 w a19 a17 a7 a20
+g1 w a18 a15 a14 a10
+g1 w a4 a20 a17 a15
+g1 s a10 a12
+g1 s a7 a14
+g1 s a5 a14
+g1 s a12 a19
+g1 s a9 a12
+g1 s a16 a17
+g1 s a7 a9
+g1 s a18 a20
+g1 t a5 a8 a18
+g1 t a1 a5 a20
+g1 t a1 a12 a14
+g1 t a7 a9 a13
+g1 t a1 a4 a14
+g1 t a14 a19 a20
+g2 q b14 b10
+g2 q b18 b1
+g2 q b16 b11
+g2 q b20 b5
+g2 q b2 b8
+g2 q b5 b2
+g2 w b13 b2 b12 b5
+g2 w b10 b15 b13 b19
+g2 w b7 b14 b18 b13
+g2 w b1 b15 b9 b8
+g2 w b1 b20 b7 b14
+g2 w b8 b1 b3 b9
+g2 w b6 b3 b7 b14
+g2 w b1 b15 b18 b14
+g2 s b3 b15
+g2 s b5 b20
+g2 s b6 b8
+g2 s b12 b14
+g2 s b14 b16
+g2 s b1 b5
+g2 s b8 b12
+g2 s b6 b18
+g2 t b1 b9 b10
+g2 t b2 b3 b7
+g2 t b4 b14 b17
+g2 t b1 b6 b12
+g2 t b15 b16 b18
+g2 t b7 b8 b17
+end
+case mid_037_n16
+pred p 1 n
+pred q 2 n
+pred v 2 n
+pred w 4 n
+g1 w a3 a13 a5 a14
+g1 w a16 a7 a6 a9
+g1 w a3 a5 a1 a2
+g1 w a3 a4 a12 a6
+g1 w a13 a14 a7 a11
+g1 q a16 a10
+g1 q a5 a2
+g1 q a8 a2
+g1 q a15 a2
+g1 q a14 a11
+g1 p a3
+g1 p a14
+g1 p a16
+g1 v a4 a10
+g1 v a1 a15
+g1 v a12 a5
+g2 w b6 b11 b5 b8
+g2 w b10 b14 b5 b4
+g2 w b1 b10 b12 b7
+g2 w b13 b8 b3 b6
+g2 w b15 b12 b2 b8
+g2 q b10 b11
+g2 q b12 b6
+g2 q b14 b15
+g2 q b15 b6
+g2 q b11 b8
+g2 p b9
+g2 p b3
+g2 p b10
+g2 v b15 b8
+g2 v b12 b14
+g2 v b5 b13
+end
+case mid_038_n12
+pred q 2 n
+pred t 3 c
+pred u 3 n
+g1 u a9 a11 a3
+g1 u a10 a11 a4
+g1 u a5 a10 a3
+g1 u a4 a7 a12
+g1 u a4 a1 a9
+g1 t a4 a6 a11
+g1 t a6 a8 a11
+g1 t a8 a11 a12
+g1 t a3 a10 a12
+g1 t a4 a5 a7
+g1 q a6 a10
+g1 q a9 a12
+g2 u b11 b3 b7
+g2 u b1 b3 b8
+g2 u b6 b1 b7
+g2 u b8 b5 b4
+g2 u b8 b9 b11
+g2 t b2 b3 b8
+g2 t b2 b3 b10
+g2 t b3 b4 b10
+g2 t b1 b4 b7
+g2 t b5 b6 b8
+g2 q b2 b1
+g2 q b11 b4
+end
+case mid_039_n20
+pred u 3 n
+pred v 2 n
+pred w 4 n
+g1 v a15 a17
+g1 v a13 a4
+g1 w a7 a15 a9 a10
+g1 w a5 a12 a11 a9
+g1 w a10 a8 a11 a17
+g1 w a8 a1 a5 a11
+g1 w a14 a5 a4 a7
+g1 u a8 a2 a13
+g1 u a8 a15 a10
+g2 v b13 b10
+g2 v b11 b12
+g2 w b14 b13 b2 b4
+g2 w b8 b7 b9 b2
+g2 w b4 b5 b9 b10
+g2 w b5 b3 b8 b9
+g2 w b6 b8 b12 b14
+g2 u b5 b1 b11
+g2 u b5 b13 b4
+end
+case mid_040_n20
+pred p 1 n
+pred r 3 n
+pred s 2 c
+g1 r a1 a5 a17
+g1 r a4 a11 a19
+g1 r a15 a17 a19
+g1 r a10 a17 a18
+g1 r a3 a7 a11
+g1 r a5 a7 a4
+g1 r a17 a1 a11
+g1 r a9 a13 a18
+g1 r a8 a17 a19
+g1 r a15 a7 a8
+g1 s a2 a4
+g1 s a1 a3
+g1 s a5 a20
+g1 s a9 a16
+g1 s a5 a9
+g1 s a4 a13
+g1 s a11 a15
+g1 s a7 a19
+g1 s a8 a16
+g1 s a18 a20
+g1 p a10
+g1 p a4
+g1 p a1
+g1 p a12
+g2 r b12 b5 b4
+g2 r b3 b16 b1
+g2 r b10 b4 b1
+g2 r b6 b4 b8
+g2 r b13 b9 b16
+g2 r b5 b9 b3
+g2 r b4 b12 b16
+g2 r b11 b14 b8
+g2 r b17 b4 b1
+g2 r b10 b9 b17
+g2 s b3 b7
+g2 s b12 b13
+g2 s b5 b18
+g2 s b11 b15
+g2 s b5 b11
+g2 s b3 b14
+g2 s b10 b16
+g2 s b1 b9
+g2 s b15 b17
+g2 s b8 b18
+g2 p b6
+g2 p b3
+g2 p b12
+g2 p b2
+end
+case mid_041_n20
+pred p 1 n
+pred r 3 n
+pred s 2 c
+pred u 3 n
+g1 s a10 a16
+g1 s a2 a16
+g1 s a1 a13
+g1 s a5 a6
+g1 s a14 a20
+g1 s a9 a17
+g1 s a7 a9
+g1 s a15 a17
+g1 s a8 a20
+g1 p a5
+g1 p a8
+g1 p a19
+g1 p a7
+g1 p a20
+g1 p a1
+g1 u a19 a7 a4
+g1 u a19 a7 a3
+g1 u a10 a3 a5
+g1 r a15 a4 a6
+g1 r a20 a6 a17
+g1 r a2 a14 a19
+g1 r a1 a7 a15
+g1 r a14 a4 a9
+g1 r a7 a10 a18
+g1 r a13 a19 a8
+g1 r a4 a14 a16
+g1 r a1 a16 a4
+g1 r a20 a12 a15
+g2 s b3 b12
+g2 s b6 b14
+g2 s b8 b13
+g2 s b1 b12
+g2 s b6 b9
+g2 s b14 b16
+g2 s b3 b5
+g2 s b6 b11
+g2 s b9 b11
+g2 p b7
+g2 p b12
+g2 p b15
+g2 p b2
+g2 p b5
+g2 p b4
+g2 u b14 b15 b10
+g2 u b5 b2 b1
+g2 u b3 b2 b15
+g2 r b8 b16 b4
+g2 r b13 b16 b12
+g2 r b3 b13 b8
+g2 r b8 b17 b15
+g2 r b4 b10 b8
+g2 r b12 b1 b3
+g2 r b1 b16 b7
+g2 r b4 b12 b5
+g2 r b7 b3 b17
+g2 r b18 b12 b1
+end
+case mid_042_n16
+pred p 1 n
+pred q 2 n
+pred t 3 c
+g1 p a15
+g1 p a11
+g1 p a14
+g1 p a12
+g1 t a5 a8 a14
+g1 t a1 a11 a12
+g1 t a1 a2 a8
+g1 t a6 a12 a14
+g1 t a5 a6 a16
+g1 t a2 a9 a12
+g1 t a7 a13 a15
+g1 t a1 a4 a8
+g1 q a4 a15
+g1 q a4 a10
+g1 q a3 a10
+g1 q a5 a9
+g1 q a16 a2
+g1 q a3 a14
+g1 q a7 a15
+g2 p b14
+g2 p b8
+g2 p b13
+g2 p b7
+g2 t b2 b13 b16
+g2 t b7 b8 b15
+g2 t b2 b6 b15
+g2 t b7 b9 b13
+g2 t b1 b9 b16
+g2 t b3 b6 b7
+g2 t b5 b11 b14
+g2 t b2 b4 b15
+g2 q b4 b14
+g2 q b4 b12
+g2 q b10 b12
+g2 q b16 b3
+g2 q b1 b6
+g2 q b10 b13
+g2 q b11 b14
+end
+case mid_043_n12
+pred p 1 n
+pred q 2 n
+pred s 2 c
+pred u 3 n
+pred w 4 n
+g1 u a7 a12 a1
+g1 u a11 a5 a8
+g1 u a4 a11 a5
+g1 s a4 a9
+g1 s a5 a10
+g1 s a11 a12
+g1 s a3 a5
+g1 s a6 a10
+g1 s a3 a7
+g1 w a5 a6 a12 a2
+g1 w a5 a1 a4 a9
+g1 w a10 a8 a3 a1
+g1 w a12 a8 a6 a4
+g1 q a8 a4
+g1 q a10 a4
+g1 p a8
+g1 p a7
+g1 p a4
+g1 p a6
+g1 p a3
+g1 p a12
+g2 u b10 b9 b4
+g2 u b8 b1 b2
+g2 u b12 b8 b1
+g2 s b6 b12
+g2 s b1 b3
+g2 s b8 b9
+g2 s b1 b7
+g2 s b3 b5
+g2 s b7 b10
+g2 w b1 b5 b9 b11
+g2 w b1 b4 b12 b6
+g2 w b3 b2 b7 b4
+g2 w b9 b2 b5 b12
+g2 q b2 b12
+g2 q b3 b12
+g2 p b2
+g2 p b10
+g2 p b12
+g2 p b5
+g2 p b7
+g2 p b9
+end
+case mid_044_n12
+pred s 2 c
+pred t 3 c
+pred u 3 n
+pred v 2 n
+g1 s a8 a12
+g1 s a2 a12
+g1 s a4 a12
+g1 s a1 a5
+g1 v a11 a9
+g1 v a12 a10
+g1 v a3 a8
+g1 v a9 a12
+g1 u a9 a3 a6
+g1 u a9 a4 a8
+g1 u a8 a7 a5
+g1 u a10 a9 a2
+g1 t a1 a2 a10
+g1 t a6 a7 a11
+g1 t a6 a9 a10
+g1 t a3 a10 a12
+g1 t a3 a6 a11
+g2 s b4 b12
+g2 s b5 b12
+g2 s b11 b12
+g2 s b7 b10
+g2 v b3 b8
+g2 v b12 b9
+g2 v b1 b4
+g2 v b8 b12
+g2 u b8 b1 b6
+g2 u b8 b11 b4
+g2 u b4 b2 b7
+g2 u b9 b8 b5
+g2 t b5 b9 b10
+g2 t b2 b3 b6
+g2 t b6 b8 b9
+g2 t b1 b9 b12
+g2 t b1 b3 b6
+end
+case mid_045_n16
+pred q 2 n
+pred r 3 n
+pred s 2 c
+pred u 3 n
+g1 s a5 a10
+g1 s a12 a16
+g1 s a2 a6
+g1 s a4 a15
+g1 q a4 a15
+g1 q a3 a8
+g1 q a2 a3
+g1 q a3 a4
+g1 r a5 a1 a8
+g1 r a14 a16 a12
+g1 r a13 a14 a15
+g1 r a12 a11 a2
+g1 r a9 a15 a14
+g1 r a7 a12 a2
+g1 r a11 a1 a14
+g1 r a7 a14 a5
+g1 u a9 a16 a3
+g1 u a5 a7 a3
+g1 u a8 a7 a14
+g1 u a6 a4 a9
+g1 u a13 a11 a4
+g1 u a14 a1 a10
+g1 u a8 a6 a14
+g2 s b11 b14
+g2 s b5 b15
+g2 s b1 b4
+g2 s b12 b13
+g2 q b13 b12
+g2 q b2 b16
+g2 q b1 b2
+g2 q b2 b13
+g2 r b11 b8 b16
+g2 r b7 b15 b5
+g2 r b10 b7 b12
+g2 r b5 b3 b1
+g2 r b6 b12 b7
+g2 r b9 b5 b1
+g2 r b3 b8 b7
+g2 r b9 b7 b11
+g2 u b6 b15 b2
+g2 u b11 b9 b2
+g2 u b16 b9 b7
+g2 u b4 b13 b6
+g2 u b10 b3 b13
+g2 u b7 b8 b14
+g2 u b16 b4 b7
+end
+case mid_046_n12
+pred q 2 n
+pred r 3 n
+pred u 3 n
+pred v 2 n
+g1 q a9 a7
+g1 q a7 a3
+g1 q a11 a9
+g1 q a1 a3
+g1 q a3 a11
+g1 q a2 a11
+g1 u a11 a6 a10
+g1 u a5 a12 a3
+g1 u a3 a5 a7
+g1 r a3 a10 a8
+g1 r a10 a2 a1
+g1 v a12 a7
+g1 v a3 a2
+g1 v a1 a8
+g1 v a2 a3
+g1 v a9 a12
+g1 v a1 a3
+g2 q b3 b1
+g2 q b1 b7
+g2 q b2 b3
+g2 q b9 b7
+g2 q b7 b2
+g2 q b11 b2
+g2 u b2 b4 b5
+g2 u b8 b6 b7
+g2 u b7 b8 b1
+g2 r b7 b5 b10
+g2 r b5 b11 b9
+g2 v b6 b1
+g2 v b7 b11
+g2 v b9 b10
+g2 v b11 b7
+g2 v b3 b6
+g2 v b9 b7
+end
+case mid_047_n12
+pred p 1 n
+pred t 3 c
+pred w 4 n
+g1 t a3 a6 a12
+g1 t a1 a5 a7
+g1 t a3 a6 a8
+g1 t a1 a4 a9
+g1 w a5 a4 a11 a10
+g1 w a9 a12 a10 a3
+g1 w a5 a8 a1 a6
+g1 w a3 a12 a6 a8
+g1 p a5
+g1 p a4
+g1 p a2
+g1 p a12
+g2 t b6 b7 b11
+g2 t b1 b3 b5
+g2 t b2 b4 b6
+g2 t b2 b6 b8
+g2 w b6 b9 b2 b5
+g2 w b11 b2 b1 b7
+g2 w b8 b4 b6 b7
+g2 w b10 b1 b7 b11
+g2 p b7
+g2 p b2
+g2 p b4
+g2 p b11
+end
+case mid_048_n12
+pred p 1 n
+pred q 2 n
+pred u 3 n
+pred w 4 n
+g1 w a3 a10 a5 a2
+g1 w a9 a10 a8 a2
+g1 w a5 a1 a10 a6
+g1 w a1 a7 a11 a12
+g1 p a5
+g1 p a8
+g1 p a4
+g1 p a12
+g1 p a11
+g1 p a9
+g1 u a5 a6 a10
+g1 u a8 a1 a5
+g1 u a1 a5 a2
+g1 u a10 a8 a11
+g1 u a8 a7 a10
+g1 u a12 a6 a2
+g1 q a11 a3
+g1 q a11 a4
+g1 q a5 a4
+g1 q a2 a9
+g2 w b6 b8 b2 b9
+g2 w b4 b8 b3 b9
+g2 w b2 b5 b8 b11
+g2 w b5 b1 b7 b12
+g2 p b2
+g2 p b3
+g2 p b10
+g2 p b12
+g2 p b7
+g2 p b4
+g2 u b2 b11 b8
+g2 u b3 b5 b2
+g2 u b5 b2 b9
+g2 u b8 b3 b7
+g2 u b3 b1 b8
+g2 u b12 b11 b9
+g2 q b7 b6
+g2 q b7 b10
+g2 q b2 b10
+g2 q b9 b4
+end
+case mid_049_n12
+pred q 2 n
+pred r 3 n
+pred s 2 c
+pred u 3 n
+pred v 2 n
+g1 q a6 a10
+g1 q a8 a9
+g1 q a7 a3
+g1 q a2 a7
+g1 q a4 a9
+g1 r a6 a2 a5
+g1 r a5 a3 a8
+g1 r a1 a11 a8
+g1 r a1 a3 a9
+g1 r a5 a3 a4
+g1 u a12 a5 a1
+g1 u a4 a7 a6
+g1 u a1 a8 a9
+g1 u a3 a7 a10
+g1 u a3 a5 a12
+g1 u a2 a6 a5
+g1 v a3 a5
+g1 v a4 a2
+g1 s a9 a12
+g1 s a1 a6
+g2 q b7 b9
+g2 q b11 b1
+g2 q b12 b3
+g2 q b9 b5
+g2 q b12 b9
+g2 r b10 b9 b11
+g2 r b10 b7 b8
+g2 r b8 b9 b4
+g2 r b2 b5 b1
+g2 r b6 b4 b7
+g2 u b5 b2 b9
+g2 u b2 b4 b9
+g2 u b2 b6 b7
+g2 u b2 b5 b4
+g2 u b9 b8 b5
+g2 u b10 b8 b1
+g2 v b12 b4
+g2 v b7 b10
+g2 s b1 b12
+g2 s b5 b7
+end
+case mid_050_n12
+pred p 1 n
+pred s 2 c
+pred t 3 c
+pred v 2 n
+g1 v a12 a4
+g1 v a10 a9
+g1 v a9 a11
+g1 v a3 a7
+g1 p a5
+g1 p a9
+g1 p a4
+g1 p a12
+g1 t a1 a5 a11
+g1 t a5 a8 a9
+g1 t a1 a6 a9
+g1 t a4 a10 a11
+g1 t a7 a9 a12
+g1 t a7 a8 a12
+g1 s a2 a11
+g1 s a9 a11
+g2 v b2 b4
+g2 v b4 b1
+g2 v b2 b3
+g2 v b7 b10
+g2 p b3
+g2 p b4
+g2 p b10
+g2 p b11
+g2 t b2 b7 b10
+g2 t b9 b11 b12
+g2 t b3 b9 b10
+g2 t b2 b9 b12
+g2 t b7 b8 b9
+g2 t b4 b10 b11
+g2 s b6 b11
+g2 s b2 b5
+end
+case mid_051_n12
+pred q 2 n
+pred r 3 n
+pred s 2 c
+pred t 3 c
+pred u 3 n
+g1 r a12 a4 a1
+g1 r a11 a6 a8
+g1 r a8 a12 a11
+g1 r a7 a2 a5
+g1 r a8 a2 a12
+g1 u a6 a10 a8
+g1 u a6 a3 a2
+g1 t a2 a8 a12
+g1 t a2 a3 a11
+g1 t a3 a11 a12
+g1 t a2 a4 a8
+g1 t a3 a6 a12
+g1 s a10 a12
+g1 s a5 a9
+g1 s a4 a5
+g1 q a12 a6
+g1 q a3 a2
+g2 r b3 b7 b2
+g2 r b9 b8 b12
+g2 r b12 b3 b9
+g2 r b1 b10 b11
+g2 r b12 b10 b3
+g2 u b8 b4 b12
+g2 u b8 b5 b10
+g2 t b3 b10 b12
+g2 t b5 b9 b10
+g2 t b3 b5 b9
+g2 t b7 b10 b12
+g2 t b3 b5 b8
+g2 s b3 b4
+g2 s b6 b11
+g2 s b7 b11
+g2 q b3 b8
+g2 q b5 b10
+end
+case mid_052_n12
+pred p 1 n
+pred u 3 n
+pred w 4 n
+g1 w a3 a11 a1 a4
+g1 w a1 a6 a9 a11
+g1 w a5 a1 a11 a3
+g1 w a2 a4 a9 a7
+g1 w a2 a8 a7 a12
+g1 w a3 a9 a8 a11
+g1 p a8
+g1 p a3
+g1 u a9 a10 a11
+g1 u a2 a8 a12
+g1 u a7 a8 a11
+g1 u a7 a3 a12
+g1 u a11 a6 a12
+g2 w b4 b1 b12 b3
+g2 w b8 b4 b10 b11
+g2 w b4 b9 b2 b7
+g2 w b6 b9 b8 b12
+g2 w b6 b3 b2 b4
+g2 w b3 b7 b6 b4
+g2 p b3
+g2 p b4
+g2 u b5 b11 b1
+g2 u b4 b9 b3
+g2 u b7 b4 b11
+g2 u b12 b9 b8
+g2 u b4 b7 b1
+end
+case mid_053_n16
+pred p 1 n
+pred q 2 n
+pred t 3 c
+g1 q a15 a16
+g1 q a12 a14
+g1 p a7
+g1 p a3
+g1 p a12
+g1 p a9
+g1 p a16
+g1 t a10 a14 a16
+g1 t a3 a4 a6
+g1 t a1 a5 a11
+g1 t a2 a5 a14
+g1 t a12 a14 a15
+g1 t a2 a6 a11
+g2 q b8 b3
+g2 q b4 b2
+g2 p b14
+g2 p b11
+g2 p b4
+g2 p b9
+g2 p b3
+g2 t b1 b2 b3
+g2 t b10 b11 b13
+g2 t b5 b6 b12
+g2 t b2 b7 b12
+g2 t b2 b4 b8
+g2 t b5 b7 b10
+end
+case mid_054_n20
+pred p 1 n
+pred s 2 c
+pred u 3 n
+pred w 4 n
+g1 w a8 a3 a1 a20
+g1 w a17 a2 a15 a19
+g1 u a15 a11 a8
+g1 u a20 a9 a3
+g1 s a10 a16
+g1 s a5 a7
+g1 s a11 a18
+g1 s a5 a15
+g1 s a3 a11
+g1 s a9 a16
+g1 s a7 a11
+g1 s a5 a9
+g1 s a8 a16
+g1 p a14
+g1 p a7
+g1 p a6
+g1 p a17
+g2 w b6 b12 b15 b4
+g2 w b17 b9 b3 b7
+g2 u b3 b8 b6
+g2 u b4 b1 b12
+g2 s b14 b16
+g2 s b2 b5
+g2 s b8 b10
+g2 s b3 b5
+g2 s b8 b12
+g2 s b1 b14
+g2 s b2 b8
+g2 s b1 b5
+g2 s b6 b14
+g2 p b11
+g2 p b2
+g2 p b13
+g2 p b17
+end
+case mid_055_n12
+pred q 2 n
+pred r 3 n
+pred u 3 n
+pred v 2 n
+pred w 4 n
+g1 q a3 a4
+g1 q a7 a6
+g1 q a12 a8
+g1 q a11 a4
+g1 q a9 a6
+g1 w a11 a1 a10 a8
+g1 w a12 a1 a2 a3
+g1 u a2 a6 a12
+g1 u a4 a2 a8
+g1 r a8 a4 a9
+g1 r a3 a9 a6
+g1 v a8 a9
+g1 v a11 a6
+g1 v a9 a7
+g1 v a8 a12
+g1 v a11 a2
+g1 v a1 a8
+g2 q b10 b1
+g2 q b7 b6
+g2 q b3 b2
+g2 q b4 b1
+g2 q b8 b6
+g2 w b4 b9 b5 b2
+g2 w b3 b9 b11 b10
+g2 u b11 b6 b3
+g2 u b1 b11 b2
+g2 r b2 b1 b8
+g2 r b10 b8 b6
+g2 v b2 b8
+g2 v b4 b6
+g2 v b8 b7
+g2 v b2 b3
+g2 v b4 b11
+g2 v b9 b2
+end
+case mid_056_n20
+pred q 2 n
+pred u 3 n
+pred w 4 n
+g1 q a5 a16
+g1 q a19 a16
+g1 q a12 a4
+g1 q a16 a13
+g1 q a11 a5
+g1 q a1 a5
+g1 q a5 a15
+g1 q a11 a7
+g1 q a4 a13
+g1 q a4 a2
+g1 u a12 a7 a15
+g1 u a14 a18 a20
+g1 u a5 a20 a12
+g1 u a17 a3 a16
+g1 u a13 a1 a4
+g1 w a4 a9 a10 a3
+g1 w a11 a15 a8 a13
+g2 q b6 b10
+g2 q b19 b10
+g2 q b18 b8
+g2 q b10 b15
+g2 q b11 b6
+g2 q b9 b6
+g2 q b6 b17
+g2 q b11 b7
+g2 q b8 b15
+g2 q b8 b5
+g2 u b18 b7 b17
+g2 u b1 b14 b2
+g2 u b6 b2 b18
+g2 u b12 b13 b10
+g2 u b15 b9 b8
+g2 w b8 b16 b3 b13
+g2 w b11 b17 b4 b15
+end
+case mid_057_n16
+pred q 2 n
+pred s 2 c
+pred t 3 c
+pred v 2 n
+pred w 4 n
+g1 w a1 a13 a16 a6
+g1 w a2 a9 a4 a1
+g1 w a10 a8 a1 a12
+g1 w a14 a7 a9 a4
+g1 s a6 a9
+g1 s a4 a12
+g1 s a1 a15
+g1 s a4 a16
+g1 s a14 a16
+g1 s a11 a15
+g1 s a3 a5
+g1 t a4 a13 a15
+g1 t a9 a12 a16
+g1 v a16 a14
+g1 v a15 a3
+g1 v a1 a16
+g1 v a16 a11
+g1 q a9 a7
+g1 q a10 a1
+g2 w b13 b14 b9 b5
+g2 w b5 b8 b12 b3
+g2 w b3 b9 b1 b15
+g2 w b14 b10 b13 b2
+g2 s b4 b10
+g2 s b5 b11
+g2 s b10 b12
+g2 s b13 b14
+g2 s b4 b8
+g2 s b6 b8
+g2 s b9 b13
+g2 t b5 b9 b11
+g2 t b10 b11 b16
+g2 v b12 b2
+g2 v b1 b12
+g2 v b1 b7
+g2 v b6 b16
+g2 q b4 b16
+g2 q b12 b1
+end
+case mid_058_n20
+pred q 2 n
+pred r 3 n
+pred s 2 c
+pred v 2 n
+pred w 4 n
+g1 v a10 a12
+g1 v a12 a19
+g1 v a8 a12
+g1 v a14 a5
+g1 v a20 a16
+g1 v a15 a20
+g1 v a5 a10
+g1 v a4 a1
+g1 v a10 a4
+g1 r a5 a18 a17
+g1 r a5 a6 a2
+g1 w a20 a1 a18 a4
+g1 w a1 a12 a13 a7
+g1 w a4 a16 a19 a17
+g1 w a13 a15 a20 a6
+g1 w a13 a19 a18 a17
+g1 w a2 a14 a18 a8
+g1 w a2 a12 a14 a11
+g1 w a12 a9 a19 a6
+g1 w a20 a10 a7 a11
+g1 q a15 a17
+g1 q a8 a19
+g1 q a16 a15
+g1 q a5 a19
+g1 q a12 a1
+g1 q a8 a11
+g1 q a16 a5
+g1 s a3 a12
+g1 s a4 a19
+g1 s a10 a13
+g1 s a4 a8
+g1 s a15 a18
+g2 v b20 b1
+g2 v b1 b8
+g2 v b11 b1
+g2 v b5 b15
+g2 v b4 b9
+g2 v b18 b4
+g2 v b15 b20
+g2 v b12 b2
+g2 v b20 b12
+g2 r b15 b7 b3
+g2 r b15 b14 b16
+g2 w b4 b2 b7 b12
+g2 w b2 b1 b13 b19
+g2 w b12 b9 b8 b3
+g2 w b13 b18 b4 b14
+g2 w b13 b8 b7 b3
+g2 w b16 b5 b7 b11
+g2 w b16 b1 b5 b10
+g2 w b1 b6 b8 b14
+g2 w b4 b20 b19 b10
+g2 q b18 b3
+g2 q b11 b8
+g2 q b9 b18
+g2 q b15 b8
+g2 q b1 b2
+g2 q b11 b10
+g2 q b9 b15
+g2 s b1 b17
+g2 s b8 b12
+g2 s b13 b20
+g2 s b11 b12
+g2 s b7 b18
+end
+case mid_059_n12
+pred p 1 n
+pred q 2 n
+pred r 3 n
+pred v 2 n
+pred w 4 n
+g1 r a6 a8 a5
+g1 r a11 a5 a2
+g1 r a11 a1 a12
+g1 r a4 a1 a8
+g1 r a6 a5 a8
+g1 r a11 a9 a5
+g1 p a4
+g1 p a6
+g1 p a12
+g1 p a11
+g1 p a1
+g1 q a8 a4
+g1 q a3 a10
+g1 w a9 a7 a4 a10
+g1 w a12 a1 a7 a5
+g1 w a9 a4 a7 a10
+g1 v a5 a11
+g1 v a7 a11
+g2 r b3 b4 b8
+g2 r b6 b2 b11
+g2 r b12 b2 b5
+g2 r b12 b9 b10
+g2 r b8 b12 b7
+g2 r b1 b7 b3
+g2 p b6
+g2 p b12
+g2 p b4
+g2 p b9
+g2 p b5
+g2 q b1 b2
+g2 q b6 b10
+g2 w b8 b2 b10 b3
+g2 w b3 b4 b7 b10
+g2 w b8 b9 b11 b7
+g2 v b9 b6
+g2 v b3 b2
+end
+case mid_060_n16
+pred p 1 n
+pred t 3 c
+pred u 3 n
+pred v 2 n
+g1 v a16 a3
+g1 v a2 a8
+g1 v a10 a7
+g1 v a14 a12
+g1 v a2 a9
+g1 v a16 a15
+g1 v a1 a4
+g1 u a7 a2 a12
+g1 u a9 a16 a4
+g1 u a6 a13 a9
+g1 u a16 a15 a10
+g1 t a4 a5 a9
+g1 t a7 a12 a16
+g1 t a2 a7 a14
+g1 t a10 a11 a12
+g1 t a6 a10 a15
+g1 t a10 a11 a14
+g1 p a11
+g1 p a10
+g1 p a6
+g2 v b10 b5
+g2 v b3 b14
+g2 v b8 b12
+g2 v b1 b6
+g2 v b3 b4
+g2 v b10 b16
+g2 v b11 b2
+g2 u b12 b3 b6
+g2 u b4 b10 b2
+g2 u b9 b15 b4
+g2 u b10 b16 b8
+g2 t b2 b4 b7
+g2 t b6 b10 b12
+g2 t b1 b3 b12
+g2 t b6 b8 b13
+g2 t b8 b9 b16
+g2 t b1 b8 b13
+g2 p b13
+g2 p b8
+g2 p b9
+end
+case mid_061_n16
+pred p 1 n
+pred r 3 n
+pred s 2 c
+pred u 3 n
+g1 p a5
+g1 p a8
+g1 p a7
+g1 p a4
+g1 p a6
+g1 p a16
+g1 p a1
+g1 s a8 a9
+g1 s a3 a9
+g1 r a4 a16 a1
+g1 r a15 a1 a14
+g1 u a10 a3 a14
+g1 u a1 a3 a5
+g1 u a8 a3 a9
+g2 p b11
+g2 p b4
+g2 p b9
+g2 p b14
+g2 p b1
+g2 p b12
+g2 p b8
+g2 s b3 b7
+g2 s b5 b11
+g2 r b3 b10 b8
+g2 r b1 b8 b13
+g2 u b2 b3 b11
+g2 u b1 b6 b2
+g2 u b13 b11 b1
+end
+case mid_062_n20
+pred s 2 c
+pred v 2 n
+pred w 4 n
+g1 w a6 a8 a5 a9
+g1 w a7 a17 a16 a3
+g1 w a6 a4 a18 a19
+g1 v a15 a16
+g1 v a20 a7
+g1 v a10 a9
+g1 s a1 a16
+g1 s a12 a18
+g1 s a2 a19
+g1 s a11 a16
+g1 s a2 a14
+g2 w b2 b1 b8 b19
+g2 w b6 b11 b12 b17
+g2 w b2 b7 b16 b10
+g2 v b5 b12
+g2 v b4 b6
+g2 v b13 b19
+g2 s b9 b12
+g2 s b16 b18
+g2 s b10 b14
+g2 s b3 b12
+g2 s b14 b15
+end
+case mid_063_n12
+pred q 2 n
+pred r 3 n
+pred s 2 c
+pred u 3 n
+pred v 2 n
+g1 s a6 a7
+g1 s a4 a8
+g1 s a7 a8
+g1 q a5 a9
+g1 q a8 a4
+g1 q a11 a1
+g1 q a6 a1
+g1 q a4 a1
+g1 q a9 a1
+g1 u a3 a8 a5
+g1 u a12 a6 a5
+g1 u a11 a2 a10
+g1 u a12 a7 a2
+g1 v a10 a1
+g1 v a6 a5
+g1 v a3 a10
+g1 v a3 a2
+g1 v a10 a2
+g1 v a4 a5
+g1 r a7 a2 a1
+g1 r a4 a10 a1
+g1 r a7 a9 a1
+g1 r a1 a3 a8
+g1 r a9 a11 a4
+g1 r a3 a5 a8
+g2 s b1 b7
+g2 s b6 b10
+g2 s b1 b2
+g2 q b12 b9
+g2 q b1 b3
+g2 q b6 b7
+g2 q b10 b4
+g2 q b2 b4
+g2 q b10 b7
+g2 u b5 b4 b11
+g2 u b4 b5 b10
+g2 u b5 b12 b3
+g2 u b8 b10 b7
+g2 v b7 b2
+g2 v b12 b6
+g2 v b6 b11
+g2 v b4 b2
+g2 v b6 b9
+g2 v b5 b10
+g2 r b6 b3 b11
+g2 r b12 b9 b8
+g2 r b1 b12 b11
+g2 r b7 b9 b1
+g2 r b2 b5 b12
+g2 r b6 b2 b3
+end
+case mid_064_n20
+pred p 1 n
+pred q 2 n
+pred r 3 n
+g1 q a18 a20
+g1 q a10 a7
+g1 q a2 a9
+g1 q a1 a6
+g1 q a1 a4
+g1 r a5 a19 a3
+g1 r a12 a1 a20
+g1 r a18 a12 a5
+g1 r a10 a6 a19
+g1 r a6 a8 a2
+g1 r a15 a14 a5
+g1 r a12 a11 a10
+g1 r a17 a10 a20
+g1 r a9 a18 a4
+g1 p a5
+g1 p a7
+g1 p a4
+g1 p a13
+g1 p a14
+g1 p a11
+g2 q b8 b3
+g2 q b17 b1
+g2 q b18 b6
+g2 q b13 b11
+g2 q b13 b4
+g2 r b5 b16 b15
+g2 r b10 b13 b3
+g2 r b8 b10 b5
+g2 r b17 b11 b16
+g2 r b11 b9 b18
+g2 r b12 b14 b5
+g2 r b10 b7 b17
+g2 r b19 b17 b3
+g2 r b6 b8 b4
+g2 p b5
+g2 p b1
+g2 p b4
+g2 p b2
+g2 p b14
+g2 p b7
+end
+case mid_065_n16
+pred p 1 n
+pred u 3 n
+pred v 2 n
+g1 u a13 a2 a11
+g1 u a3 a4 a8
+g1 u a13 a1 a3
+g1 u a2 a3 a15
+g1 u a3 a2 a1
+g1 u a7 a14 a2
+g1 u a5 a9 a16
+g1 v a7 a11
+g1 v a16 a2
+g1 v a2 a14
+g1 v a4 a9
+g1 v a11 a10
+g1 p a15
+g1 p a13
+g1 p a12
+g1 p a9
+g1 p a1
+g2 u b1 b7 b3
+g2 u b13 b6 b4
+g2 u b1 b12 b13
+g2 u b7 b13 b15
+g2 u b13 b7 b12
+g2 u b11 b5 b7
+g2 u b2 b14 b9
+g2 v b11 b3
+g2 v b9 b7
+g2 v b7 b5
+g2 v b6 b14
+g2 v b3 b10
+g2 p b15
+g2 p b1
+g2 p b8
+g2 p b14
+g2 p b12
+end
+case mid_066_n20
+pred q 2 n
+pred s 2 c
+pred v 2 n
+pred w 4 n
+g1 q a11 a19
+g1 q a18 a15
+g1 q a9 a14
+g1 q a20 a5
+g1 w a1 a14 a19 a15
+g1 w a2 a1 a7 a17
+g1 w a1 a16 a19 a7
+g1 v a16 a8
+g1 v a7 a1
+g1 s a13 a16
+g1 s a1 a5
+g1 s a1 a18
+g1 s a15 a17
+g1 s a9 a11
+g2 q b3 b1
+g2 q b10 b4
+g2 q b9 b5
+g2 q b6 b2
+g2 w b15 b5 b1 b4
+g2 w b11 b15 b8 b7
+g2 w b15 b13 b1 b8
+g2 v b13 b12
+g2 v b8 b15
+g2 s b13 b14
+g2 s b2 b15
+g2 s b10 b15
+g2 s b4 b7
+g2 s b3 b9
+end
+case mid_067_n12
+pred p 1 n
+pred v 2 n
+pred w 4 n
+g1 p a5
+g1 p a6
+g1 p a11
+g1 p a2
+g1 p a10
+g1 v a12 a7
+g1 v a5 a3
+g1 v a5 a12
+g1 v a4 a8
+g1 v a8 a4
+g1 w a4 a1 a9 a5
+g1 w a12 a3 a9 a1
+g1 w a4 a2 a8 a12
+g2 p b4
+g2 p b8
+g2 p b12
+g2 p b11
+g2 p b1
+g2 v b10 b9
+g2 v b4 b5
+g2 v b4 b10
+g2 v b6 b2
+g2 v b2 b6
+g2 w b6 b7 b3 b4
+g2 w b10 b5 b3 b7
+g2 w b6 b11 b2 b10
+end
+case mid_068_n20
+pred p 1 n
+pred q 2 n
+pred u 3 n
+g1 u a4 a12 a5
+g1 u a10 a7 a1
+g1 u a18 a17 a20
+g1 q a11 a1
+g1 q a9 a12
+g1 q a3 a19
+g1 q a15 a8
+g1 p a15
+g1 p a4
+g1 p a13
+g1 p a17
+g2 u b12 b15 b8
+g2 u b10 b2 b5
+g2 u b14 b13 b3
+g2 q b7 b5
+g2 q b1 b15
+g2 q b11 b9
+g2 q b16 b4
+g2 p b16
+g2 p b12
+g2 p b6
+g2 p b13
+end
+case mid_069_n20
+pred p 1 n
+pred q 2 n
+pred r 3 n
+g1 r a2 a13 a15
+g1 r a3 a4 a2
+g1 r a17 a11 a15
+g1 r a10 a5 a9
+g1 r a15 a11 a17
+g1 r a1 a19 a5
+g1 p a5
+g1 p a8
+g1 p a13
+g1 p a12
+g1 p a11
+g1 p a20
+g1 p a16
+g1 p a1
+g1 p a2
+g1 q a3 a14
+g1 q a13 a16
+g1 q a7 a3
+g2 r b18 b14 b17
+g2 r b15 b6 b18
+g2 r b5 b13 b17
+g2 r b1 b7 b4
+g2 r b17 b13 b5
+g2 r b3 b8 b7
+g2 p b7
+g2 p b10
+g2 p b14
+g2 p b9
+g2 p b13
+g2 p b12
+g2 p b16
+g2 p b3
+g2 p b18
+g2 q b15 b2
+g2 q b14 b16
+g2 q b11 b15
+end
+case mid_070_n20
+pred r 3 n
+pred s 2 c
+pred t 3 c
+pred u 3 n
+g1 s a1 a19
+g1 s a5 a7
+g1 u a12 a8 a10
+g1 u a4 a14 a18
+g1 u a19 a5 a7
+g1 t a10 a14 a16
+g1 t a2 a4 a9
+g1 t a13 a16 a17
+g1 t a3 a15 a20
+g1 t a2 a6 a8
+g1 r a1 a8 a4
+g1 r a12 a14 a20
+g2 s b8 b12
+g2 s b1 b6
+g2 u b5 b13 b7
+g2 u b12 b4 b16
+g2 u b14 b15 b6
+g2 t b5 b6 b15
+g2 t b1 b4 b10
+g2 t b10 b12 b16
+g2 t b2 b5 b6
+g2 t b3 b8 b9
+g2 r b12 b11 b10
+g2 r b11 b1 b15
+end
+case mid_071_n20
+pred r 3 n
+pred s 2 c
+pred u 3 n
+g1 r a5 a3 a2
+g1 r a7 a20 a15
+g1 r a14 a4 a20
+g1 r a15 a4 a11
+g1 r a14 a5 a20
+g1 r a16 a11 a12
+g1 u a13 a12 a5
+g1 u a18 a4 a10
+g1 u a8 a6 a2
+g1 u a11 a9 a3
+g1 u a20 a13 a19
+g1 u a14 a1 a8
+g1 u a14 a7 a19
+g1 s a2 a12
+g1 s a4 a12
+g1 s a9 a13
+g1 s a6 a18
+g1 s a7 a17
+g1 s a15 a18
+g2 r b17 b14 b16
+g2 r b20 b15 b7
+g2 r b2 b4 b15
+g2 r b7 b4 b9
+g2 r b2 b17 b15
+g2 r b13 b9 b10
+g2 u b19 b10 b17
+g2 u b18 b4 b8
+g2 u b6 b3 b16
+g2 u b9 b1 b14
+g2 u b15 b19 b12
+g2 u b2 b5 b6
+g2 u b2 b20 b12
+g2 s b10 b16
+g2 s b4 b10
+g2 s b1 b19
+g2 s b3 b18
+g2 s b11 b20
+g2 s b7 b18
+end
+case mid_072_n20
+pred p 1 n
+pred q 2 n
+pred t 3 c
+g1 q a13 a12
+g1 q a18 a8
+g1 t a6 a8 a20
+g1 t a5 a6 a8
+g1 t a3 a15 a16
+g1 t a8 a11 a12
+g1 t a9 a15 a20
+g1 t a4 a10 a19
+g1 t a9 a16 a19
+g1 p a8
+g1 p a17
+g1 p a12
+g1 p a11
+g1 p a16
+g2 q b5 b12
+g2 q b13 b15
+g2 t b1 b2 b15
+g2 t b2 b14 b15
+g2 t b4 b7 b11
+g2 t b9 b12 b15
+g2 t b1 b4 b10
+g2 t b3 b6 b16
+g2 t b6 b7 b10
+g2 p b15
+g2 p b8
+g2 p b12
+g2 p b9
+g2 p b7
+end
+case mid_073_n20
+pred s 2 c
+pred t 3 c
+pred w 4 n
+g1 t a9 a13 a15
+g1 t a3 a5 a11
+g1 t a1 a14 a17
+g1 t a3 a11 a12
+g1 t a3 a6 a10
+g1 t a2 a6 a14
+g1 t a1 a4 a14
+g1 t a3 a4 a5
+g1 t a14 a15 a17
+g1 t a8 a10 a13
+g1 w a16 a18 a4 a17
+g1 w a17 a20 a19 a3
+g1 w a11 a17 a13 a15
+g1 w a15 a16 a18 a8
+g1 w a4 a1 a15 a16
+g1 w a8 a9 a7 a3
+g1 w a5 a12 a2 a4
+g1 w a15 a6 a18 a3
+g1 w a13 a20 a6 a11
+g1 w a16 a6 a11 a17
+g1 s a6 a9
+g1 s a6 a20
+g1 s a11 a17
+g2 t b7 b8 b16
+g2 t b1 b10 b13
+g2 t b2 b19 b20
+g2 t b10 b12 b13
+g2 t b11 b13 b17
+g2 t b3 b17 b20
+g2 t b2 b6 b20
+g2 t b1 b6 b13
+g2 t b8 b19 b20
+g2 t b5 b11 b16
+g2 w b18 b9 b6 b19
+g2 w b19 b15 b14 b13
+g2 w b10 b19 b16 b8
+g2 w b8 b18 b9 b5
+g2 w b6 b2 b8 b18
+g2 w b5 b7 b4 b13
+g2 w b1 b12 b3 b6
+g2 w b8 b17 b9 b13
+g2 w b16 b15 b17 b10
+g2 w b18 b17 b10 b19
+g2 s b7 b17
+g2 s b15 b17
+g2 s b10 b19
+end
+case mid_074_n12
+pred s 2 c
+pred u 3 n
+pred v 2 n
+g1 u a2 a9 a10
+g1 u a5 a8 a10
+g1 u a6 a3 a9
+g1 v a4 a3
+g1 v a10 a2
+g1 s a8 a12
+g1 s a5 a12
+g1 s a1 a11
+g1 s a1 a9
+g2 u b11 b10 b2
+g2 u b9 b3 b2
+g2 u b1 b8 b10
+g2 v b7 b8
+g2 v b2 b11
+g2 s b3 b4
+g2 s b4 b9
+g2 s b5 b6
+g2 s b6 b10
+end
+case mid_075_n16
+pred p 1 n
+pred q 2 n
+pred r 3 n
+pred s 2 c
+pred v 2 n
+g1 q a9 a10
+g1 q a5 a11
+g1 q a8 a1
+g1 q a9 a13
+g1 q a13 a16
+g1 q a9 a14
+g1 q a6 a14
+g1 s a11 a13
+g1 s a10 a14
+g1 s a3 a16
+g1 s a13 a15
+g1 s a7 a10
+g1 s a6 a8
+g1 r a16 a3 a7
+g1 r a13 a8 a2
+g1 r a14 a16 a12
+g1 r a6 a9 a8
+g1 r a6 a5 a3
+g1 v a10 a1
+g1 v a5 a6
+g1 v a7 a14
+g1 v a14 a9
+g1 v a5 a15
+g1 v a7 a8
+g1 p a15
+g1 p a5
+g1 p a4
+g1 p a6
+g1 p a11
+g1 p a16
+g1 p a1
+g2 q b4 b2
+g2 q b9 b12
+g2 q b16 b15
+g2 q b4 b5
+g2 q b5 b3
+g2 q b4 b13
+g2 q b7 b13
+g2 s b5 b12
+g2 s b2 b13
+g2 s b3 b10
+g2 s b5 b11
+g2 s b1 b2
+g2 s b7 b16
+g2 r b3 b10 b1
+g2 r b5 b16 b14
+g2 r b13 b3 b6
+g2 r b7 b4 b16
+g2 r b7 b9 b10
+g2 v b2 b15
+g2 v b9 b7
+g2 v b1 b13
+g2 v b13 b4
+g2 v b9 b11
+g2 v b1 b16
+g2 p b11
+g2 p b9
+g2 p b8
+g2 p b7
+g2 p b12
+g2 p b3
+g2 p b15
+end
+case mid_076_n16
+pred r 3 n
+pred s 2 c
+pred w 4 n
+g1 r a13 a2 a11
+g1 r a10 a9 a6
+g1 r a6 a7 a11
+g1 r a9 a7 a16
+g1 r a13 a3 a2
+g1 r a7 a5 a10
+g1 r a8 a10 a1
+g1 r a12 a9 a7
+g1 w a9 a8 a5 a4
+g1 w a14 a12 a1 a2
+g1 w a3 a14 a12 a7
+g1 s a10 a12
+g1 s a4 a14
+g1 s a2 a8
+g1 s a1 a13
+g1 s a5 a9
+g2 r b8 b4 b15
+g2 r b8 b6 b2
+g2 r b1 b11 b14
+g2 r b14 b8 b1
+g2 r b2 b5 b11
+g2 r b11 b6 b15
+g2 r b7 b5 b14
+g2 r b9 b3 b11
+g2 w b8 b5 b11 b1
+g2 w b6 b5 b13 b7
+g2 w b5 b4 b1 b15
+g2 s b3 b12
+g2 s b5 b10
+g2 s b2 b9
+g2 s b10 b12
+g2 s b3 b10
+end
+case mid_077_n20
+pred p 1 n
+pred t 3 c
+pred u 3 n
+pred v 2 n
+pred w 4 n
+g1 v a4 a13
+g1 v a13 a18
+g1 v a19 a2
+g1 v a16 a7
+g1 u a17 a11 a16
+g1 u a15 a18 a19
+g1 u a7 a16 a1
+g1 t a4 a12 a16
+g1 t a6 a10 a14
+g1 t a3 a6 a10
+g1 t a7 a9 a14
+g1 t a7 a10 a12
+g1 t a2 a9 a20
+g1 w a12 a9 a18 a13
+g1 w a19 a12 a18 a4
+g1 w a14 a15 a8 a16
+g1 p a19
+g1 p a6
+g1 p a13
+g1 p a3
+g1 p a14
+g1 p a12
+g1 p a9
+g1 p a11
+g1 p a1
+g1 p a10
+g2 v b15 b17
+g2 v b17 b9
+g2 v b7 b2
+g2 v b8 b10
+g2 u b11 b16 b8
+g2 u b3 b9 b7
+g2 u b10 b8 b19
+g2 t b8 b14 b15
+g2 t b5 b6 b12
+g2 t b5 b6 b18
+g2 t b4 b10 b12
+g2 t b6 b10 b14
+g2 t b2 b4 b13
+g2 w b14 b4 b9 b17
+g2 w b7 b14 b9 b15
+g2 w b12 b3 b1 b8
+g2 p b7
+g2 p b5
+g2 p b17
+g2 p b18
+g2 p b12
+g2 p b14
+g2 p b4
+g2 p b16
+g2 p b19
+g2 p b6
+end
+case mid_078_n12
+pred p 1 n
+pred q 2 n
+pred u 3 n
+pred v 2 n
+pred w 4 n
+g1 q a9 a2
+g1 q a5 a11
+g1 q a1 a2
+g1 q a7 a11
+g1 q a5 a10
+g1 q a1 a4
+g1 p a1
+g1 p a3
+g1 w a5 a7 a11 a6
+g1 w a6 a9 a12 a4
+g1 w a6 a10 a9 a3
+g1 w a6 a4 a1 a8
+g1 w a12 a5 a3 a4
+g1 w a12 a3 a1 a5
+g1 v a3 a4
+g1 v a9 a2
+g1 v a6 a11
+g1 u a2 a3 a11
+g1 u a10 a4 a2
+g1 u a6 a10 a9
+g1 u a3 a1 a11
+g2 q b8 b2
+g2 q b12 b9
+g2 q b10 b2
+g2 q b4 b9
+g2 q b12 b5
+g2 q b10 b7
+g2 p b10
+g2 p b1
+g2 w b12 b4 b9 b6
+g2 w b6 b8 b11 b7
+g2 w b6 b5 b8 b1
+g2 w b6 b7 b10 b3
+g2 w b11 b12 b1 b7
+g2 w b11 b1 b10 b12
+g2 v b1 b7
+g2 v b8 b2
+g2 v b6 b9
+g2 u b2 b1 b9
+g2 u b5 b7 b2
+g2 u b6 b5 b8
+g2 u b1 b10 b9
+end
+case mid_079_n16
+pred p 1 n
+pred s 2 c
+pred t 3 c
+g1 p a7
+g1 p a13
+g1 p a14
+g1 p a12
+g1 p a16
+g1 p a1
+g1 p a2
+g1 t a9 a14 a15
+g1 t a5 a13 a14
+g1 t a2 a14 a16
+g1 t a3 a11 a15
+g1 t a1 a2 a3
+g1 s a6 a9
+g1 s a1 a13
+g1 s a3 a9
+g1 s a9 a16
+g1 s a5 a9
+g2 p b5
+g2 p b3
+g2 p b1
+g2 p b6
+g2 p b12
+g2 p b7
+g2 p b8
+g2 t b1 b11 b13
+g2 t b1 b3 b9
+g2 t b1 b8 b12
+g2 t b4 b10 b13
+g2 t b7 b8 b10
+g2 s b2 b11
+g2 s b3 b7
+g2 s b10 b11
+g2 s b11 b12
+g2 s b9 b11
+end
+case mid_080_n20
+pred q 2 n
+pred r 3 n
+pred t 3 c
+pred v 2 n
+pred w 4 n
+g1 t a14 a15 a16
+g1 t a5 a14 a17
+g1 t a11 a12 a18
+g1 t a9 a10 a16
+g1 t a2 a4 a18
+g1 t a12 a16 a19
+g1 t a5 a12 a17
+g1 w a1 a12 a2 a9
+g1 w a12 a15 a16 a1
+g1 w a15 a2 a12 a1
+g1 q a7 a4
+g1 q a19 a4
+g1 q a3 a15
+g1 q a3 a8
+g1 q a7 a8
+g1 v a4 a20
+g1 v a11 a20
+g1 v a8 a2
+g1 v a14 a3
+g1 v a2 a13
+g1 r a16 a8 a14
+g1 r a16 a7 a5
+g1 r a14 a3 a20
+g1 r a16 a6 a20
+g1 r a6 a2 a17
+g1 r a10 a19 a6
+g1 r a11 a20 a4
+g1 r a17 a11 a14
+g1 r a12 a20 a6
+g2 t b10 b12 b15
+g2 t b1 b15 b19
+g2 t b1 b18 b19
+g2 t b1 b7 b10
+g2 t b3 b4 b9
+g2 t b4 b6 b12
+g2 t b13 b15 b18
+g2 w b10 b7 b2 b18
+g2 w b19 b18 b10 b6
+g2 w b9 b5 b18 b15
+g2 q b9 b16
+g2 q b9 b20
+g2 q b15 b19
+g2 q b16 b8
+g2 q b8 b5
+g2 v b16 b10
+g2 v b12 b18
+g2 v b11 b15
+g2 v b6 b18
+g2 v b4 b15
+g2 r b16 b3 b19
+g2 r b18 b7 b14
+g2 r b4 b18 b5
+g2 r b6 b1 b10
+g2 r b3 b17 b9
+g2 r b12 b2 b17
+g2 r b12 b3 b18
+g2 r b12 b10 b19
+g2 r b7 b19 b8
+end
+case mid_081_n12
+pred p 1 n
+pred v 2 n
+pred w 4 n
+g1 w a12 a4 a5 a3
+g1 w a7 a5 a12 a9
+g1 w a10 a5 a11 a4
+g1 w a1 a2 a10 a5
+g1 w a7 a6 a10 a8
+g1 p a11
+g1 p a8
+g1 p a3
+g1 p a4
+g1 v a1 a7
+g1 v a7 a2
+g1 v a7 a12
+g2 w b8 b12 b2 b11
+g2 w b5 b1 b11 b2
+g2 w b3 b7 b6 b1
+g2 w b4 b2 b1 b8
+g2 w b11 b12 b5 b9
+g2 p b11
+g2 p b3
+g2 p b4
+g2 p b2
+g2 v b10 b3
+g2 v b8 b1
+g2 v b7 b3
+end
+case mid_082_n12
+pred q 2 n
+pred r 3 n
+pred t 3 c
+pred u 3 n
+pred w 4 n
+g1 q a3 a1
+g1 q a7 a12
+g1 q a8 a11
+g1 q a8 a2
+g1 q a9 a4
+g1 q a2 a1
+g1 u a10 a7 a3
+g1 u a10 a7 a6
+g1 t a3 a6 a9
+g1 t a3 a4 a5
+g1 r a4 a6 a10
+g1 r a4 a12 a9
+g1 w a10 a12 a9 a6
+g1 w a2 a4 a1 a9
+g1 w a7 a2 a5 a1
+g1 w a2 a6 a11 a12
+g1 w a11 a5 a10 a1
+g1 w a7 a3 a12 a11
+g2 q b10 b12
+g2 q b9 b6
+g2 q b2 b1
+g2 q b2 b4
+g2 q b5 b3
+g2 q b4 b12
+g2 u b11 b9 b10
+g2 u b11 b9 b8
+g2 t b5 b8 b10
+g2 t b3 b7 b10
+g2 r b3 b8 b11
+g2 r b3 b6 b5
+g2 w b11 b6 b5 b8
+g2 w b4 b3 b12 b5
+g2 w b9 b4 b7 b12
+g2 w b4 b8 b1 b6
+g2 w b1 b7 b11 b12
+g2 w b9 b10 b6 b1
+end
+case mid_083_n16
+pred r 3 n
+pred s 2 c
+pred t 3 c
+pred u 3 n
+g1 t a3 a4 a8
+g1 t a4 a7 a10
+g1 t a2 a9 a13
+g1 t a1 a2 a9
+g1 t a1 a5 a13
+g1 t a1 a4 a9
+g1 t a2 a6 a12
+g1 t a9 a13 a16
+g1 u a8 a6 a4
+g1 u a12 a3 a8
+g1 u a6 a5 a2
+g1 u a12 a16 a11
+g1 s a2 a16
+g1 s a1 a16
+g1 s a4 a11
+g1 s a3 a9
+g1 s a5 a13
+g1 s a6 a12
+g1 s a3 a6
+g1 s a2 a5
+g1 r a12 a3 a14
+g1 r a16 a7 a6
+g1 r a1 a10 a11
+g1 r a3 a11 a5
+g2 t b7 b12 b15
+g2 t b1 b5 b14
+g2 t b1 b6 b12
+g2 t b5 b7 b9
+g2 t b3 b10 b16
+g2 t b2 b12 b13
+g2 t b4 b6 b16
+g2 t b1 b13 b15
+g2 u b14 b13 b15
+g2 u b6 b12 b2
+g2 u b10 b11 b12
+g2 u b13 b2 b1
+g2 s b3 b4
+g2 s b10 b16
+g2 s b12 b15
+g2 s b11 b16
+g2 s b2 b16
+g2 s b2 b4
+g2 s b1 b14
+g2 s b9 b14
+g2 r b4 b8 b10
+g2 r b14 b2 b12
+g2 r b13 b2 b8
+g2 r b4 b10 b16
+end
+case mid_084_n16
+pred s 2 c
+pred u 3 n
+pred w 4 n
+g1 s a2 a15
+g1 s a12 a16
+g1 s a4 a9
+g1 u a9 a6 a2
+g1 u a9 a15 a4
+g1 u a1 a4 a7
+g1 w a10 a16 a11 a6
+g1 w a1 a2 a10 a16
+g2 s b4 b6
+g2 s b2 b9
+g2 s b1 b11
+g2 u b11 b7 b6
+g2 u b11 b4 b1
+g2 u b10 b1 b5
+g2 w b8 b9 b3 b7
+g2 w b10 b6 b8 b9
+end
+case mid_085_n12
+pred p 1 n
+pred r 3 n
+pred s 2 c
+pred v 2 n
+g1 r a9 a8 a3
+g1 r a5 a7 a10
+g1 r a3 a4 a7
+g1 r a2 a4 a7
+g1 s a3 a8
+g1 s a5 a6
+g1 p a7
+g1 p a2
+g1 p a12
+g1 v a1 a10
+g1 v a1 a5
+g1 v a12 a5
+g2 r b2 b10 b4
+g2 r b3 b9 b11
+g2 r b4 b6 b9
+g2 r b5 b6 b9
+g2 s b4 b10
+g2 s b1 b3
+g2 p b9
+g2 p b5
+g2 p b8
+g2 v b7 b11
+g2 v b7 b3
+g2 v b8 b3
+end
+case mid_086_n16
+pred p 1 n
+pred r 3 n
+pred s 2 c
+pred t 3 c
+pred w 4 n
+g1 p a9
+g1 p a1
+g1 p a6
+g1 p a4
+g1 w a14 a6 a9 a3
+g1 w a9 a16 a3 a7
+g1 w a12 a6 a11 a15
+g1 w a3 a4 a7 a16
+g1 w a15 a2 a4 a8
+g1 w a2 a6 a10 a5
+g1 w a5 a12 a3 a8
+g1 t a2 a3 a5
+g1 t a5 a10 a12
+g1 t a14 a15 a16
+g1 t a1 a2 a6
+g1 t a4 a10 a11
+g1 t a8 a11 a16
+g1 t a4 a5 a7
+g1 s a1 a10
+g1 s a9 a10
+g1 s a1 a7
+g1 s a3 a9
+g1 s a5 a13
+g1 s a2 a11
+g1 s a6 a10
+g1 s a9 a15
+g1 r a9 a14 a5
+g1 r a10 a11 a6
+g1 r a1 a10 a11
+g2 p b12
+g2 p b10
+g2 p b5
+g2 p b15
+g2 w b7 b5 b12 b3
+g2 w b12 b11 b3 b9
+g2 w b8 b5 b14 b4
+g2 w b3 b15 b9 b11
+g2 w b4 b6 b15 b16
+g2 w b6 b5 b2 b13
+g2 w b13 b8 b3 b16
+g2 t b3 b6 b13
+g2 t b2 b8 b13
+g2 t b4 b7 b11
+g2 t b5 b6 b10
+g2 t b2 b14 b15
+g2 t b11 b14 b16
+g2 t b9 b13 b15
+g2 s b2 b10
+g2 s b2 b12
+g2 s b9 b10
+g2 s b3 b12
+g2 s b1 b13
+g2 s b6 b14
+g2 s b2 b5
+g2 s b4 b12
+g2 r b12 b7 b13
+g2 r b2 b14 b5
+g2 r b10 b2 b14
+end
+case mid_087_n20
+pred q 2 n
+pred t 3 c
+pred v 2 n
+g1 v a9 a8
+g1 v a16 a6
+g1 v a3 a9
+g1 v a11 a18
+g1 v a14 a2
+g1 t a3 a8 a9
+g1 t a2 a8 a17
+g1 t a1 a13 a15
+g1 t a1 a14 a18
+g1 t a2 a16 a20
+g1 t a9 a10 a16
+g1 t a10 a13 a16
+g1 t a4 a17 a19
+g1 t a4 a7 a18
+g1 t a3 a4 a12
+g1 q a14 a7
+g1 q a14 a18
+g1 q a10 a15
+g1 q a19 a7
+g1 q a10 a3
+g2 v b3 b15
+g2 v b9 b7
+g2 v b19 b3
+g2 v b10 b2
+g2 v b14 b12
+g2 t b3 b15 b19
+g2 t b12 b13 b15
+g2 t b4 b5 b11
+g2 t b2 b11 b14
+g2 t b9 b12 b17
+g2 t b1 b3 b9
+g2 t b1 b5 b9
+g2 t b6 b13 b16
+g2 t b2 b8 b16
+g2 t b16 b18 b19
+g2 q b14 b8
+g2 q b14 b2
+g2 q b1 b4
+g2 q b6 b8
+g2 q b1 b19
+end
+case mid_088_n20
+pred p 1 n
+pred s 2 c
+pred t 3 c
+pred v 2 n
+g1 p a5
+g1 p a15
+g1 p a4
+g1 p a6
+g1 p a13
+g1 p a12
+g1 p a3
+g1 p a9
+g1 p a11
+g1 v a17 a4
+g1 v a11 a15
+g1 t a2 a3 a5
+g1 t a7 a17 a18
+g1 t a5 a10 a12
+g1 t a1 a2 a16
+g1 t a10 a15 a17
+g1 t a6 a17 a20
+g1 t a9 a10 a17
+g1 t a8 a12 a13
+g1 t a4 a5 a8
+g1 t a2 a8 a20
+g1 s a8 a9
+g1 s a9 a10
+g1 s a3 a9
+g2 p b10
+g2 p b4
+g2 p b9
+g2 p b14
+g2 p b15
+g2 p b11
+g2 p b3
+g2 p b7
+g2 p b1
+g2 v b18 b9
+g2 v b1 b4
+g2 t b3 b10 b16
+g2 t b2 b12 b18
+g2 t b10 b11 b17
+g2 t b5 b8 b16
+g2 t b4 b17 b18
+g2 t b13 b14 b18
+g2 t b7 b17 b18
+g2 t b6 b11 b15
+g2 t b6 b9 b10
+g2 t b6 b13 b16
+g2 s b6 b7
+g2 s b7 b17
+g2 s b3 b7
+end
+case mid_089_n16
+pred r 3 n
+pred s 2 c
+pred t 3 c
+pred v 2 n
+pred w 4 n
+g1 s a7 a16
+g1 s a9 a10
+g1 s a1 a4
+g1 s a4 a10
+g1 s a6 a10
+g1 s a3 a15
+g1 s a9 a15
+g1 s a5 a10
+g1 r a13 a1 a12
+g1 r a10 a11 a3
+g1 r a2 a8 a13
+g1 r a4 a1 a8
+g1 r a10 a5 a11
+g1 r a7 a8 a15
+g1 r a10 a1 a14
+g1 w a11 a14 a3 a9
+g1 w a4 a1 a15 a11
+g1 w a7 a4 a5 a9
+g1 w a7 a13 a14 a10
+g1 w a3 a15 a2 a13
+g1 w a6 a7 a4 a3
+g1 w a11 a8 a15 a6
+g1 w a7 a10 a4 a16
+g1 t a2 a12 a15
+g1 t a7 a9 a14
+g1 t a1 a11 a15
+g1 t a2 a7 a10
+g1 t a1 a2 a14
+g1 v a6 a2
+g1 v a10 a2
+g1 v a15 a3
+g1 v a12 a4
+g1 v a5 a8
+g2 s b3 b16
+g2 s b6 b9
+g2 s b4 b11
+g2 s b7 b13
+g2 s b11 b16
+g2 s b8 b12
+g2 s b5 b16
+g2 s b3 b15
+g2 r b9 b13 b4
+g2 r b13 b10 b4
+g2 r b12 b4 b2
+g2 r b4 b8 b6
+g2 r b9 b12 b3
+g2 r b3 b11 b5
+g2 r b5 b12 b2
+g2 w b12 b13 b1 b7
+g2 w b3 b15 b5 b13
+g2 w b12 b5 b10 b7
+g2 w b12 b15 b10 b11
+g2 w b5 b2 b7 b9
+g2 w b13 b9 b1 b11
+g2 w b10 b1 b15 b14
+g2 w b9 b5 b4 b12
+g2 t b7 b12 b16
+g2 t b3 b11 b15
+g2 t b2 b6 b14
+g2 t b1 b5 b16
+g2 t b5 b14 b16
+g2 v b6 b11
+g2 v b12 b10
+g2 v b16 b5
+g2 v b3 b16
+g2 v b5 b3
+end
+case mid_090_n20
+pred q 2 n
+pred r 3 n
+pred s 2 c
+pred t 3 c
+g1 t a8 a10 a15
+g1 t a4 a11 a17
+g1 t a4 a6 a19
+g1 t a6 a9 a10
+g1 t a1 a8 a9
+g1 t a10 a17 a18
+g1 t a2 a4 a11
+g1 r a17 a11 a20
+g1 r a7 a2 a6
+g1 r a9 a10 a13
+g1 r a3 a10 a4
+g1 q a13 a17
+g1 q a20 a11
+g1 q a9 a15
+g1 q a9 a8
+g1 q a9 a13
+g1 q a12 a3
+g1 q a2 a14
+g1 q a2 a3
+g1 q a11 a10
+g1 q a20 a18
+g1 s a1 a10
+g1 s a5 a14
+g1 s a1 a19
+g1 s a2 a9
+g1 s a3 a11
+g1 s a13 a20
+g1 s a16 a19
+g1 s a6 a10
+g2 t b10 b16 b18
+g2 t b8 b17 b20
+g2 t b2 b6 b13
+g2 t b9 b11 b12
+g2 t b12 b13 b15
+g2 t b8 b11 b15
+g2 t b5 b9 b17
+g2 r b16 b9 b17
+g2 r b17 b15 b16
+g2 r b12 b6 b17
+g2 r b19 b17 b14
+g2 q b2 b20
+g2 q b16 b5
+g2 q b19 b2
+g2 q b5 b15
+g2 q b4 b1
+g2 q b9 b7
+g2 q b6 b8
+g2 q b6 b5
+g2 q b19 b12
+g2 q b6 b14
+g2 s b12 b19
+g2 s b5 b15
+g2 s b3 b15
+g2 s b6 b19
+g2 s b2 b20
+g2 s b9 b20
+g2 s b8 b9
+g2 s b3 b4
+end
+case mid_091_n16
+pred q 2 n
+pred s 2 c
+pred t 3 c
+pred u 3 n
+pred v 2 n
+g1 t a2 a10 a12
+g1 t a6 a7 a12
+g1 t a6 a10 a16
+g1 t a8 a14 a15
+g1 v a13 a12
+g1 v a13 a15
+g1 v a6 a8
+g1 v a2 a11
+g1 q a3 a12
+g1 q a3 a11
+g1 q a1 a13
+g1 u a11 a16 a2
+g1 u a13 a3 a11
+g1 u a5 a14 a7
+g1 u a4 a16 a15
+g1 u a13 a8 a16
+g1 u a12 a5 a15
+g1 s a3 a12
+g1 s a4 a15
+g1 s a7 a15
+g1 s a3 a7
+g2 t b3 b4 b13
+g2 t b3 b6 b11
+g2 t b4 b6 b14
+g2 t b9 b12 b15
+g2 v b1 b3
+g2 v b1 b15
+g2 v b6 b9
+g2 v b13 b10
+g2 q b8 b3
+g2 q b8 b10
+g2 q b5 b1
+g2 u b10 b14 b13
+g2 u b1 b8 b10
+g2 u b7 b12 b11
+g2 u b2 b14 b15
+g2 u b1 b9 b14
+g2 u b3 b7 b15
+g2 s b3 b8
+g2 s b2 b15
+g2 s b11 b15
+g2 s b8 b11
+end
+case mid_092_n16
+pred p 1 n
+pred s 2 c
+pred t 3 c
+pred w 4 n
+g1 t a6 a10 a14
+g1 t a1 a5 a8
+g1 t a2 a4 a10
+g1 t a2 a15 a16
+g1 t a8 a9 a11
+g1 t a1 a5 a6
+g1 t a3 a5 a12
+g1 w a2 a5 a1 a7
+g1 w a13 a11 a14 a16
+g1 w a2 a11 a7 a8
+g1 w a7 a3 a9 a15
+g1 w a9 a16 a11 a13
+g1 p a9
+g1 p a1
+g1 p a6
+g1 p a14
+g1 s a1 a8
+g1 s a4 a11
+g1 s a2 a11
+g1 s a7 a12
+g1 s a4 a6
+g1 s a4 a5
+g1 s a11 a16
+g1 s a8 a16
+g2 t b1 b4 b6
+g2 t b5 b8 b9
+g2 t b6 b14 b16
+g2 t b3 b10 b14
+g2 t b7 b8 b13
+g2 t b1 b5 b9
+g2 t b2 b9 b11
+g2 w b14 b9 b5 b12
+g2 w b15 b7 b4 b10
+g2 w b14 b7 b12 b8
+g2 w b12 b11 b13 b3
+g2 w b13 b10 b7 b15
+g2 p b13
+g2 p b5
+g2 p b1
+g2 p b4
+g2 s b5 b8
+g2 s b7 b16
+g2 s b7 b14
+g2 s b2 b12
+g2 s b1 b16
+g2 s b9 b16
+g2 s b7 b10
+g2 s b8 b10
+end
+case mid_093_n20
+pred q 2 n
+pred r 3 n
+pred s 2 c
+pred u 3 n
+pred v 2 n
+g1 s a12 a13
+g1 s a8 a12
+g1 s a2 a15
+g1 s a5 a14
+g1 s a2 a5
+g1 s a8 a20
+g1 q a16 a12
+g1 q a12 a6
+g1 q a7 a16
+g1 q a17 a14
+g1 q a7 a8
+g1 q a10 a1
+g1 r a9 a15 a5
+g1 r a9 a14 a10
+g1 r a6 a16 a8
+g1 r a7 a8 a19
+g1 r a8 a3 a13
+g1 u a15 a9 a5
+g1 u a12 a4 a7
+g1 u a5 a2 a16
+g1 u a4 a20 a10
+g1 u a17 a13 a1
+g1 u a8 a3 a7
+g1 u a10 a1 a8
+g1 u a17 a6 a8
+g1 u a2 a8 a19
+g1 u a5 a10 a4
+g1 v a6 a15
+g1 v a17 a9
+g1 v a13 a1
+g1 v a10 a7
+g1 v a20 a5
+g1 v a8 a15
+g1 v a20 a18
+g2 s b7 b18
+g2 s b3 b6
+g2 s b13 b16
+g2 s b16 b20
+g2 s b2 b17
+g2 s b4 b10
+g2 q b10 b6
+g2 q b3 b13
+g2 q b4 b2
+g2 q b9 b18
+g2 q b4 b18
+g2 q b11 b3
+g2 r b8 b12 b6
+g2 r b7 b1 b10
+g2 r b12 b10 b9
+g2 r b16 b11 b20
+g2 r b4 b1 b11
+g2 u b15 b10 b8
+g2 u b10 b3 b19
+g2 u b15 b11 b18
+g2 u b17 b2 b20
+g2 u b5 b18 b6
+g2 u b11 b15 b17
+g2 u b20 b13 b8
+g2 u b3 b15 b4
+g2 u b9 b19 b14
+g2 u b6 b16 b17
+g2 v b17 b10
+g2 v b10 b1
+g2 v b15 b6
+g2 v b19 b2
+g2 v b2 b18
+g2 v b6 b3
+g2 v b20 b13
+end
+case mid_094_n20
+pred p 1 n
+pred q 2 n
+pred r 3 n
+pred t 3 c
+pred u 3 n
+g1 p a15
+g1 p a8
+g1 p a19
+g1 p a6
+g1 p a17
+g1 p a12
+g1 p a3
+g1 q a9 a1
+g1 q a10 a4
+g1 q a5 a9
+g1 q a11 a4
+g1 q a1 a8
+g1 q a17 a11
+g1 q a14 a17
+g1 q a15 a10
+g1 q a6 a20
+g1 r a4 a3 a14
+g1 r a13 a16 a18
+g1 r a17 a4 a2
+g1 r a8 a20 a10
+g1 r a1 a7 a9
+g1 r a20 a5 a19
+g1 t a5 a8 a10
+g1 t a5 a10 a19
+g1 t a12 a13 a20
+g1 t a3 a13 a14
+g1 t a2 a13 a16
+g1 t a6 a8 a13
+g1 u a11 a18 a20
+g1 u a9 a14 a17
+g1 u a4 a15 a19
+g1 u a15 a10 a18
+g2 p b2
+g2 p b4
+g2 p b12
+g2 p b3
+g2 p b1
+g2 p b13
+g2 p b11
+g2 q b8 b16
+g2 q b9 b10
+g2 q b17 b8
+g2 q b19 b10
+g2 q b16 b4
+g2 q b1 b19
+g2 q b15 b1
+g2 q b2 b9
+g2 q b3 b6
+g2 r b10 b11 b15
+g2 r b5 b7 b20
+g2 r b1 b10 b14
+g2 r b4 b6 b9
+g2 r b16 b18 b8
+g2 r b6 b17 b12
+g2 t b4 b9 b17
+g2 t b9 b12 b17
+g2 t b5 b6 b13
+g2 t b5 b11 b15
+g2 t b5 b7 b14
+g2 t b3 b4 b5
+g2 u b19 b20 b6
+g2 u b8 b15 b1
+g2 u b10 b2 b12
+g2 u b2 b9 b20
+end
+case mid_095_n12
+pred p 1 n
+pred q 2 n
+pred r 3 n
+pred v 2 n
+pred w 4 n
+g1 r a9 a3 a7
+g1 r a10 a5 a11
+g1 r a5 a11 a10
+g1 w a1 a2 a8 a5
+g1 w a11 a1 a4 a10
+g1 w a10 a2 a11 a6
+g1 v a1 a3
+g1 v a9 a1
+g1 v a3 a9
+g1 p a8
+g1 p a7
+g1 p a6
+g1 p a2
+g1 p a10
+g1 q a5 a7
+g1 q a6 a8
+g1 q a10 a3
+g2 r b6 b9 b11
+g2 r b4 b2 b5
+g2 r b2 b5 b4
+g2 w b1 b7 b10 b2
+g2 w b5 b1 b8 b4
+g2 w b4 b7 b5 b3
+g2 v b1 b9
+g2 v b6 b1
+g2 v b9 b6
+g2 p b10
+g2 p b11
+g2 p b3
+g2 p b7
+g2 p b4
+g2 q b2 b11
+g2 q b3 b10
+g2 q b4 b9
+end
+case mid_096_n16
+pred p 1 n
+pred r 3 n
+pred u 3 n
+pred v 2 n
+g1 v a10 a14
+g1 v a12 a6
+g1 v a5 a4
+g1 v a16 a1
+g1 v a11 a7
+g1 v a6 a12
+g1 v a2 a12
+g1 r a13 a9 a15
+g1 r a7 a3 a9
+g1 u a1 a13 a16
+g1 u a11 a2 a1
+g1 u a7 a15 a1
+g1 u a14 a13 a6
+g1 u a3 a12 a13
+g1 u a4 a2 a10
+g1 u a1 a15 a3
+g1 u a1 a2 a14
+g1 p a15
+g1 p a8
+g1 p a4
+g1 p a13
+g1 p a9
+g1 p a2
+g1 p a1
+g1 p a10
+g2 v b8 b10
+g2 v b5 b7
+g2 v b11 b13
+g2 v b6 b12
+g2 v b16 b9
+g2 v b7 b5
+g2 v b14 b5
+g2 r b2 b4 b1
+g2 r b9 b15 b4
+g2 u b12 b2 b6
+g2 u b16 b14 b12
+g2 u b9 b1 b12
+g2 u b10 b2 b7
+g2 u b15 b5 b2
+g2 u b13 b14 b8
+g2 u b12 b1 b15
+g2 u b12 b14 b10
+g2 p b1
+g2 p b3
+g2 p b13
+g2 p b2
+g2 p b4
+g2 p b14
+g2 p b12
+g2 p b8
+end
+case mid_097_n16
+pred p 1 n
+pred s 2 c
+pred v 2 n
+g1 s a13 a14
+g1 s a9 a13
+g1 s a1 a12
+g1 s a2 a9
+g1 v a11 a3
+g1 v a2 a7
+g1 v a6 a2
+g1 v a9 a10
+g1 v a3 a10
+g1 v a2 a3
+g1 v a11 a5
+g1 v a13 a2
+g1 p a15
+g1 p a9
+g1 p a13
+g1 p a12
+g2 s b2 b3
+g2 s b3 b5
+g2 s b4 b7
+g2 s b5 b9
+g2 v b6 b1
+g2 v b9 b10
+g2 v b12 b9
+g2 v b5 b11
+g2 v b1 b11
+g2 v b9 b1
+g2 v b6 b8
+g2 v b3 b9
+g2 p b13
+g2 p b5
+g2 p b3
+g2 p b7
+end
+case mid_098_n12
+pred q 2 n
+pred u 3 n
+pred w 4 n
+g1 w a11 a10 a12 a9
+g1 w a12 a1 a6 a8
+g1 w a7 a11 a2 a5
+g1 w a12 a9 a5 a2
+g1 w a9 a5 a2 a10
+g1 w a6 a12 a3 a9
+g1 u a2 a6 a3
+g1 u a6 a8 a12
+g1 u a2 a12 a6
+g1 u a8 a7 a11
+g1 u a3 a9 a12
+g1 u a11 a5 a10
+g1 q a9 a10
+g1 q a9 a1
+g1 q a5 a8
+g2 w b8 b9 b2 b5
+g2 w b2 b10 b11 b7
+g2 w b3 b8 b4 b6
+g2 w b2 b5 b6 b4
+g2 w b5 b6 b4 b9
+g2 w b11 b2 b1 b5
+g2 u b4 b11 b1
+g2 u b11 b7 b2
+g2 u b4 b2 b11
+g2 u b7 b3 b8
+g2 u b1 b5 b2
+g2 u b8 b6 b9
+g2 q b5 b9
+g2 q b5 b10
+g2 q b6 b7
+end
+case mid_099_n16
+pred q 2 n
+pred r 3 n
+pred s 2 c
+pred u 3 n
+g1 s a3 a8
+g1 s a8 a15
+g1 s a3 a16
+g1 s a12 a15
+g1 s a6 a13
+g1 q a4 a15
+g1 q a16 a14
+g1 q a15 a13
+g1 q a11 a10
+g1 q a4 a14
+g1 q a3 a6
+g1 u a3 a12 a9
+g1 u a3 a7 a9
+g1 r a13 a7 a15
+g1 r a11 a2 a16
+g1 r a4 a2 a9
+g1 r a10 a1 a3
+g1 r a15 a12 a13
+g1 r a3 a6 a15
+g1 r a3 a16 a1
+g1 r a2 a6 a5
+g2 s b1 b14
+g2 s b1 b9
+g2 s b13 b14
+g2 s b3 b9
+g2 s b2 b8
+g2 q b10 b9
+g2 q b13 b6
+g2 q b9 b8
+g2 q b15 b11
+g2 q b10 b6
+g2 q b14 b2
+g2 u b14 b3 b16
+g2 u b14 b7 b16
+g2 r b8 b7 b9
+g2 r b15 b12 b13
+g2 r b10 b12 b16
+g2 r b11 b5 b14
+g2 r b9 b3 b8
+g2 r b14 b2 b9
+g2 r b14 b13 b5
+g2 r b12 b2 b4
+end
+case mid_100_n12
+pred q 2 n
+pred s 2 c
+pred t 3 c
+pred v 2 n
+pred w 4 n
+g1 v a7 a4
+g1 v a5 a3
+g1 v a5 a12
+g1 v a11 a12
+g1 v a9 a6
+g1 v a3 a11
+g1 t a3 a10 a12
+g1 t a1 a6 a8
+g1 t a6 a9 a12
+g1 t a1 a4 a8
+g1 s a6 a11
+g1 s a2 a8
+g1 s a2 a5
+g1 q a5 a1
+g1 q a5 a12
+g1 q a6 a3
+g1 q a4 a7
+g1 w a1 a6 a4 a5
+g1 w a4 a9 a3 a10
+g1 w a7 a10 a8 a2
+g1 w a6 a5 a3 a9
+g2 v b7 b3
+g2 v b5 b11
+g2 v b5 b4
+g2 v b12 b4
+g2 v b9 b8
+g2 v b11 b12
+g2 t b2 b4 b11
+g2 t b1 b6 b8
+g2 t b4 b8 b9
+g2 t b1 b3 b6
+g2 s b8 b12
+g2 s b1 b10
+g2 s b5 b10
+g2 q b5 b6
+g2 q b5 b4
+g2 q b8 b11
+g2 q b3 b7
+g2 w b6 b8 b3 b5
+g2 w b3 b9 b11 b2
+g2 w b7 b2 b1 b10
+g2 w b8 b5 b11 b9
+end

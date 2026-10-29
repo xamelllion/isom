@@ -1,0 +1,48 @@
+% !TeX spellcheck = ru_RU
+% !TEX root = report.tex
+
+%% Поля, отмеченные TODO, нужно заполнить своими данными.
+%% Если что-то забыли, при компиляции будут ошибки Undefined control sequence \my@title@<что забыли>@ru
+\filltitle{ru}{
+    chair              = {Искусственный интеллект и наука о данных},
+    group              = {23.Б16-мм},
+    %
+    title              = {Реализация и сравнение алгоритмов проверки изоморфизма гиперграфов отношений на Python и C++},
+    %
+    %% Тип работы:
+    %%   production — производственная практика; coursework — курсовая работа;
+    %%   practice — учебная практика; prediploma — преддипломная практика;
+    %%   master — ВКР магистра; bachelor — ВКР бакалавра.
+    type               = {practice}, % TODO: проверить
+    %
+    %% Вид работы: solution, experiment, production, comparison, theoretical.
+    kind               = {production},
+    %
+    author             = {Сидоров Вячеслав Павлович},
+    %
+    %% Только для ВКР: направление и образовательная программа.
+    specialty          = {TODO}, % TODO
+    programme          = {\enquote{Искусственный интеллект и науки о данных}}, % TODO: шифр программы
+    %
+    supervisorPosition = {д.~ф.-м.~н., профессор},
+    supervisor         = {Косовская~Т.~М.},
+    %
+    %% Только для ВКР.
+    reviewerPosition   = {должность, степень,}, % TODO
+    reviewer           = {И.~О.~Фамилия}, % TODO
+}
+
+% Английский титульный лист печатается только для ВКР.
+\filltitle{en}{
+    chair              = {TODO},
+    group              = {ХХ.BХХ-mm},
+    title              = {Implementation and Comparison of Algorithms for Checking Isomorphism of Hypergraphs of Relations in Python and C++},
+    type               = {practice},
+    author             = {FirstName Surname},
+    specialty          = {TODO},
+    programme          = {\foreignquote{english}{Artificial Intelligence and Data Science}},
+    supervisorPosition = {position, degree},
+    supervisor         = {S.~S.~Supervisor},
+    reviewerPosition   = {position, degree},
+    reviewer           = {R.~R.~Reviewer},
+}

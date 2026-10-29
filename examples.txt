@@ -1,0 +1,83 @@
+# Примеры из статьи Косовской в формате, который читают
+# hypergraph_isomorphism.cpp и compare.py.
+#
+#   case <имя>
+#   pred <имя> <арность> <n|c>     n — рёбра типа (1) (кортеж), c — типа (2) (множество)
+#   g1 <предикат> <вершина> ...    ребро G1 (G — гиперграф с константами)
+#   g2 <предикат> <вершина> ...    ребро G2 (из него строится шаблон H: b_i → x_i)
+#   end
+
+# Раздел 3, пример для рёбер типа (1)
+case paper_type1
+pred p 3 n
+g1 p a4 a2 a5
+g1 p a5 a6 a1
+g1 p a1 a2 a3
+g1 p a5 a4 a3
+g1 p a1 a6 a4
+g2 p b5 b4 b6
+g2 p b6 b1 b2
+g2 p b2 b4 b3
+g2 p b6 b5 b3
+g2 p b2 b1 b5
+end
+
+# Раздел 3, пример для рёбер типа (2)
+case paper_type2
+pred p 3 c
+g1 p a2 a4 a5
+g1 p a1 a5 a6
+g1 p a1 a2 a3
+g1 p a3 a4 a5
+g1 p a1 a4 a6
+g2 p b4 b5 b6
+g2 p b1 b2 b6
+g2 p b2 b3 b4
+g2 p b3 b5 b6
+g2 p b1 b2 b5
+end
+
+# Раздел 5, модельный пример ISOM-n
+case paper_isom_n
+pred p1 1 n
+pred p2 2 n
+pred p3 3 c
+g1 p1 a1
+g1 p1 a2
+g1 p1 a3
+g1 p2 a1 a2
+g1 p2 a1 a4
+g1 p3 a2 a3 a4
+g2 p1 b2
+g2 p1 b3
+g2 p1 b4
+g2 p2 b4 b1
+g2 p2 b4 b3
+g2 p3 b1 b3 b4
+end
+
+# Вариант модельного примера: G2 — переименование G1
+case paper_isom_n_variant
+pred p1 1 n
+pred p2 2 n
+pred p3 3 c
+g1 p1 a1
+g1 p1 a2
+g1 p1 a3
+g1 p2 a1 a2
+g1 p2 a1 a4
+g1 p3 a2 a3 a4
+g2 p1 b4
+g2 p1 b3
+g2 p1 b2
+g2 p2 b4 b3
+g2 p2 b4 b1
+g2 p3 b1 b2 b3
+end
+
+# Введение: «пять братьев» — одно коммутативное ребро вместо 20 формул
+case brothers5
+pred brothers 5 c
+g1 brothers Иван Пётр Олег Сергей Павел
+g2 brothers b1 b2 b3 b4 b5
+end

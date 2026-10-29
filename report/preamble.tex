@@ -1,0 +1,85 @@
+% !TeX spellcheck = ru_RU
+% !TEX root = report.tex
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,positioning,shapes.geometric,shapes.misc,fit}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{groupplots}
+
+\usepackage{booktabs} % «Книжные» таблицы
+\usepackage{multirow}
+\usepackage{siunitx}
+
+\usepackage[autostyle]{csquotes} % Правильные кавычки в зависимости от языка
+\usepackage{totcount}
+\usepackage{setspace}
+\usepackage{amsmath, amsfonts, amssymb, amsthm, mathtools}
+
+% Определения и теоремы
+\theoremstyle{definition}
+\newtheorem{definition}{Определение}
+\theoremstyle{plain}
+\newtheorem{theorem}{Теорема}
+\newtheorem{lemma}{Лемма}
+\renewcommand{\proofname}{Доказательство}
+
+% Названия
+\newcommand{\Cpp}{C\nolinebreak\hspace{-.05em}\raisebox{.3ex}{\scriptsize\textbf{+}}\nolinebreak\hspace{-.1em}\raisebox{.3ex}{\scriptsize\textbf{+}}}
+\newcommand{\ISOMone}{\mbox{ISOM-1}}
+\newcommand{\ISOMn}{\mbox{ISOM-$n$}}
+\newcommand{\ISOMm}{\mbox{ISOM$^{-}$-1}}
+\newcommand{\proc}[1]{\textsf{#1}} % имена процедур: MAP, BESTMAP и т.д.
+\newcommand{\bench}[1]{\texttt{#1}} % имена наборов задач
+% \input внутри tabular ломает строки таблицы; примитив \@@input — нет
+\makeatletter\newcommand{\tableinput}[1]{\@@input #1 }\makeatother
+\newcommand{\code}[1]{\texttt{#1}}
+
+% Листинги (minted не используется: ему нужен внешний latexminted)
+\definecolor{codegray}{HTML}{52514E}
+\lstdefinestyle{code}{
+    basicstyle=\ttfamily\small,
+    commentstyle=\color{codegray}\ttfamily\itshape,
+    keywordstyle=\bfseries,
+    columns=fullflexible,
+    keepspaces=true,
+    mathescape=false,
+    frame=single,
+    framesep=4pt,
+    rulecolor=\color{black!30},
+    xleftmargin=6pt,
+    xrightmargin=6pt,
+    showstringspaces=false,
+    breaklines=true,
+    extendedchars=true,
+    escapeinside={(*}{*)}, % символы, которых нет в моноширинном шрифте
+}
+
+% Графики: две реализации — две категориальные краски (проверены на различимость
+% при дальтонизме) и разные маркеры, чтобы читалось и в ч/б печати.
+\definecolor{seriesPy}{HTML}{2A78D6}
+\definecolor{seriesCpp}{HTML}{EB6834}
+\definecolor{gridline}{HTML}{E4E3DF}
+\definecolor{axisline}{HTML}{8A8984}
+\definecolor{inkmuted}{HTML}{52514E}
+\pgfplotsset{
+    report/.style={
+            axis line style={draw=axisline, line width=0.4pt},
+            tick style={draw=axisline, line width=0.4pt},
+            grid=major,
+            major grid style={draw=gridline, line width=0.4pt},
+            tick label style={font=\footnotesize},
+            label style={font=\footnotesize},
+            title style={font=\small},
+            legend style={draw=none, fill=none, font=\footnotesize},
+            legend cell align=left,
+        },
+    py/.style={color=seriesPy, line width=1.2pt, mark=*, mark size=2.2pt,
+            mark options={fill=seriesPy, draw=white, line width=0.5pt}},
+    cpp/.style={color=seriesCpp, line width=1.2pt, mark=square*, mark size=2.1pt,
+            mark options={fill=seriesCpp, draw=white, line width=0.5pt}},
+}
+
+% Числа из замеров (генерирует data/prepare.py)
+\input{data/macros.tex}

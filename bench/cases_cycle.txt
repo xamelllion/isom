@@ -1,0 +1,96 @@
+case cycle_n4
+pred q 2 n
+g1 q a1 a2
+g1 q a2 a3
+g1 q a3 a4
+g1 q a4 a1
+g2 q b2 b3
+g2 q b3 b4
+g2 q b4 b1
+g2 q b1 b2
+end
+case cycle_n5
+pred q 2 n
+g1 q a1 a2
+g1 q a2 a3
+g1 q a3 a4
+g1 q a4 a5
+g1 q a5 a1
+g2 q b2 b1
+g2 q b1 b3
+g2 q b3 b4
+g2 q b4 b5
+g2 q b5 b2
+end
+case cycle_n6
+pred q 2 n
+g1 q a1 a2
+g1 q a2 a3
+g1 q a3 a4
+g1 q a4 a5
+g1 q a5 a6
+g1 q a6 a1
+g2 q b1 b4
+g2 q b4 b6
+g2 q b6 b2
+g2 q b2 b5
+g2 q b5 b3
+g2 q b3 b1
+end
+case cycle_n7
+pred q 2 n
+g1 q a1 a2
+g1 q a2 a3
+g1 q a3 a4
+g1 q a4 a5
+g1 q a5 a6
+g1 q a6 a7
+g1 q a7 a1
+g2 q b1 b7
+g2 q b7 b4
+g2 q b4 b3
+g2 q b3 b6
+g2 q b6 b2
+g2 q b2 b5
+g2 q b5 b1
+end
+case cycle_n8
+pred q 2 n
+g1 q a1 a2
+g1 q a2 a3
+g1 q a3 a4
+g1 q a4 a5
+g1 q a5 a6
+g1 q a6 a7
+g1 q a7 a8
+g1 q a8 a1
+g2 q b1 b8
+g2 q b8 b2
+g2 q b2 b3
+g2 q b3 b6
+g2 q b6 b7
+g2 q b7 b4
+g2 q b4 b5
+g2 q b5 b1
+end
+case cycle_n9
+pred q 2 n
+g1 q a1 a2
+g1 q a2 a3
+g1 q a3 a4
+g1 q a4 a5
+g1 q a5 a6
+g1 q a6 a7
+g1 q a7 a8
+g1 q a8 a9
+g1 q a9 a1
+g2 q b7 b6
+g2 q b6 b3
+g2 q b3 b5
+g2 q b5 b1
+g2 q b1 b9
+g2 q b9 b8
+g2 q b8 b4
+g2 q b4 b2
+g2 q b2 b7
+end

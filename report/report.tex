@@ -1,0 +1,27 @@
+% !TEX TS-program = lualatex
+% !BIB program = bibtex
+% !TeX spellcheck = ru_RU
+
+% Собирается LuaLaTeX (make). XeLaTeX тоже подходит, если шрифты CMU
+% установлены в систему (fonts-cmu): LuaLaTeX находит их в дереве TeX сам.
+\documentclass[14pt, russian]{matmex-diploma-custom}
+
+\input{preamble.tex}
+
+\begin{document}
+\input{title.tex}
+\maketitle
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+\input{000_intro}
+\input{010_task}
+\input{020_related}
+\input{030_solution}
+\input{040_experiment}
+\input{050_conclusion}
+
+\bibliographystyle{ugost2008ls}
+\bibliography{report}
+
+\end{document}
