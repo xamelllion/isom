@@ -1,0 +1,389 @@
+\documentclass[aspectratio=169]{beamer}
+% Для показа на проекторе 4:3 уберите опцию aspectratio
+
+\input{preamble.tex}
+
+% То, что в квадратных скобках, отображается внизу по центру каждого слайда.
+\title[Изоморфизм гиперграфов отношений]{Реализация и сравнение алгоритмов проверки изоморфизма гиперграфов отношений на Python и \Cpp{}}
+
+% То, что в квадратных скобках, отображается в левом нижнем углу.
+\institute[СПбГУ]{}
+
+% То, что в квадратных скобках, отображается в левом нижнем углу.
+\author[Вячеслав Сидоров]{Сидоров Вячеслав Павлович, группа 23.Б16-мм}
+
+\begin{document}
+{
+\setbeamertemplate{footline}{}
+\begin{frame}
+  \includegraphics[width=1.4cm]{pictures/SPbGU_Logo.png}
+  \vspace{-35pt}
+  \hspace{-10pt}
+  \begin{center}
+    \begin{tabular}{c}
+      \scriptsize{Санкт-Петербургский государственный университет} \\
+      \scriptsize{Искусственный интеллект и наука о данных}
+    \end{tabular}
+    \titlepage
+  \end{center}
+
+  \btVFill
+
+  {\scriptsize
+    \textbf{Научный руководитель:} д.ф.-м.н., профессор Т.М. Косовская
+  }
+  \begin{center}
+    \vspace{5pt}
+    \scriptsize{Санкт-Петербург\\
+      2026}
+  \end{center}
+\end{frame}
+}
+
+\begin{frame}
+  \frametitle{Введение}
+  \begin{columns}[T]
+    \begin{column}{0.62\textwidth}
+      \begin{itemize}\small
+        \item Сложные структурированные объекты описывают их элементами, свойствами и отношениями~--- формулами исчисления предикатов
+        \item В формуле у отношения фиксированы арность и порядок аргументов: \enquote{пятеро~--- братья}~--- 20 атомарных формул
+        \item \emph{Гиперграфы отношений} Т.\,М.~Косовской: коммутативное отношение любой арности~--- одно гиперребро
+        \item Для них предложены алгоритмы проверки изоморфизма \ISOMone{} и \ISOMn{}; программной реализации и экспериментальной оценки пока нет
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.34\textwidth}
+      \centering
+      \begin{tikzpicture}[
+          obj/.style={circle, draw, fill=white, inner sep=1.5pt, font=\scriptsize},
+          prd/.style={draw, rectangle, rounded corners=1pt, fill=red!8, font=\scriptsize, inner sep=3pt},
+        ]
+        \node[prd] (b) at (0, 0) {$\mathit{brothers}^{c,5}$};
+        \foreach \i/\a in {1/90, 2/162, 3/234, 4/306, 5/18} {
+            \node[obj] (o\i) at (\a:1.7) {$\omega_{\i}$};
+            \draw (b) -- (o\i);
+          }
+      \end{tikzpicture}
+
+      \vspace{4pt}
+      {\scriptsize одно ребро типа (2) вместо 20 формул \enquote{$x_i$~--- брат $x_j$}}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Гиперграфы отношений и их изоморфизм}
+  \begin{itemize}
+    \item Рёбра: тип~(1) $p^k \to (\omega_{i_1}, \dots, \omega_{i_k})$~--- кортеж, тип~(2) $p^{c,k} \to \{\omega_{i_1}, \dots, \omega_{i_k}\}$~--- множество
+  \end{itemize}
+  \begin{rudefinition}
+    $G_1$ и $G_2$ изоморфны, если есть гиперграф $H$ с переменными вместо имён объектных вершин и подстановки (\emph{унификаторы}) $\lambda_1$, $\lambda_2$: \ $H\lambda_1 = G_1$, $H\lambda_2 = G_2$
+  \end{rudefinition}
+  \begin{itemize}
+    \item $H$ получают из $G_2$ заменой констант переменными и ищут биекцию $\lambda$ с $H\lambda = G_1$
+    \item \emph{Характеристика} вершины: вектор $(n_1, \dots, n_k)$ вхождений по местам (тип~1) или число вхождений (тип~2); вершины с равной характеристикой образуют классы
+    \item \emph{Структурное отображение} сопоставляет классы переменных и констант: перебор $\prod_k t_k!$ вместо $n!$ \\
+          {\small например, $p^3$ на 6 вершинах: $\{[x_5]:[a_4],\ [x_3]:[a_3],\ [x_2, x_6]:[a_1, a_5],\ [x_1, x_4]:[a_2, a_6]\}$~--- 4 подстановки вместо 720}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Постановка задачи}
+  \textbf{Целью} работы является реализация на Python и \Cpp{} алгоритмов проверки изоморфизма гиперграфов отношений из статьи Т.\,М.~Косовской и экспериментальное сравнение этих реализаций.
+
+  \medskip
+  \textbf{Задачи}:
+  \begin{enumerate}
+    \item Разобрать алгоритмы \ISOMone{} и \ISOMn{}
+    \item Реализовать алгоритмы на Python
+    \item Реализовать алгоритмы на \Cpp{} так, чтобы реализация выполняла тот же поиск, что и Python-версия
+    \item Разработать наборы тестовых задач и средства автоматического сравнения реализаций
+    \item Проверить корректность реализаций и сравнить их время работы
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Алгоритм \ISOMn{}}
+  \centering
+  \begin{tikzpicture}[node distance=3mm and 6mm, every node/.append style={font=\footnotesize}]
+    \node[block] (map) {\proc{MAP}};
+    \node[block, right=of map] (best) {\proc{BESTMAP}};
+    \node[block, right=of best] (isom) {\ISOMm{}};
+    \node[block, right=of isom] (cons) {\proc{CONSISTENCY}};
+    \node[block, right=of cons] (red) {\proc{REDUCTION}};
+    \node[term, right=of red] (out) {унификатор};
+    \node[term, below=12mm of $(best)!0.5!(cons)$] (queue) {очередь вершин $\langle G, H, \lambda \rangle$ по возрастанию $\prod t_k!$, в начале~--- $\langle G, H, \varnothing \rangle$};
+
+    \draw[arr] (map) -- (best);
+    \draw[arr] (best) -- (isom);
+    \draw[arr] (isom) -- (cons);
+    \draw[arr] (cons) -- (red);
+    \draw[arr] (red) -- (out);
+    \draw[arr] (map.south |- queue.north) -- (map.south);
+    \draw[arr] (red.south) |- node[pos=0.3, right, font=\scriptsize] {частичные} (queue.east);
+    \draw[arr, densely dashed] (isom.south) -- node[pos=0.45, left, font=\scriptsize] {$r = 0$} (isom.south |- queue.north);
+    \draw[arr, densely dashed] (cons.south) -- node[pos=0.45, right, font=\scriptsize] {$T = 0$} (cons.south |- queue.north);
+  \end{tikzpicture}
+
+  \vspace{8pt}
+  \raggedright\small
+  \begin{itemize}
+    \item \proc{MAP}: структурные отображения для подграфов $G^i$, $H^i\lambda$, где остались переменные
+    \item \proc{BESTMAP}: подграф $i_0$ с наименьшим числом возможных подстановок $\prod t_k!$
+    \item \ISOMm{}: локальные унификаторы $G^{i_0}$ и $H^{i_0}\lambda$ (\ISOMone{} без шагов 1--3)
+    \item \proc{CONSISTENCY}: только те, что вместе с $\lambda$ образуют биекцию
+    \item \proc{REDUCTION}: подграфы без переменных сравниваются с $G$; если переменных не осталось~--- унификатор
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Пример работы \ISOMn{}}
+  {\small
+    $G_1 = \{p_1 \to a_1,\ p_1 \to a_2,\ p_1 \to a_3,\ p_2^2 \to (a_1, a_2),\ p_2^2 \to (a_1, a_4),\ p_3^{c,3} \to \{a_2, a_3, a_4\}\}$ \\
+    $G_2 = \{p_1 \to b_2,\ p_1 \to b_3,\ p_1 \to b_4,\ p_2^2 \to (b_4, b_3),\ p_2^2 \to (b_4, b_1),\ p_3^{c,3} \to \{b_1, b_2, b_3\}\}$, \ $H$: $b_i \to x_i$
+  }
+
+  \vspace{6pt}
+  \centering
+  \begin{tikzpicture}[
+      font=\scriptsize, level distance=16mm, sibling distance=70mm,
+      every node/.style={align=center},
+      edge from parent/.style={draw, -{Stealth[length=1.8mm]}, line width=0.5pt},
+    ]
+    \node {$\lambda_0 = \varnothing$\\ \proc{BESTMAP}: $p_2^2$, $\{[x_1, x_3]:[a_2, a_4],\ [x_4]:[a_1]\}$, $\prod t_k! = 2$}
+    child {node {$x_1 \mapsto a_2,\ x_3 \mapsto a_4,\ x_4 \mapsto a_1$\\ \proc{MAP}: $a_4$ не входит в $G^{p_1}$ $\Rightarrow$ \textbf{ветвь отсечена}}}
+    child {node {$x_1 \mapsto a_4,\ x_3 \mapsto a_2,\ x_4 \mapsto a_1$\\ \proc{BESTMAP}: $p_1$, $\{[x_2]:[a_3]\}$}
+        child {node {$x_2 \mapsto a_3$ \ $\Rightarrow$ \ \textbf{унификатор}}}};
+  \end{tikzpicture}
+
+  \vspace{4pt}
+  {\small Вместо $4! = 24$ подстановок рассмотрено три}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Реализация}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \textbf{Python}
+      \begin{itemize}\small
+        \item Части названы как в статье: \code{build\_mapping}, \code{isom\_minus\_1}, \code{map\_procedure}, \code{bestmap}, \code{consistency}, \code{reduction}, \code{isom\_n}
+        \item Подстановка~--- словарь, рёбра~--- \code{Counter}
+        \item Пошаговый журнал поиска, самопроверка полным перебором
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \textbf{\Cpp{}17}
+      \begin{itemize}\small
+        \item Вершины~--- целые числа, подстановка~--- массив, рёбра $G^i$~--- хеш-таблица
+        \item Тот же порядок обхода: \code{std::next\_permutation} $\leftrightarrow$ \code{itertools.permutations}, куча с ключом ($\prod t_k!$, номер)
+        \item Тот же журнал поиска, что и у Python-версии
+      \end{itemize}
+    \end{column}
+  \end{columns}
+
+  \vspace{6pt}
+  \centering
+  \begin{tikzpicture}[node distance=4mm and 7mm]
+    \node[block] (gen) {генератор задач\\ \code{compare.py}};
+    \node[block, right=of gen, yshift=5mm] (py) {Python};
+    \node[block, right=of gen, yshift=-5mm] (cpp) {\Cpp{}};
+    \node[block, right=12mm of $(py)!0.5!(cpp)$] (cmp) {сверка результатов\\ и деревьев поиска};
+    \node[block, right=of cmp] (bench) {замеры\\ \code{bench/results.csv}};
+    \draw[arr] (gen.east) -- (py.west);
+    \draw[arr] (gen.east) -- (cpp.west);
+    \draw[arr] (py.east) -- (cmp.west);
+    \draw[arr] (cpp.east) -- (cmp.west);
+    \draw[arr] (cmp) -- (bench);
+  \end{tikzpicture}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Корректность}
+  \begin{rulemma}
+    Если каждое ребро $H^i\lambda$ проверять один раз~--- после класса, на котором в нём не остаётся переменных,~--- \ISOMm{} отсекает те же подстановки, что и при проверке всех рёбер после каждого класса.
+  \end{rulemma}
+  \begin{rulemma}
+    Если \proc{BESTMAP} выбирает подграф однозначно, все вершины дерева \ISOMn{} и все найденные унификаторы различны: \enquote{склейка} вершин не нужна.
+  \end{rulemma}
+  \textbf{Проверка реализаций}
+  \begin{itemize}
+    \item Полный перебор всех $n!$ биекций на малых задачах (обе реализации, $n \le 8$)
+    \item Сверка Python и \Cpp{}: ответы, множества изоморфизмов, статистика деревьев, журналы
+    \item \NCases{}~задач, \NChecks{}~проверок~--- \textbf{расхождений нет}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Экспериментальное исследование}
+  \begin{columns}[T]
+    \begin{column}{0.34\textwidth}
+      \footnotesize
+      \textbf{Стенд}: Intel Core i5-10210U, частота зафиксирована на 1,6~ГГц, процесс на одном ядре; CPython 3.14, g++ 15.2 \code{-O2}
+
+      \medskip
+      \textbf{Методика}:
+      \begin{itemize}
+        \item прогрев и \NRepeat{} замеров на задачу
+        \item задачи короче \MinSampleMs~мс~--- пачками, как в \code{timeit}
+        \item среднее $\pm$ с.о.; с.о. $< 10$\,\% во всех \NSeries{} сериях
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.64\textwidth}
+      \scriptsize
+      \begin{tabular}{@{}l p{5.6cm} l@{}}
+        \toprule
+        Набор                     & Что проверяет                                   & Размер            \\
+        \midrule
+        \bench{paper}             & примеры из статьи                               & $n \le 6$         \\
+        \bench{random}            & 300 случайных пар, сверка с перебором           & $n \le 7$         \\
+        \bench{random-mid}        & 100 случайных пар, 3--5 предикатов              & $n \le 20$        \\
+        \bench{rigid}(\bench{-non}) & классы из одной вершины, без ветвлений  & $n \le 768$       \\
+        \bench{cycle}(\bench{-non}) & один класс: перебор $n!$                      & $n \le 9$         \\
+        \bench{brothers}          & одно ребро: $k!$ унификаторов                   & $k \le 8$         \\
+        \bench{ladder}(\bench{-non}) & дерево поиска из $2^d - 1$ вершин            & $d \le 11$        \\
+        \bottomrule
+      \end{tabular}
+
+      \smallskip
+      Варианты \bench{-non}~--- неизоморфные пары с совпадающими характеристиками
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Результаты: ускорение \Cpp{} относительно Python}
+  \begin{columns}[c]
+    \begin{column}{0.66\textwidth}
+      \begin{tikzpicture}
+        \begin{axis}[
+            report,
+            width=\textwidth, height=5.4cm,
+            xmin=0.4, xmax=8.6, ymin=0, ymax=200,
+            xtick={1,...,8},
+            xticklabels={paper, rigid, rigid-non, cycle, cycle-non, brothers, ladder, ladder-non},
+            xticklabel style={font=\scriptsize\ttfamily, rotate=25, anchor=north east},
+            xmajorgrids=false,
+            ylabel={ускорение, раз},
+          ]
+          \addplot[only marks, mark=*, mark size=1.5pt, color=axisline,
+            mark options={fill=axisline, draw=white, line width=0.3pt}]
+          table[col sep=comma, x=x, y=speedup] {data/speedup_points.csv};
+          \addplot[only marks, mark=-, mark size=8pt, line width=1.3pt, color=black]
+          table[col sep=comma, x=x, y=gmean] {data/speedup_means.csv};
+        \end{axis}
+      \end{tikzpicture}
+
+      {\scriptsize точки~--- задачи, черта~--- среднее геометрическое по набору}
+    \end{column}
+    \begin{column}{0.32\textwidth}
+      \centering
+      {\Huge\textbf{\SpeedupGeo$\times$}}\\[2pt]
+      {\small среднее геометрическое}
+
+      \bigskip
+      {\Large \SpeedupMin--\SpeedupMax$\times$}\\[2pt]
+      {\small по всем задачам}
+
+      \bigskip
+      \raggedright\scriptsize
+      Обе реализации делают одни и те же шаги, поэтому разница почти постоянна; в Python время уходит на операции интерпретатора
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Результаты: зависимость от размера задачи}
+  \centering
+  \begin{tikzpicture}
+    \begin{groupplot}[
+        group style={group size=4 by 1, horizontal sep=7mm},
+        report, width=4.15cm, height=4.1cm, ymode=log,
+      ]
+      \nextgroupplot[
+        title={\bench{rigid}},
+        xmode=log, log basis x=2, xlabel={вершин $n$}, ylabel={время, мс},
+        xtick={24,96,384}, xticklabels={24,96,384},
+        legend to name=scalelegend, legend columns=2,
+        legend style={/tikz/every even column/.append style={column sep=6mm}},
+      ]
+      \addplot[py] table[col sep=comma, x=x, y=py] {data/scale_rigid.csv};
+      \addplot[cpp] table[col sep=comma, x=x, y=cpp] {data/scale_rigid.csv};
+      \legend{Python, \Cpp{}}
+
+      \nextgroupplot[title={\bench{cycle}}, xlabel={вершин $n$}, xtick={4,...,9}]
+      \addplot[py] table[col sep=comma, x=x, y=py] {data/scale_cycle.csv};
+      \addplot[cpp] table[col sep=comma, x=x, y=cpp] {data/scale_cycle.csv};
+
+      \nextgroupplot[title={\bench{brothers}}, xlabel={арность $k$}, xtick={3,...,8}]
+      \addplot[py] table[col sep=comma, x=x, y=py] {data/scale_brothers.csv};
+      \addplot[cpp] table[col sep=comma, x=x, y=cpp] {data/scale_brothers.csv};
+
+      \nextgroupplot[title={\bench{ladder}}, xlabel={перекладин $d$}, xtick={2,4,...,10}]
+      \addplot[py] table[col sep=comma, x=x, y=py] {data/scale_ladder.csv};
+      \addplot[cpp] table[col sep=comma, x=x, y=cpp] {data/scale_ladder.csv};
+    \end{groupplot}
+    \node[anchor=south] at ($(group c2r1.north)!0.5!(group c3r1.north) + (0, 5mm)$) {\pgfplotslegendfromname{scalelegend}};
+  \end{tikzpicture}
+
+  \vspace{2pt}
+  \raggedright\small
+  \begin{itemize}
+    \item Кривые параллельны: реализации различаются постоянным множителем, характер роста задаёт алгоритм
+    \item \bench{rigid}~--- почти линейный рост; \bench{cycle}, \bench{brothers}~--- как $n!$, $k!$; \bench{ladder}~--- как $2^d$, в согласии с числом возможных подстановок $\prod t_k!$
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Результаты}
+  \begin{itemize}
+    \item Разобраны алгоритмы \ISOMone{} и \ISOMn{}; показано, что при однозначном выборе подграфа все вершины дерева поиска различны
+    \item Алгоритмы реализованы на Python с пошаговым журналом поиска и самопроверкой полным перебором
+    \item Алгоритмы реализованы на \Cpp{}17 с тем же порядком обхода дерева поиска
+    \item Разработан сценарий сравнения: 10 наборов задач, сверка ответов, изоморфизмов, деревьев поиска и полного перебора, замеры по методике с контролем разброса
+    \item Реализации проверены на \NCases{}~задачах (\NChecks{}~проверок, расхождений нет); \Cpp{} быстрее в \SpeedupMin--\SpeedupMax{}~раз, в среднем в \SpeedupGeo{}~раз
+  \end{itemize}
+
+  \vfill
+  {\small Код и отчёт: \url{https://github.com/xamelllion/isom}
+  }
+\end{frame}
+
+\appendix
+
+\begin{frame}
+  \frametitle{Дополнительно: время на самых больших задачах}
+  \centering
+  \scriptsize
+  \setlength\tabcolsep{4pt}
+  \begin{tabular}{@{}l r r r r r r@{}}
+    \toprule
+    Задача & $n$ & $|E|$ & Вершин дерева & Python, мс & \Cpp{}, мс & Ускорение \\
+    \midrule
+    \tableinput{data/results_table.tex}
+    \bottomrule
+  \end{tabular}
+
+  \medskip
+  Среднее $\pm$ стандартное отклонение по \NRepeat{}~замерам; для \bench{paper}~--- сумма по задачам, для \bench{random} и \bench{random-mid}~--- все задачи набора подряд
+\end{frame}
+
+\begin{frame}
+  \frametitle{Дополнительно: как обеспечен одинаковый поиск}
+  \centering
+  \small
+  \begin{tabular}{@{}p{3.6cm} p{4.6cm} p{4.6cm}@{}}
+    \toprule
+    Что упорядочено                  & Python                                         & \Cpp{}                                            \\
+    \midrule
+    перестановки класса              & \code{itertools.permutations} отсортированного списка & \code{std::next\_permutation} от возрастающего массива \\
+    очередь                          & \code{heapq}, ключ ($\prod t_k!$, счётчик)       & \code{std::push\_heap}, тот же ключ               \\
+    предикаты в \proc{BESTMAP}       & по имени предиката                             & по той же строке                                  \\
+    классы отображения               & по характеристике, затем по имени             & по характеристике, затем по номеру                \\
+    \bottomrule
+  \end{tabular}
+
+  \medskip
+  \raggedright
+  Совпадение подтверждается статистикой поиска (вызовы \proc{MAP}, вершины дерева, кандидаты $r$ и $T$, полные и частичные унификаторы) и построчным совпадением журналов
+\end{frame}
+
+\end{document}

@@ -19,6 +19,7 @@
 | `examples.txt` | примеры из статьи во входном формате |
 | `bench/` | задачи (`cases_*.txt`) и результаты последнего прогона (`results.csv`, `samples.json`, `full_run.log`) |
 | `report/` | отчёт в LaTeX (`report.pdf` — собранная версия) |
+| `presentation/` | презентация в LaTeX/beamer (`presentation.pdf` — собранная версия) |
 
 ## Запуск
 
@@ -49,10 +50,11 @@ echo 1 | sudo tee /sys/devices/system/cpu/intel_pstate/no_turbo
 taskset -c 3 python3 compare.py
 ```
 
-Отчёт собирается LuaLaTeX (TeX Live), таблицы и графики строятся из `bench/`:
+Отчёт и презентация собираются LuaLaTeX (TeX Live), таблицы и графики строятся из `bench/`:
 
 ```sh
 cd report && make
+cd presentation && make
 ```
 
 ## Формат задач
@@ -77,5 +79,10 @@ end
   (CC0 1.0, см. [`report/LICENSE.CC0`](report/LICENSE.CC0));
 - `report/ugost2008ls.bst` — стиль библиографии из пакета `gost`
   (И. А. Котельников), распространяется по LaTeX Project Public License 1.3.
+- презентация основана на шаблоне
+  [spbu-se/report_presentation_template](https://github.com/spbu-se/report_presentation_template)
+  (CC0 1.0, см. [`presentation/LICENSE`](presentation/LICENSE)); тема
+  `presentation/beamerthemeSPbGU.sty` основана на теме beamer Boadilla
+  (М. Карро, LPPL или GPL), логотип СПбГУ — из шаблона.
 
 Текст статьи в репозиторий не входит.

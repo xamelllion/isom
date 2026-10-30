@@ -1,0 +1,80 @@
+%%% Обязательные пакеты
+%% Beamer
+\usepackage{beamerthemesplit}
+\usetheme{SPbGU}
+\beamertemplatenavigationsymbolsempty
+\usepackage{appendixnumberbeamer}
+
+%% Локализация
+\usepackage{fontspec}
+\setmainfont{CMU Serif}
+\setsansfont{CMU Sans Serif}
+\setmonofont{CMU Typewriter Text}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
+\setotherlanguage{english}
+\usepackage[autostyle]{csquotes} % Правильные кавычки в зависимости от языка
+
+%% Математика
+\usepackage{amsmath, amsfonts, amssymb, amsthm, mathtools}
+
+% Математические окружения с русским названием
+\newtheorem{rutheorem}{Теорема}
+\newtheorem{rudefinition}{Определение}
+\newtheorem{rulemma}{Лемма}
+
+%%% Дополнительные пакеты
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,positioning,shapes}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{groupplots}
+\usepackage{booktabs}
+\usepackage{multirow}
+
+% \input внутри tabular ломает строки таблицы; примитив \@@input — нет
+\makeatletter\newcommand{\tableinput}[1]{\@@input #1 }\makeatother
+
+%%% Обозначения (как в отчёте)
+\newcommand{\Cpp}{C\nolinebreak\hspace{-.05em}\raisebox{.3ex}{\scriptsize\textbf{+}}\nolinebreak\hspace{-.1em}\raisebox{.3ex}{\scriptsize\textbf{+}}}
+\newcommand{\ISOMone}{\mbox{ISOM-1}}
+\newcommand{\ISOMn}{\mbox{ISOM-$n$}}
+\newcommand{\ISOMm}{\mbox{ISOM$^{-}$-1}}
+\newcommand{\proc}[1]{\textsf{#1}}
+\newcommand{\bench}[1]{\texttt{#1}}
+\newcommand{\code}[1]{\texttt{#1}}
+
+% Числа из замеров (генерирует ../report/data/prepare.py, копирует make data)
+\input{data/macros.tex}
+
+%%% Графики: две реализации — две категориальные краски (проверены на различимость
+%%% при дальтонизме) и разные маркеры, чтобы читалось и при плохом проекторе.
+\definecolor{seriesPy}{HTML}{2A78D6}
+\definecolor{seriesCpp}{HTML}{EB6834}
+\definecolor{gridline}{HTML}{E4E3DF}
+\definecolor{axisline}{HTML}{8A8984}
+\pgfplotsset{
+    report/.style={
+            axis line style={draw=axisline, line width=0.4pt},
+            tick style={draw=axisline, line width=0.4pt},
+            grid=major,
+            major grid style={draw=gridline, line width=0.4pt},
+            tick label style={font=\scriptsize},
+            label style={font=\scriptsize},
+            title style={font=\footnotesize},
+            legend style={draw=none, fill=none, font=\scriptsize},
+            legend cell align=left,
+        },
+    py/.style={color=seriesPy, line width=1.1pt, mark=*, mark size=1.8pt,
+            mark options={fill=seriesPy, draw=white, line width=0.4pt}},
+    cpp/.style={color=seriesCpp, line width=1.1pt, mark=square*, mark size=1.7pt,
+            mark options={fill=seriesCpp, draw=white, line width=0.4pt}},
+}
+
+%%% Схемы
+\tikzset{
+    block/.style={draw, rectangle, rounded corners=1pt, minimum height=6mm, align=center, font=\scriptsize, fill=white},
+    term/.style={draw, rounded rectangle, minimum height=6mm, align=center, font=\scriptsize, fill=white},
+    arr/.style={-{Stealth[length=1.8mm]}, line width=0.5pt},
+}
